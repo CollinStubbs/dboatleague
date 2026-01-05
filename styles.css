@@ -545,4 +545,44 @@ h1 {
   #leaderboard {
     min-width: 640px;
   }
+
+  .board {
+    padding: 20px;
+  }
+
+  .controls {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .controls select {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .slider-group {
+    width: 100%;
+  }
+
+  .slider-wrap {
+    width: 100%;
+  }
+
+  .slider-wrap input[type="range"] {
+    width: 100%;
+  }
+
+  .team-page,
+  .regatta-page {
+    padding: 20px;
+  }
+
+  .team-meta,
+  .regatta-meta {
+    gap: 8px;
+  }
+
+  .detail-table {
+    min-width: 720px;
+  }
 }
