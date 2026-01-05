@@ -1,0 +1,98 @@
+regatta_id,race_id,date,start_time,race_no,event,round,distance_m,lane,seed,team_name,team_id,place,time,page
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-1,2025-05-10,8:00 AM,1,Sport Mixed,Qualifying,500,1,,Blazing Paddles (11),11,5,02:19.27,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-1,2025-05-11,8:00 AM,1,Sport Mixed,Qualifying,500,2,,Jax Fire Dragons (4),4,6,02:21.69,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-1,2025-05-12,8:00 AM,1,Sport Mixed,Qualifying,500,3,,NBP Dragons (19),19,2,02:09.41,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-1,2025-05-13,8:00 AM,1,Sport Mixed,Qualifying,500,4,,SACA Golden Dragons (1),1,1,02:08.90,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-1,2025-05-14,8:00 AM,1,Sport Mixed,Qualifying,500,5,,Red Dragons Miami (22),22,4,02:15.77,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-1,2025-05-15,8:00 AM,1,Sport Mixed,Qualifying,500,6,,RENEGADES DB RACING TEAM (23),23,3,02:14.24,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-2,2025-05-16,8:22 AM,2,Sport Women's,Qualifying,500,2,,NBP Survivors In Sync (6),6,3,02:34.70,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-2,2025-05-17,8:22 AM,2,Sport Women's,Qualifying,500,3,,NBP Senior Women (7),7,2,02:25.15,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-2,2025-05-18,8:22 AM,2,Sport Women's,Qualifying,500,4,,Charlotte Harbor Dragons (17),17,1,02:23.17,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-3,2025-05-19,8:44 AM,3,Sport Senior Mixed/Sport Senior Open,Qualifying,500,1,,Draggin' Dragons (18),18,3,02:16.83,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-3,2025-05-20,8:44 AM,3,Sport Senior Mixed/Sport Senior Open,Qualifying,500,2,,Eastport Sun Dragons (20),20,4,02:18.26,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-3,2025-05-21,8:44 AM,3,Sport Senior Mixed/Sport Senior Open,Qualifying,500,3,,NBP Senior Mixed (5),5,2,02:13.49,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-3,2025-05-22,8:44 AM,3,Sport Senior Mixed/Sport Senior Open,Qualifying,500,4,,SACA Golden Dragons Snr (2),2,1,02:13.25,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-3,2025-05-23,8:44 AM,3,Sport Senior Mixed/Sport Senior Open,Qualifying,500,6,,Blackheart Senior Open (24),24,1,02:17.02,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-4,2025-05-24,9:06 AM,4,Community Mixed/Community Women's,Qualifying,500,1,,Dueling Dragons 2 (13),13,3,02:52.25,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-4,2025-05-25,9:06 AM,4,Community Mixed/Community Women's,Qualifying,500,2,,Dueling Dragons of Orlando (12),12,4,02:54.91,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-4,2025-05-26,9:06 AM,4,Community Mixed/Community Women's,Qualifying,500,3,,F45 Lakewood Ranch South (8),8,1,02:25.35,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-4,2025-05-27,9:06 AM,4,Community Mixed/Community Women's,Qualifying,500,4,,Sync or Swim (9),9,2,02:45.88,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-4,2025-05-28,9:06 AM,4,Community Mixed/Community Women's,Qualifying,500,6,,Women Warriors (16),16,1,02:48.75,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-5,2025-05-29,9:28 AM,5,Community Open,Race #1,500,2,,GG Schmitt Show (10),10,1,02:43.66,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-5,2025-05-30,9:28 AM,5,Community Open,Race #1,500,3,,Marine Concepts Team 3 (21),21,,04:44.44,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-5,2025-05-31,9:28 AM,5,Community Open,Race #1,500,4,,Marine Concepts Team 1 (14),14,2,02:52.46,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-5,2025-06-01,9:28 AM,5,Community Open,Race #1,500,5,,Marine Concepts Team 2 (15),15,3,02:53.32,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-6,2025-06-02,9:49 AM,6,Sport Mixed,Final,500,1,6,Jax Fire Dragons (4),4,6,02:22.35,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-6,2025-06-03,9:49 AM,6,Sport Mixed,Final,500,2,4,Red Dragons Miami (22),22,4,02:13.21,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-6,2025-06-04,9:49 AM,6,Sport Mixed,Final,500,3,2,NBP Dragons (19),19,2,02:09.60,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-6,2025-06-05,9:49 AM,6,Sport Mixed,Final,500,4,1,SACA Golden Dragons (1),1,1,02:09.31,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-6,2025-06-06,9:49 AM,6,Sport Mixed,Final,500,5,3,RENEGADES DB RACING TEAM (23),23,3,02:10.81,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-6,2025-06-07,9:49 AM,6,Sport Mixed,Final,500,6,5,Blazing Paddles (11),11,5,02:16.93,1
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-7,2025-06-08,10:10 AM,7,Sport Women's,Final,500,3,2,NBP Senior Women (7),7,1,02:22.59,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-7,2025-06-09,10:10 AM,7,Sport Women's,Final,500,4,1,Charlotte Harbor Dragons (17),17,2,02:22.99,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-7,2025-06-10,10:10 AM,7,Sport Women's,Final,500,5,3,NBP Survivors In Sync (6),6,3,02:32.28,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-8,2025-06-11,10:31 AM,8,Sport Senior Mixed/Sport Senior Open,Final,500,1,,Blackheart Senior Open (24),24,1,02:15.61,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-8,2025-06-12,10:31 AM,8,Sport Senior Mixed/Sport Senior Open,Final,500,3,4,Eastport Sun Dragons (20),20,4,02:19.01,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-8,2025-06-13,10:31 AM,8,Sport Senior Mixed/Sport Senior Open,Final,500,4,2,NBP Senior Mixed (5),5,1,02:12.77,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-8,2025-06-14,10:31 AM,8,Sport Senior Mixed/Sport Senior Open,Final,500,5,1,SACA Golden Dragons Snr (2),2,2,02:12.89,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-8,2025-06-15,10:31 AM,8,Sport Senior Mixed/Sport Senior Open,Final,500,6,3,Draggin' Dragons (18),18,3,02:14.29,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-9,2025-06-16,10:52 AM,9,Community Mixed/Community Women's,Final,500,1,,Women Warriors (16),16,1,02:43.14,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-9,2025-06-17,10:52 AM,9,Community Mixed/Community Women's,Final,500,3,4,Dueling Dragons of Orlando (12),12,3,02:50.30,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-9,2025-06-18,10:52 AM,9,Community Mixed/Community Women's,Final,500,4,2,Sync or Swim (9),9,2,02:47.82,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-9,2025-06-19,10:52 AM,9,Community Mixed/Community Women's,Final,500,5,1,F45 Lakewood Ranch South (8),8,1,02:24.57,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-9,2025-06-20,10:52 AM,9,Community Mixed/Community Women's,Final,500,6,3,Dueling Dragons 2 (13),13,4,02:55.10,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-10,2025-06-21,11:13 AM,10,Community Open,Final,500,2,4,Marine Concepts Team 3 (21),21,3,02:43.93,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-10,2025-06-22,11:13 AM,10,Community Open,Final,500,3,2,Marine Concepts Team 1 (14),14,2,02:42.25,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-10,2025-06-23,11:13 AM,10,Community Open,Final,500,4,1,GG Schmitt Show (10),10,1,02:33.71,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-10,2025-06-24,11:13 AM,10,Community Open,Final,500,5,3,Marine Concepts Team 2 (15),15,4,03:01.51,2
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-11,2025-06-25,11:31 AM,11,Sport Mixed,Qualifying,200,1,,NBP Dragons (19),19,2,00:50.87,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-11,2025-06-26,11:31 AM,11,Sport Mixed,Qualifying,200,2,,Red Dragons Miami (22),22,4,00:51.89,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-11,2025-06-27,11:31 AM,11,Sport Mixed,Qualifying,200,3,,Blazing Paddles (11),11,5,00:53.62,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-11,2025-06-28,11:31 AM,11,Sport Mixed,Qualifying,200,4,,RENEGADES DB RACING TEAM (23),23,3,00:51.60,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-11,2025-06-29,11:31 AM,11,Sport Mixed,Qualifying,200,5,,Jax Fire Dragons (4),4,6,00:56.10,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-11,2025-06-30,11:31 AM,11,Sport Mixed,Qualifying,200,6,,SACA Golden Dragons (1),1,1,00:49.84,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-12,2025-07-01,11:49 AM,12,Sport Women's,Qualifying,200,2,,NBP Senior Women (7),7,2,00:55.71,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-12,2025-07-02,11:49 AM,12,Sport Women's,Qualifying,200,3,,Charlotte Harbor Dragons (17),17,1,00:55.23,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-12,2025-07-03,11:49 AM,12,Sport Women's,Qualifying,200,4,,NBP Survivors In Sync (6),6,3,00:59.33,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-13,2025-07-04,12:07 PM,13,Sport Senior Mixed/Sport Senior Open,Qualifying,200,1,,NBP Senior Mixed (5),5,2,00:52.48,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-13,2025-07-05,12:07 PM,13,Sport Senior Mixed/Sport Senior Open,Qualifying,200,2,,SACA Golden Dragons Snr (2),2,1,00:51.80,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-13,2025-07-06,12:07 PM,13,Sport Senior Mixed/Sport Senior Open,Qualifying,200,3,,Draggin' Dragons (18),18,3,00:54.22,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-13,2025-07-07,12:07 PM,13,Sport Senior Mixed/Sport Senior Open,Qualifying,200,4,,Eastport Sun Dragons (20),20,4,00:55.15,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-13,2025-07-08,12:07 PM,13,Sport Senior Mixed/Sport Senior Open,Qualifying,200,6,,Blackheart Senior Open (24),24,1,00:54.12,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-14,2025-07-09,12:41 PM,14,Sport Mixed,Final,200,1,6,Jax Fire Dragons (4),4,6,00:54.66,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-14,2025-07-10,12:41 PM,14,Sport Mixed,Final,200,2,4,Red Dragons Miami (22),22,2,00:50.33,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-14,2025-07-11,12:41 PM,14,Sport Mixed,Final,200,3,2,NBP Dragons (19),19,3,00:50.81,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-14,2025-07-12,12:41 PM,14,Sport Mixed,Final,200,4,1,SACA Golden Dragons (1),1,1,00:49.53,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-14,2025-07-13,12:41 PM,14,Sport Mixed,Final,200,5,3,RENEGADES DB RACING TEAM (23),23,4,00:51.06,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-14,2025-07-14,12:41 PM,14,Sport Mixed,Final,200,6,5,Blazing Paddles (11),11,5,00:52.02,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-15,2025-07-15,12:57 PM,15,Sport Women's,Final,200,3,2,NBP Senior Women (7),7,2,00:57.69,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-15,2025-07-16,12:57 PM,15,Sport Women's,Final,200,4,1,Charlotte Harbor Dragons (17),17,1,00:56.67,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-15,2025-07-17,12:57 PM,15,Sport Women's,Final,200,5,3,NBP Survivors In Sync (6),6,3,01:01.63,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-16,2025-07-18,1:13 PM,16,Sport Senior Mixed/Sport Senior Open,Final,200,1,4,Eastport Sun Dragons (20),20,4,00:55.26,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-16,2025-07-19,1:13 PM,16,Sport Senior Mixed/Sport Senior Open,Final,200,2,2,NBP Senior Mixed (5),5,2,00:52.65,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-16,2025-07-20,1:13 PM,16,Sport Senior Mixed/Sport Senior Open,Final,200,3,1,SACA Golden Dragons Snr (2),2,1,00:52.07,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-16,2025-07-21,1:13 PM,16,Sport Senior Mixed/Sport Senior Open,Final,200,4,3,Draggin' Dragons (18),18,3,00:53.68,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-16,2025-07-22,1:13 PM,16,Sport Senior Mixed/Sport Senior Open,Final,200,6,,Blackheart Senior Open (24),24,1,00:53.69,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-17,2025-07-23,1:29 PM,17,Community Mixed/Community Women's,Final,200,1,4,Dueling Dragons 2 (13),13,3,01:04.12,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-17,2025-07-24,1:29 PM,17,Community Mixed/Community Women's,Final,200,2,2,Sync or Swim (9),9,4,01:07.78,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-17,2025-07-25,1:29 PM,17,Community Mixed/Community Women's,Final,200,3,1,F45 Lakewood Ranch South (8),8,1,00:55.64,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-17,2025-07-26,1:29 PM,17,Community Mixed/Community Women's,Final,200,4,3,Dueling Dragons of Orlando (12),12,2,01:02.78,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-17,2025-07-27,1:29 PM,17,Community Mixed/Community Women's,Final,200,6,,Women Warriors (16),16,1,01:04.12,3
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-18,2025-07-28,1:45 PM,18,Community Open,Final,200,2,4,Marine Concepts Team 3 (21),21,4,05:55.55,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-18,2025-07-29,1:45 PM,18,Community Open,Final,200,3,2,Marine Concepts Team 1 (14),14,2,01:07.16,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-18,2025-07-30,1:45 PM,18,Community Open,Final,200,4,1,GG Schmitt Show (10),10,1,01:02.13,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-18,2025-07-31,1:45 PM,18,Community Open,Final,200,5,3,Marine Concepts Team 2 (15),15,3,01:08.78,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-19,2025-08-01,2:03 PM,19,Sport Women's,Final,2000,R1,3,NBP Survivors In Sync (6),6,3,22:22.22,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-19,2025-08-02,2:03 PM,19,Sport Women's,Final,2000,R2,2,Charlotte Harbor Dragons (17),17,2,12:10.86,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-19,2025-08-03,2:03 PM,19,Sport Women's,Final,2000,R3,1,NBP Senior Women (7),7,1,12:01.28,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-20,2025-08-04,2:33 PM,20,Sport Senior Mixed/Sport Senior Open,Final,2000,R1,SM4,Eastport Sun Dragons (20),20,4,12:18.13,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-20,2025-08-05,2:33 PM,20,Sport Senior Mixed/Sport Senior Open,Final,2000,R2,SM3,Draggin' Dragons (18),18,3,11:15.42,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-20,2025-08-06,2:33 PM,20,Sport Senior Mixed/Sport Senior Open,Final,2000,R3,SM2,SACA Golden Dragons Snr (2),2,1,11:09.04,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-20,2025-08-07,2:33 PM,20,Sport Senior Mixed/Sport Senior Open,Final,2000,R4,SM1,NBP Senior Mixed (5),5,2,11:11.06,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-20,2025-08-08,2:33 PM,20,Sport Senior Mixed/Sport Senior Open,Final,2000,R5,SO,Blackheart Senior Open (24),24,1,11:59.56,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-21,2025-08-09,3:03 PM,21,Sport Mixed,Final,2000,R1,6,Jax Fire Dragons (4),4,6,12:08.06,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-21,2025-08-10,3:03 PM,21,Sport Mixed,Final,2000,R2,5,Blazing Paddles (11),11,5,11:31.66,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-21,2025-08-11,3:03 PM,21,Sport Mixed,Final,2000,R3,4,Red Dragons Miami (22),22,4,11:24.96,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-21,2025-08-12,3:03 PM,21,Sport Mixed,Final,2000,R4,3,RENEGADES DB RACING TEAM (23),23,3,11:20.94,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-21,2025-08-13,3:03 PM,21,Sport Mixed,Final,2000,R5,2,NBP Dragons (19),19,2,11:10.76,4
+2025-Sarasota-IDBF,2025-Sarasota-IDBF-21,2025-08-14,3:03 PM,21,Sport Mixed,Final,2000,R6,1,SACA Golden Dragons (1),1,1,11:01.25,4

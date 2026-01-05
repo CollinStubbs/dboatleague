@@ -1,0 +1,202 @@
+regatta_id,race_id,date,start_time,race_no,event,round,distance_m,lane,seed,team_name,team_id,place,time,page
+2025_HAMDBF,2025_HAMDBF-1,2025-07-05,8:00,1,Mixed Small Division,,500,1,,TRPC,,4,02:47.2,1
+2025_HAMDBF,2025_HAMDBF-1,2025-07-05,8:00,1,Mixed Small Division,,500,2,,Lively Thunder,,2,02:38.4,1
+2025_HAMDBF,2025_HAMDBF-1,2025-07-05,8:00,1,Mixed Small Division,,500,3,,SOB Submarines,,3,02:44.3,1
+2025_HAMDBF,2025_HAMDBF-1,2025-07-05,8:00,1,Mixed Small Division,,500,4,,PDBC Hana Nui Red,,1,02:29.1,1
+2025_HAMDBF,2025_HAMDBF-2,2025-07-05,8:12,2,Mixed Small Division,,500,1,,GDBC Simcoe Flyers,,4,03:00.0,1
+2025_HAMDBF,2025_HAMDBF-2,2025-07-05,8:12,2,Mixed Small Division,,500,2,,PDBC Sr A Mixed,,1,02:20.7,1
+2025_HAMDBF,2025_HAMDBF-2,2025-07-05,8:12,2,Mixed Small Division,,500,3,,Warlock Mixed Crew,,2,02:35.7,1
+2025_HAMDBF,2025_HAMDBF-2,2025-07-05,8:12,2,Mixed Small Division,,500,4,,CSDC Sr D Mixed,,3,02:44.7,1
+2025_HAMDBF,2025_HAMDBF-3,2025-07-05,8:24,3,Mixed Division,,500,1,,Tribal Aloha,,4,02:25.0,1
+2025_HAMDBF,2025_HAMDBF-3,2025-07-05,8:24,3,Mixed Division,,500,2,,Jordan Harbour Hooligans,,5,02:45.3,1
+2025_HAMDBF,2025_HAMDBF-3,2025-07-05,8:24,3,Mixed Division,,500,3,,Quicksilver,,2,02:24.0,1
+2025_HAMDBF,2025_HAMDBF-3,2025-07-05,8:24,3,Mixed Division,,500,4,,Fuzhou University Dragonboat Club,,1,02:10.2,1
+2025_HAMDBF,2025_HAMDBF-3,2025-07-05,8:24,3,Mixed Division,,500,5,,SNCC Canal Dragons Canal Dragons,,3,02:24.7,1
+2025_HAMDBF,2025_HAMDBF-4,2025-07-05,8:36,4,Mixed Division,,500,1,,Shepherd's Fire,,4,02:39.8,1
+2025_HAMDBF,2025_HAMDBF-4,2025-07-05,8:36,4,Mixed Division,,500,2,,PDBC Blazing Blue Dragons,,3,02:26.4,1
+2025_HAMDBF,2025_HAMDBF-4,2025-07-05,8:36,4,Mixed Division,,500,3,,Mojos,,1,02:17.1,2
+2025_HAMDBF,2025_HAMDBF-4,2025-07-05,8:36,4,Mixed Division,,500,4,,Guelph Gryphons Dragon Boat Club,,2,02:21.5,2
+2025_HAMDBF,2025_HAMDBF-4,2025-07-05,8:36,4,Mixed Division,,500,5,,OPS Star Oars,,5,02:43.0,2
+2025_HAMDBF,2025_HAMDBF-5,2025-07-05,8:48,5,Mixed Division,,500,1,,Raging Dragons of Chatham Kent,,5,02:39.4,2
+2025_HAMDBF,2025_HAMDBF-5,2025-07-05,8:48,5,Mixed Division,,500,2,,Collingwood Sidelaunchers Georgian,,3,02:24.4,2
+2025_HAMDBF,2025_HAMDBF-5,2025-07-05,8:48,5,Mixed Division,,500,3,,CSDC srC,,2,02:09.6,2
+2025_HAMDBF,2025_HAMDBF-5,2025-07-05,8:48,5,Mixed Division,,500,4,,PDBC Sr C Mixed,,1,02:08.3,2
+2025_HAMDBF,2025_HAMDBF-5,2025-07-05,8:48,5,Mixed Division,,500,5,,Lively Ladies & Their Plus One,,4,02:33.1,2
+2025_HAMDBF,2025_HAMDBF-6,2025-07-05,9:00,6,Mixed Division,,500,1,,Toronto Outer Harbour Dragons,,2,02:26.3,2
+2025_HAMDBF,2025_HAMDBF-6,2025-07-05,9:00,6,Mixed Division,,500,2,,MOFOS,,1,02:13.6,2
+2025_HAMDBF,2025_HAMDBF-6,2025-07-05,9:00,6,Mixed Division,,500,3,,SOB Dragons,,3,02:26.6,2
+2025_HAMDBF,2025_HAMDBF-6,2025-07-05,9:00,6,Mixed Division,,500,4,,Wahoos,,4,02:40.5,2
+2025_HAMDBF,2025_HAMDBF-7,2025-07-05,9:12,7,Mixed Division,,500,1,,London Blades,,3,02:33.4,2
+2025_HAMDBF,2025_HAMDBF-7,2025-07-05,9:12,7,Mixed Division,,500,2,,SNCC Canal Dragons - Silver Streaks (PD2),,4,02:42.9,2
+2025_HAMDBF,2025_HAMDBF-7,2025-07-05,9:12,7,Mixed Division,,500,3,,PDBC 24U Mixed,,2,02:07.8,2
+2025_HAMDBF,2025_HAMDBF-7,2025-07-05,9:12,7,Mixed Division,,500,4,,CSDC Senior Mixed,,1,02:06.5,2
+2025_HAMDBF,2025_HAMDBF-8,2025-07-05,9:27,8,Small Mixed B Division,,500,1,,GDBC Simcoe Flyers,,4,02:59.8,3
+2025_HAMDBF,2025_HAMDBF-8,2025-07-05,9:27,8,Small Mixed B Division,,500,2,,CSDC Sr D Mixed,,1,02:46.7,3
+2025_HAMDBF,2025_HAMDBF-8,2025-07-05,9:27,8,Small Mixed B Division,,500,3,,SOB Submarines,,2,02:47.0,3
+2025_HAMDBF,2025_HAMDBF-8,2025-07-05,9:27,8,Small Mixed B Division,,500,4,,TRPC,,3,02:48.9,3
+2025_HAMDBF,2025_HAMDBF-9,2025-07-05,9:34,9,Small Mixed A Division,,500,1,,Lively Thunder,,4,02:38.7,3
+2025_HAMDBF,2025_HAMDBF-9,2025-07-05,9:34,9,Small Mixed A Division,,500,2,,PDBC Hana Nui Red,,2,02:32.4,3
+2025_HAMDBF,2025_HAMDBF-9,2025-07-05,9:34,9,Small Mixed A Division,,500,3,,PDBC Sr A Mixed,,1,02:21.6,3
+2025_HAMDBF,2025_HAMDBF-9,2025-07-05,9:34,9,Small Mixed A Division,,500,4,,Warlock Mixed Crew,,3,02:37.8,3
+2025_HAMDBF,2025_HAMDBF-10,2025-07-05,9:47,10,Mixed E Division,,500,1,,Jordan Harbour Hooligans,,3,02:46.5,3
+2025_HAMDBF,2025_HAMDBF-10,2025-07-05,9:47,10,Mixed E Division,,500,2,,SNCC Canal Dragons - Silver Streaks (PD2),,2,02:38.2,3
+2025_HAMDBF,2025_HAMDBF-10,2025-07-05,9:47,10,Mixed E Division,,500,3,,Wahoos,,1,02:37.8,3
+2025_HAMDBF,2025_HAMDBF-10,2025-07-05,9:47,10,Mixed E Division,,500,4,,OPS Star Oars,,4,02:47.1,3
+2025_HAMDBF,2025_HAMDBF-11,2025-07-05,9:56,11,Mixed D Division,,500,1,,Shepherd's Fire,,4,02:42.2,3
+2025_HAMDBF,2025_HAMDBF-11,2025-07-05,9:56,11,Mixed D Division,,500,2,,London Blades,,3,02:34.7,3
+2025_HAMDBF,2025_HAMDBF-11,2025-07-05,9:56,11,Mixed D Division,,500,3,,Lively Ladies & Their Plus One,,1,02:34.4,3
+2025_HAMDBF,2025_HAMDBF-11,2025-07-05,9:56,11,Mixed D Division,,500,4,,Raging Dragons of Chatham Kent,,2,02:34.7,4
+2025_HAMDBF,2025_HAMDBF-12,2025-07-05,10:07,12,Mixed C Division,,500,1,,PDBC Blazing Blue Dragons,,5,02:31.1,4
+2025_HAMDBF,2025_HAMDBF-12,2025-07-05,10:07,12,Mixed C Division,,500,2,,Tribal Aloha,,2,02:26.6,4
+2025_HAMDBF,2025_HAMDBF-12,2025-07-05,10:07,12,Mixed C Division,,500,3,,SNCC Canal Dragons Canal Dragons,,1,02:25.9,4
+2025_HAMDBF,2025_HAMDBF-12,2025-07-05,10:07,12,Mixed C Division,,500,4,,Toronto Outer Harbour Dragons,,3,02:28.0,4
+2025_HAMDBF,2025_HAMDBF-12,2025-07-05,10:07,12,Mixed C Division,,500,5,,SOB Dragons,,4,02:28.2,4
+2025_HAMDBF,2025_HAMDBF-13,2025-07-05,10:22,13,Mixed B Division,,500,1,,Quicksilver,,4,02:24.4,4
+2025_HAMDBF,2025_HAMDBF-13,2025-07-05,10:22,13,Mixed B Division,,500,2,,Mojos,,3,02:23.9,4
+2025_HAMDBF,2025_HAMDBF-13,2025-07-05,10:22,13,Mixed B Division,,500,3,,MOFOS,,1,02:13.6,4
+2025_HAMDBF,2025_HAMDBF-13,2025-07-05,10:22,13,Mixed B Division,,500,4,,Guelph Gryphons Dragon Boat Club,,2,02:23.7,4
+2025_HAMDBF,2025_HAMDBF-13,2025-07-05,10:22,13,Mixed B Division,,500,5,,Collingwood Sidelaunchers Georgian,,5,02:29.3,4
+2025_HAMDBF,2025_HAMDBF-14,2025-07-05,10:33,14,Mixed A Division,,500,1,,CSDC srC,,5,02:13.1,4
+2025_HAMDBF,2025_HAMDBF-14,2025-07-05,10:33,14,Mixed A Division,,500,2,,PDBC 24U Mixed,,2,02:06.1,4
+2025_HAMDBF,2025_HAMDBF-14,2025-07-05,10:33,14,Mixed A Division,,500,3,,CSDC Senior Mixed,,1,02:05.4,4
+2025_HAMDBF,2025_HAMDBF-14,2025-07-05,10:33,14,Mixed A Division,,500,4,,PDBC Sr C Mixed,,3,02:09.6,4
+2025_HAMDBF,2025_HAMDBF-14,2025-07-05,10:33,14,Mixed A Division,,500,5,,Fuzhou University Dragonboat Club,,4,02:12.3,4
+2025_HAMDBF,2025_HAMDBF-15,2025-07-05,10:54,15,Small Mixed B Division,,200,1,,GDBC Simcoe Flyers,,4,01:07.4,5
+2025_HAMDBF,2025_HAMDBF-15,2025-07-05,10:54,15,Small Mixed B Division,,200,2,,CSDC Sr D Mixed,,2,01:03.9,5
+2025_HAMDBF,2025_HAMDBF-15,2025-07-05,10:54,15,Small Mixed B Division,,200,3,,SOB Submarines,,3,01:04.2,5
+2025_HAMDBF,2025_HAMDBF-15,2025-07-05,10:54,15,Small Mixed B Division,,200,4,,TRPC,,1,01:03.7,5
+2025_HAMDBF,2025_HAMDBF-16,2025-07-05,11:02,16,Small Mixed A Division,,200,1,,Lively Thunder,,3,00:59.9,5
+2025_HAMDBF,2025_HAMDBF-16,2025-07-05,11:02,16,Small Mixed A Division,,200,2,,PDBC Hana Nui Red,,2,00:56.3,5
+2025_HAMDBF,2025_HAMDBF-16,2025-07-05,11:02,16,Small Mixed A Division,,200,3,,PDBC Sr A Mixed,,1,00:53.2,5
+2025_HAMDBF,2025_HAMDBF-16,2025-07-05,11:02,16,Small Mixed A Division,,200,4,,Warlock Mixed Crew,,4,01:00.2,5
+2025_HAMDBF,2025_HAMDBF-17,2025-07-05,11:12,17,Mixed E Division,,200,1,,Jordan Harbour Hooligans,,4,01:02.8,5
+2025_HAMDBF,2025_HAMDBF-17,2025-07-05,11:12,17,Mixed E Division,,200,2,,SNCC Canal Dragons - Silver Streaks (PD2),,2,00:59.3,5
+2025_HAMDBF,2025_HAMDBF-17,2025-07-05,11:12,17,Mixed E Division,,200,3,,Wahoos,,1,00:58.2,5
+2025_HAMDBF,2025_HAMDBF-17,2025-07-05,11:12,17,Mixed E Division,,200,4,,OPS Star Oars,,3,01:02.7,5
+2025_HAMDBF,2025_HAMDBF-18,2025-07-05,11:22,18,Mixed D Division,,200,1,,Shepherd's Fire,,4,01:00.7,5
+2025_HAMDBF,2025_HAMDBF-18,2025-07-05,11:22,18,Mixed D Division,,200,2,,London Blades,,1,00:59.6,5
+2025_HAMDBF,2025_HAMDBF-18,2025-07-05,11:22,18,Mixed D Division,,200,3,,Lively Ladies & Their Plus One,,2,00:59.7,5
+2025_HAMDBF,2025_HAMDBF-18,2025-07-05,11:22,18,Mixed D Division,,200,4,,Raging Dragons of Chatham Kent,,3,01:00.0,6
+2025_HAMDBF,2025_HAMDBF-19,2025-07-05,11:30,19,Mixed C Division,,200,1,,PDBC Blazing Blue Dragons,,4,00:57.4,6
+2025_HAMDBF,2025_HAMDBF-19,2025-07-05,11:30,19,Mixed C Division,,200,2,,Tribal Aloha,,2,00:57.1,6
+2025_HAMDBF,2025_HAMDBF-19,2025-07-05,11:30,19,Mixed C Division,,200,3,,SNCC Canal Dragons Canal Dragons,,1,00:56.3,6
+2025_HAMDBF,2025_HAMDBF-19,2025-07-05,11:30,19,Mixed C Division,,200,4,,Toronto Outer Harbour Dragons,,3,00:57.2,6
+2025_HAMDBF,2025_HAMDBF-19,2025-07-05,11:30,19,Mixed C Division,,200,5,,SOB Dragons,,5,00:58.0,6
+2025_HAMDBF,2025_HAMDBF-20,2025-07-05,11:39,20,Mixed B Division,,200,1,,Quicksilver,,4,00:57.6,6
+2025_HAMDBF,2025_HAMDBF-20,2025-07-05,11:39,20,Mixed B Division,,200,2,,Mojos,,3,00:56.2,6
+2025_HAMDBF,2025_HAMDBF-20,2025-07-05,11:39,20,Mixed B Division,,200,3,,MOFOS,,1,00:52.0,6
+2025_HAMDBF,2025_HAMDBF-20,2025-07-05,11:39,20,Mixed B Division,,200,4,,Guelph Gryphons Dragon Boat Club,,2,00:55.4,6
+2025_HAMDBF,2025_HAMDBF-20,2025-07-05,11:39,20,Mixed B Division,,200,5,,Collingwood Sidelaunchers Georgian,,5,00:57.8,6
+2025_HAMDBF,2025_HAMDBF-21,2025-07-05,11:55,21,Mixed A Division,,200,1,,CSDC srC,,5,00:53.8,6
+2025_HAMDBF,2025_HAMDBF-21,2025-07-05,11:55,21,Mixed A Division,,200,2,,PDBC 24U Mixed,,1,00:49.8,6
+2025_HAMDBF,2025_HAMDBF-21,2025-07-05,11:55,21,Mixed A Division,,200,3,,CSDC Senior Mixed,,2,00:50.1,6
+2025_HAMDBF,2025_HAMDBF-21,2025-07-05,11:55,21,Mixed A Division,,200,4,,PDBC Sr C Mixed,,3,00:51.6,6
+2025_HAMDBF,2025_HAMDBF-21,2025-07-05,11:55,21,Mixed A Division,,200,5,,Fuzhou University Dragonboat Club,,4,00:52.9,6
+2025_HAMDBF,2025_HAMDBF-22,2025-07-05,12:30,22,Mixed C Division + Small A Division,,2000,1,,TRPC,,8,12:11.8,7
+2025_HAMDBF,2025_HAMDBF-22,2025-07-05,12:30,22,Mixed C Division + Small A Division,,2000,2,,OPS Star Oars,,6,12:08.5,7
+2025_HAMDBF,2025_HAMDBF-22,2025-07-05,12:30,22,Mixed C Division + Small A Division,,2000,3,,SOB Submarines,,7,12:08.6,7
+2025_HAMDBF,2025_HAMDBF-22,2025-07-05,12:30,22,Mixed C Division + Small A Division,,2000,4,,CSDC Sr D Mixed,,10,12:31.8,7
+2025_HAMDBF,2025_HAMDBF-22,2025-07-05,12:30,22,Mixed C Division + Small A Division,,2000,5,,Jordan Harbour Hooligans,,5,11:45.0,7
+2025_HAMDBF,2025_HAMDBF-22,2025-07-05,12:30,22,Mixed C Division + Small A Division,,2000,6,,Lively Thunder,,4,11:45.0,7
+2025_HAMDBF,2025_HAMDBF-22,2025-07-05,12:30,22,Mixed C Division + Small A Division,,2000,7,,SNCC Canal Dragons - Silver Streaks (PD2),,9,12:17.5,7
+2025_HAMDBF,2025_HAMDBF-22,2025-07-05,12:30,22,Mixed C Division + Small A Division,,2000,8,,Warlock Mixed Crew,,2,11:27.5,7
+2025_HAMDBF,2025_HAMDBF-22,2025-07-05,12:30,22,Mixed C Division + Small A Division,,2000,9,,PDBC Hana Nui Red,,3,11:32.4,7
+2025_HAMDBF,2025_HAMDBF-22,2025-07-05,12:30,22,Mixed C Division + Small A Division,,2000,10,,PDBC Sr A Mixed,,1,10:08.5,7
+2025_HAMDBF,2025_HAMDBF-23,2025-07-05,1:07,23,Mixed B Division,,2000,1,,Shepherd's Fire,,9,11:30.6,7
+2025_HAMDBF,2025_HAMDBF-23,2025-07-05,1:07,23,Mixed B Division,,2000,2,,Wahoos,,10,11:56.7,7
+2025_HAMDBF,2025_HAMDBF-23,2025-07-05,1:07,23,Mixed B Division,,2000,3,,London Blades,,8,11:29.5,7
+2025_HAMDBF,2025_HAMDBF-23,2025-07-05,1:07,23,Mixed B Division,,2000,4,,Raging Dragons of Chatham Kent,,6,11:04.8,7
+2025_HAMDBF,2025_HAMDBF-23,2025-07-05,1:07,23,Mixed B Division,,2000,5,,Lively Ladies & Their Plus One,,7,11:14.2,7
+2025_HAMDBF,2025_HAMDBF-23,2025-07-05,1:07,23,Mixed B Division,,2000,6,,PDBC Blazing Blue Dragons,,4,10:58.3,7
+2025_HAMDBF,2025_HAMDBF-23,2025-07-05,1:07,23,Mixed B Division,,2000,7,,SOB Dragons,,3,10:55.2,7
+2025_HAMDBF,2025_HAMDBF-23,2025-07-05,1:07,23,Mixed B Division,,2000,8,,Toronto Outer Harbour Dragons,,1,10:43.1,7
+2025_HAMDBF,2025_HAMDBF-23,2025-07-05,1:07,23,Mixed B Division,,2000,9,,Tribal Aloha,,5,11:03.7,7
+2025_HAMDBF,2025_HAMDBF-23,2025-07-05,1:07,23,Mixed B Division,,2000,10,,SNCC Canal Dragons Canal Dragons,,2,10:48.8,7
+2025_HAMDBF,2025_HAMDBF-24,2025-07-05,1:40,24,Mixed A Division,,2000,1,,Collingwood Sidelaunchers Georgian,,10,09:42.5,
+2025_HAMDBF,2025_HAMDBF-24,2025-07-05,1:40,24,Mixed A Division,,2000,2,,Quicksilver,,8,09:27.8,
+2025_HAMDBF,2025_HAMDBF-24,2025-07-05,1:40,24,Mixed A Division,,2000,3,,Mojos,,6,09:01.4,
+2025_HAMDBF,2025_HAMDBF-24,2025-07-05,1:40,24,Mixed A Division,,2000,4,,Guelph Gryphons Dragon Boat Club,,9,09:42.0,
+2025_HAMDBF,2025_HAMDBF-24,2025-07-05,1:40,24,Mixed A Division,,2000,5,,MOFOS,,5,08:49.2,
+2025_HAMDBF,2025_HAMDBF-24,2025-07-05,1:40,24,Mixed A Division,,2000,6,,CSDC srC,,4,08:19.2,
+2025_HAMDBF,2025_HAMDBF-24,2025-07-05,1:40,24,Mixed A Division,,2000,7,,Fuzhou University Dragonboat Club,,7,09:15.0,
+2025_HAMDBF,2025_HAMDBF-24,2025-07-05,1:40,24,Mixed A Division,,2000,8,,PDBC Sr C Mixed,,3,08:13.8,
+2025_HAMDBF,2025_HAMDBF-24,2025-07-05,1:40,24,Mixed A Division,,2000,9,,PDBC 24U Mixed,,2,08:07.1,
+2025_HAMDBF,2025_HAMDBF-24,2025-07-05,1:40,24,Mixed A Division,,2000,10,,CSDC Senior Mixed,,1,08:03.6,
+2025_HAMDBF,2025_HAMDBF-25,2025-07-05,2:41,25,"Open Small, Open Std, Women Small",,500,1,,PDBC Sr C Open (Open Small),,1,02:23.8,8
+2025_HAMDBF,2025_HAMDBF-25,2025-07-05,2:41,25,"Open Small, Open Std, Women Small",,500,3,,UTSC U LATER (Open Std),,1,02:18.3,8
+2025_HAMDBF,2025_HAMDBF-25,2025-07-05,2:41,25,"Open Small, Open Std, Women Small",,500,5,,PDBC Sr B Women (Women Small),,1,02:40.4,8
+2025_HAMDBF,2025_HAMDBF-26,2025-07-05,2:56,26,Women's Std Division,,500,1,,Stratford Women,,1,02:30.1,8
+2025_HAMDBF,2025_HAMDBF-26,2025-07-05,2:56,26,Women's Std Division,,500,2,,Forest Brook Blazing Paddles Rec,,4,02:46.0,8
+2025_HAMDBF,2025_HAMDBF-26,2025-07-05,2:56,26,Women's Std Division,,500,3,,Knot A Breast,,2,02:36.7,8
+2025_HAMDBF,2025_HAMDBF-26,2025-07-05,2:56,26,Women's Std Division,,500,4,,Lively Gales,,3,02:36.9,8
+2025_HAMDBF,2025_HAMDBF-27,2025-07-05,3:05,27,Women's Std Division,,500,1,,Dirty Oars,,4,02:41.2,8
+2025_HAMDBF,2025_HAMDBF-27,2025-07-05,3:05,27,Women's Std Division,,500,2,,Dragonets,,3,02:37.9,8
+2025_HAMDBF,2025_HAMDBF-27,2025-07-05,3:05,27,Women's Std Division,,500,3,,Lively Ladies,,5,02:49.3,8
+2025_HAMDBF,2025_HAMDBF-27,2025-07-05,3:05,27,Women's Std Division,,500,4,,Forest Brook Blazing Paddles Comp,,2,02:35.5,9
+2025_HAMDBF,2025_HAMDBF-27,2025-07-05,3:05,27,Women's Std Division,,500,5,,PDBC Hana Nui Red Women,,1,02:25.8,9
+2025_HAMDBF,2025_HAMDBF-28,2025-07-05,3:17,28,5 Women's Std Division 2:44 Women's Std Division,,500,1,,Scugog Lakers,,4,02:45.0,9
+2025_HAMDBF,2025_HAMDBF-28,2025-07-05,3:17,28,5 Women's Std Division 2:44 Women's Std Division,,500,2,,Oakville Dragonflies,,5,02:45.7,9
+2025_HAMDBF,2025_HAMDBF-28,2025-07-05,3:17,28,5 Women's Std Division 2:44 Women's Std Division,,500,3,,Warlock Women,,2,02:28.1,9
+2025_HAMDBF,2025_HAMDBF-28,2025-07-05,3:17,28,5 Women's Std Division 2:44 Women's Std Division,,500,4,,PDBC Sr C Women,,1,02:24.5,9
+2025_HAMDBF,2025_HAMDBF-28,2025-07-05,3:17,28,5 Women's Std Division 2:44 Women's Std Division,,500,5,,Blades of Fury,,3,02:43.0,9
+2025_HAMDBF,2025_HAMDBF-29,2025-07-05,3:08,29,BCS Division,,500,2,,Dragons Abreast,,2,02:45.0,9
+2025_HAMDBF,2025_HAMDBF-29,2025-07-05,3:08,29,BCS Division,,500,3,,Knot A Breast,,3,02:48.8,9
+2025_HAMDBF,2025_HAMDBF-29,2025-07-05,3:08,29,BCS Division,,500,4,,Rowbust BCS,,1,02:36.8,9
+2025_HAMDBF,2025_HAMDBF-30,2025-07-05,3:54,30,"Open Small, Open Std, Women Small",,500,1,,PDBC Sr C Open (Open Small),,1,02:20.7,9
+2025_HAMDBF,2025_HAMDBF-30,2025-07-05,3:54,30,"Open Small, Open Std, Women Small",,500,3,,UTSC U LATER (Open Std),,1,02:16.3,9
+2025_HAMDBF,2025_HAMDBF-30,2025-07-05,3:54,30,"Open Small, Open Std, Women Small",,500,5,,PDBC Sr B Women (Women Small),,1,02:41.4,9
+2025_HAMDBF,2025_HAMDBF-31,2025-07-05,4:04,31,Women's Std Division,,500,1,,Lively Ladies,,3,02:44.3,10
+2025_HAMDBF,2025_HAMDBF-31,2025-07-05,4:04,31,Women's Std Division,,500,2,,Oakville Dragonflies,,2,02:43.9,10
+2025_HAMDBF,2025_HAMDBF-31,2025-07-05,4:04,31,Women's Std Division,,500,3,,Scugog Lakers,,1,02:40.1,10
+2025_HAMDBF,2025_HAMDBF-31,2025-07-05,4:04,31,Women's Std Division,,500,4,,Forest Brook Blazing Paddles Rec,,4,02:44.4,10
+2025_HAMDBF,2025_HAMDBF-32,2025-07-05,4:14,32,Women's Std Division,,500,1,,Dirty Oars,,5,02:41.9,10
+2025_HAMDBF,2025_HAMDBF-32,2025-07-05,4:14,32,Women's Std Division,,500,2,,Lively Gales,,1,02:34.7,10
+2025_HAMDBF,2025_HAMDBF-32,2025-07-05,4:14,32,Women's Std Division,,500,3,,Knot A Breast,,2,02:35.5,10
+2025_HAMDBF,2025_HAMDBF-32,2025-07-05,4:14,32,Women's Std Division,,500,4,,Dragonets,,4,02:37.9,10
+2025_HAMDBF,2025_HAMDBF-32,2025-07-05,4:14,32,Women's Std Division,,500,5,,Blades of Fury,,3,02:37.6,10
+2025_HAMDBF,2025_HAMDBF-33,2025-07-05,4:23,33,Women's Std Division,,500,1,,Stratford Women,,3,02:27.8,10
+2025_HAMDBF,2025_HAMDBF-33,2025-07-05,4:23,33,Women's Std Division,,500,2,,PDBC Hana Nui Red Women,,2,02:23.5,10
+2025_HAMDBF,2025_HAMDBF-33,2025-07-05,4:23,33,Women's Std Division,,500,3,,PDBC Sr C Women,,1,02:22.1,10
+2025_HAMDBF,2025_HAMDBF-33,2025-07-05,4:23,33,Women's Std Division,,500,4,,Warlock Women,,4,02:30.7,10
+2025_HAMDBF,2025_HAMDBF-33,2025-07-05,4:23,33,Women's Std Division,,500,5,,Forest Brook Blazing Paddles Comp,,5,02:35.2,10
+2025_HAMDBF,2025_HAMDBF-34,2025-07-05,4:34,34,BCS Division,,500,2,,Dragons Abreast,,2,02:49.4,10
+2025_HAMDBF,2025_HAMDBF-34,2025-07-05,4:34,34,BCS Division,,500,3,,Rowbust BCS,,1,02:37.2,11
+2025_HAMDBF,2025_HAMDBF-34,2025-07-05,4:34,34,BCS Division,,500,4,,Knot A Breast,,3,02:52.3,11
+2025_HAMDBF,2025_HAMDBF-35,2025-07-05,4:44,35,"Open Small, Open Std, Women Small",,200,1,,PDBC Sr C Open (Open Small),,1,00:53.9,11
+2025_HAMDBF,2025_HAMDBF-35,2025-07-05,4:44,35,"Open Small, Open Std, Women Small",,200,3,,UTSC U LATER (Open Std),,1,00:52.1,11
+2025_HAMDBF,2025_HAMDBF-35,2025-07-05,4:44,35,"Open Small, Open Std, Women Small",,200,5,,PDBC Sr B Women (Women Small),,1,01:02.2,11
+2025_HAMDBF,2025_HAMDBF-36,2025-07-05,4:53,36,Women's Std Division,,200,1,,Lively Ladies,,4,01:03.8,11
+2025_HAMDBF,2025_HAMDBF-36,2025-07-05,4:53,36,Women's Std Division,,200,2,,Oakville Dragonflies,,3,01:03.6,11
+2025_HAMDBF,2025_HAMDBF-36,2025-07-05,4:53,36,Women's Std Division,,200,3,,Scugog Lakers,,1,01:01.7,11
+2025_HAMDBF,2025_HAMDBF-36,2025-07-05,4:53,36,Women's Std Division,,200,4,,Forest Brook Blazing Paddles Rec,,2,01:02.6,11
+2025_HAMDBF,2025_HAMDBF-37,2025-07-05,5:00,37,Women's Std Division,,200,1,,Dirty Oars,,3,01:02.6,11
+2025_HAMDBF,2025_HAMDBF-37,2025-07-05,5:00,37,Women's Std Division,,200,2,,Lively Gales,,1,01:01.6,11
+2025_HAMDBF,2025_HAMDBF-37,2025-07-05,5:00,37,Women's Std Division,,200,3,,Knot A Breast,,2,01:02.3,11
+2025_HAMDBF,2025_HAMDBF-37,2025-07-05,5:00,37,Women's Std Division,,200,4,,Dragonets,,4,01:03.4,11
+2025_HAMDBF,2025_HAMDBF-37,2025-07-05,5:00,37,Women's Std Division,,200,5,,Blades of Fury,,5,01:03.7,11
+2025_HAMDBF,2025_HAMDBF-38,2025-07-05,5:10,38,Women's Std Division,,200,1,,Stratford Women,,3,00:58.1,12
+2025_HAMDBF,2025_HAMDBF-38,2025-07-05,5:10,38,Women's Std Division,,200,2,,PDBC Hana Nui Red Women,,2,00:55.8,12
+2025_HAMDBF,2025_HAMDBF-38,2025-07-05,5:10,38,Women's Std Division,,200,3,,PDBC Sr C Women,,1,00:54.8,12
+2025_HAMDBF,2025_HAMDBF-38,2025-07-05,5:10,38,Women's Std Division,,200,4,,Warlock Women,,4,00:58.4,12
+2025_HAMDBF,2025_HAMDBF-38,2025-07-05,5:10,38,Women's Std Division,,200,5,,Forest Brook Blazing Paddles Comp,,5,00:59.4,12
+2025_HAMDBF,2025_HAMDBF-39,2025-07-05,5:18,39,BCS Division,,200,2,,Dragons Abreast,,2,01:02.1,12
+2025_HAMDBF,2025_HAMDBF-39,2025-07-05,5:18,39,BCS Division,,200,3,,Rowbust BCS,,1,00:59.5,12
+2025_HAMDBF,2025_HAMDBF-39,2025-07-05,5:18,39,BCS Division,,200,4,,Knot A Breast,,3,01:04.7,12
+2025_HAMDBF,2025_HAMDBF-40,2025-07-05,5:50,40,women std  women small  open small  open std,,2000,1,,Forest Brook Blazing Paddles Rec,,10,10:55.3,12
+2025_HAMDBF,2025_HAMDBF-40,2025-07-05,5:50,40,women std  women small  open small  open std,,2000,2,,Lively Ladies,,3,10:12.2,12
+2025_HAMDBF,2025_HAMDBF-40,2025-07-05,5:50,40,women std  women small  open small  open std,,2000,3,,Oakville Dragonflies,,4,10:19.2,12
+2025_HAMDBF,2025_HAMDBF-40,2025-07-05,5:50,40,women std  women small  open small  open std,,2000,4,,Dirty Oars,,7,10:20.4,12
+2025_HAMDBF,2025_HAMDBF-40,2025-07-05,5:50,40,women std  women small  open small  open std,,2000,5,,PDBC Sr B Women (Women Small),,6,10:20.2,12
+2025_HAMDBF,2025_HAMDBF-40,2025-07-05,5:50,40,women std  women small  open small  open std,,2000,6,,Scugog Lakers,,8,10:34.9,12
+2025_HAMDBF,2025_HAMDBF-40,2025-07-05,5:50,40,women std  women small  open small  open std,,2000,7,,Dragonets,,9,10:42.7,12
+2025_HAMDBF,2025_HAMDBF-40,2025-07-05,5:50,40,women std  women small  open small  open std,,2000,8,,Blades of Fury,,5,10:19.2,12
+2025_HAMDBF,2025_HAMDBF-40,2025-07-05,5:50,40,women std  women small  open small  open std,,2000,9,,PDBC Sr C Open (Open Small),,1,08:55.3,13
+2025_HAMDBF,2025_HAMDBF-40,2025-07-05,5:50,40,women std  women small  open small  open std,,2000,10,,UTSC U LATER (Open Std),,2,09:10.1,13
+2025_HAMDBF,2025_HAMDBF-41,2025-07-05,6:10,41,women/bcs std final,,2000,1,,Knot A Breast,,8,11:14.4,13
+2025_HAMDBF,2025_HAMDBF-41,2025-07-05,6:10,41,women/bcs std final,,2000,2,,Rowbust BCS,,5,10:12.0,13
+2025_HAMDBF,2025_HAMDBF-41,2025-07-05,6:10,41,women/bcs std final,,2000,3,,Knot A Breast,,7,10:37.4,13
+2025_HAMDBF,2025_HAMDBF-41,2025-07-05,6:10,41,women/bcs std final,,2000,4,,Forest Brook Blazing Paddles Comp,,4,09:58.5,13
+2025_HAMDBF,2025_HAMDBF-41,2025-07-05,6:10,41,women/bcs std final,,2000,5,,Warlock Women,,6,10:19.6,13
+2025_HAMDBF,2025_HAMDBF-41,2025-07-05,6:10,41,women/bcs std final,,2000,6,,Stratford Women,,3,09:54.7,13
+2025_HAMDBF,2025_HAMDBF-41,2025-07-05,6:10,41,women/bcs std final,,2000,7,,PDBC Hana Nui Red Women,,2,09:31.2,13
+2025_HAMDBF,2025_HAMDBF-41,2025-07-05,6:10,41,women/bcs std final,,2000,8,,PDBC Sr C Women,,1,08:55.4,13

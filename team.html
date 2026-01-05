@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Results - North American Dragon Boat League</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <section class="team-page">
+        <a class="team-back" href="index.html">← Back to leaderboard</a>
+        <h2 id="team-name">Team Results</h2>
+        <div class="team-meta">
+          <span id="team-regattas">Regattas: --</span>
+          <span id="team-races">Races: --</span>
+          <span id="team-status" class="muted">Loading race data...</span>
+        </div>
+
+        <div class="team-analytics" aria-label="Team analytics">
+          <div class="analytics-card">
+            <div class="analytics-label">Most Common Event</div>
+            <div id="analytics-event" class="analytics-value">--</div>
+          </div>
+          <div class="analytics-card">
+            <div class="analytics-label">Podium Finishes</div>
+            <div id="analytics-podiums" class="analytics-value">--</div>
+          </div>
+          <div class="analytics-card">
+            <div class="analytics-label">Avg 200m</div>
+            <div id="analytics-avg-200" class="analytics-value">--</div>
+          </div>
+          <div class="analytics-card">
+            <div class="analytics-label">Avg 500m</div>
+            <div id="analytics-avg-500" class="analytics-value">--</div>
+          </div>
+          <div class="analytics-card">
+            <div class="analytics-label">Avg 2000m</div>
+            <div id="analytics-avg-2000" class="analytics-value">--</div>
+          </div>
+          <div class="analytics-card">
+            <div class="analytics-label">Best 200m</div>
+            <div id="analytics-best-200" class="analytics-value">--</div>
+          </div>
+          <div class="analytics-card">
+            <div class="analytics-label">Best 500m</div>
+            <div id="analytics-best-500" class="analytics-value">--</div>
+          </div>
+          <div class="analytics-card">
+            <div class="analytics-label">Best 2000m</div>
+            <div id="analytics-best-2000" class="analytics-value">--</div>
+          </div>
+          <div class="analytics-card">
+            <div class="analytics-label">Sandbag Factor (500m)</div>
+            <div id="analytics-sandbag" class="analytics-value">--</div>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table class="detail-table" aria-describedby="team-results-desc">
+            <caption id="team-results-desc">
+              Race results for the selected team.
+            </caption>
+            <thead>
+              <tr>
+                <th>Regatta</th>
+                <th>Date</th>
+                <th>Start</th>
+                <th>Race #</th>
+                <th>Event</th>
+                <th>Round</th>
+                <th>Distance</th>
+                <th>Lane</th>
+                <th>Place</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody id="team-results-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+
+    <script src="team.js"></script>
+  </body>
+</html>

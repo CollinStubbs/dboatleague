@@ -1,0 +1,2 @@
+[console_scripts]
+dragonboat-db = dragonboat_db.cli:app

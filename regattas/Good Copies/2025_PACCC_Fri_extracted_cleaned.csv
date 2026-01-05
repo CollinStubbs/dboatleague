@@ -1,0 +1,323 @@
+regatta_id,race_id,date,start_time,race_no,event,round,distance_m,lane,seed,team_name,team_id,place,time,page
+2025_PACCC,2025_PACCC-1,2025-07-04,8:00,1,Premier Mixte/Mixed,Heat 1,200,1,,Oceanus Dragon Boat Club,,4,00:58.0,V_Fri
+2025_PACCC,2025_PACCC-1,2025-07-04,8:00,1,Premier Mixte/Mixed,Heat 1,200,2,,22Dragons True Grit 24U,,2,00:56.0,V_Fri
+2025_PACCC,2025_PACCC-1,2025-07-04,8:00,1,Premier Mixte/Mixed,Heat 1,200,3,,NJDBC Jersey Thunder Mixed,,6,01:02.3,V_Fri
+2025_PACCC,2025_PACCC-1,2025-07-04,8:00,1,Premier Mixte/Mixed,Heat 1,200,4,,Bytown Dragons,,5,01:02.0,V_Fri
+2025_PACCC,2025_PACCC-1,2025-07-04,8:00,1,Premier Mixte/Mixed,Heat 1,200,5,,H2O Quebec - Premier Mixte,,1,00:54.3,V_Fri
+2025_PACCC,2025_PACCC-1,2025-07-04,8:00,1,Premier Mixte/Mixed,Heat 1,200,6,,Maelstrom Immortals,,3,00:56.5,V_Fri
+2025_PACCC,2025_PACCC-2,2025-07-04,8:06,2,Premier Mixte/Mixed,Heat 2,200,1,,DZ Vancouver Misfits,,5,01:01.9,V_Fri
+2025_PACCC,2025_PACCC-2,2025-07-04,8:06,2,Premier Mixte/Mixed,Heat 2,200,2,,Puerto Aventuras,,4,01:01.0,V_Fri
+2025_PACCC,2025_PACCC-2,2025-07-04,8:06,2,Premier Mixte/Mixed,Heat 2,200,3,,Dragon Rage,,2,00:58.3,V_Fri
+2025_PACCC,2025_PACCC-2,2025-07-04,8:06,2,Premier Mixte/Mixed,Heat 2,200,4,,UEAA Dragon Boat NYC,,1,00:55.0,V_Fri
+2025_PACCC,2025_PACCC-2,2025-07-04,8:06,2,Premier Mixte/Mixed,Heat 2,200,5,,H2O - Premier Beat Boat Mixte,,3,00:59.6,V_Fri
+2025_PACCC,2025_PACCC-3,2025-07-04,8:12,3,Premier Mixte/Mixed,Heat,200,1,,22Dragons True Grit 24U,,2,00:48.9,V_Fri
+2025_PACCC,2025_PACCC-3,2025-07-04,8:12,3,Premier Mixte/Mixed,Heat,200,2,,Boston BBB,,3,00:49.9,V_Fri
+2025_PACCC,2025_PACCC-3,2025-07-04,8:12,3,Premier Mixte/Mixed,Heat,200,3,,22Dragons Bleu,,1,00:48.3,V_Fri
+2025_PACCC,2025_PACCC-3,2025-07-04,8:12,3,Premier Mixte/Mixed,Heat,200,4,,Catch22 NYC,,6,00:52.9,V_Fri
+2025_PACCC,2025_PACCC-3,2025-07-04,8:12,3,Premier Mixte/Mixed,Heat,200,5,,H2O - Premier Mixte,,4,00:50.3,V_Fri
+2025_PACCC,2025_PACCC-3,2025-07-04,8:12,3,Premier Mixte/Mixed,Heat,200,6,,22Dragons Blanc,,5,00:51.8,V_Fri
+2025_PACCC,2025_PACCC-4,2025-07-04,8:18,4,Senior B Mixte/Mixed,Heat 1,200,2,,22Dragons,,3,00:59.3,V_Fri
+2025_PACCC,2025_PACCC-4,2025-07-04,8:18,4,Senior B Mixte/Mixed,Heat 1,200,3,,Bucks Dragon Boat Fusion,,1,00:56.8,V_Fri
+2025_PACCC,2025_PACCC-4,2025-07-04,8:18,4,Senior B Mixte/Mixed,Heat 1,200,4,,Bytown Basilisks,,4,01:04.9,V_Fri
+2025_PACCC,2025_PACCC-4,2025-07-04,8:18,4,Senior B Mixte/Mixed,Heat 1,200,5,,FLCC SOARX,,2,00:59.2,V_Fri
+2025_PACCC,2025_PACCC-5,2025-07-04,8:24,5,Senior B Mixte/Mixed,Heat 2,200,2,,Bytown Wyrd,,1,00:57.3,V_Fri
+2025_PACCC,2025_PACCC-5,2025-07-04,8:24,5,Senior B Mixte/Mixed,Heat 2,200,3,,Evolution Paddling Club,,2,00:59.3,V_Fri
+2025_PACCC,2025_PACCC-5,2025-07-04,8:24,5,Senior B Mixte/Mixed,Heat 2,200,4,,Heat DBC,,3,01:00.5,V_Fri
+2025_PACCC,2025_PACCC-6,2025-07-04,8:30,6,Senior B & PD-2 Mixte/Mixed,Heat,200,2,,ODBC Dragon Masters (Sr B),,2,00:53.5,V_Fri
+2025_PACCC,2025_PACCC-6,2025-07-04,8:30,6,Senior B & PD-2 Mixte/Mixed,Heat,200,3,,H2O - Senior B Mixte (Sr B),,1,00:51.8,V_Fri
+2025_PACCC,2025_PACCC-6,2025-07-04,8:30,6,Senior B & PD-2 Mixte/Mixed,Heat,200,4,,22Dragons Caravela (PD-2),,4,01:08.3,V_Fri
+2025_PACCC,2025_PACCC-6,2025-07-04,8:30,6,Senior B & PD-2 Mixte/Mixed,Heat,200,5,,3R Dragon Paracuda (PD-2),,3,00:57.4,V_Fri
+2025_PACCC,2025_PACCC-7,2025-07-04,8:36,7,BCS/Survivante,Heat,200,2,,West Island Dragons,,2,01:02.7,V_Fri
+2025_PACCC,2025_PACCC-7,2025-07-04,8:36,7,BCS/Survivante,Heat,200,3,,CBD de la Capitale - Vise-à-vie,,1,01:01.9,V_Fri
+2025_PACCC,2025_PACCC-7,2025-07-04,8:36,7,BCS/Survivante,Heat,200,4,,Empire Dragons,,3,01:03.6,V_Fri
+2025_PACCC,2025_PACCC-7,2025-07-04,8:36,7,BCS/Survivante,Heat,200,5,,H2O - BCS Seincr'eau,,4,01:03.9,V_Fri
+2025_PACCC,2025_PACCC-8,2025-07-04,8:42,8,Senior D Mixte/Mixed,Heat,200,2,,Leathernecks Red,,2,01:05.3,V_Fri
+2025_PACCC,2025_PACCC-8,2025-07-04,8:42,8,Senior D Mixte/Mixed,Heat,200,3,,Dragon Beasts,,4,01:11.7,V_Fri
+2025_PACCC,2025_PACCC-8,2025-07-04,8:42,8,Senior D Mixte/Mixed,Heat,200,4,,Heat DBC,,1,01:04.1,V_Fri
+2025_PACCC,2025_PACCC-8,2025-07-04,8:42,8,Senior D Mixte/Mixed,Heat,200,5,,Seattle Sake,,3,01:07.9,V_Fri
+2025_PACCC,2025_PACCC-9,2025-07-04,8:48,9,BCS/Survivante & 16U Open,Heat,200,1,,22D Two Abreast Cote-a-cote(BCS),,5,01:08.0,V_Fri
+2025_PACCC,2025_PACCC-9,2025-07-04,8:48,9,BCS/Survivante & 16U Open,Heat,200,2,,DragonHeart Panama (BCS),,4,01:06.4,V_Fri
+2025_PACCC,2025_PACCC-9,2025-07-04,8:48,9,BCS/Survivante & 16U Open,Heat,200,4,,Blue Bloods DBT,,3,01:00.9,V_Fri
+2025_PACCC,2025_PACCC-9,2025-07-04,8:48,9,BCS/Survivante & 16U Open,Heat,200,5,,H2O Fujian Junior Open,,1,00:59.8,V_Fri
+2025_PACCC,2025_PACCC-9,2025-07-04,8:48,9,BCS/Survivante & 16U Open,Heat,200,6,,22Dragons,,2,01:00.7,V_Fri
+2025_PACCC,2025_PACCC-10,2025-07-04,8:54,10,Premier Mixte/Mixed,Repechage 1,200,2,,Puerto Aventuras,,3,01:01.9,V_Fri
+2025_PACCC,2025_PACCC-10,2025-07-04,8:54,10,Premier Mixte/Mixed,Repechage 1,200,3,,Maelstrom Immortals,,1,00:58.0,V_Fri
+2025_PACCC,2025_PACCC-10,2025-07-04,8:54,10,Premier Mixte/Mixed,Repechage 1,200,4,,H2O - Premier Beat Boat Mixte,,2,01:01.1,V_Fri
+2025_PACCC,2025_PACCC-10,2025-07-04,8:54,10,Premier Mixte/Mixed,Repechage 1,200,5,,NJDBC Jersey Thunder Mixed,,4,01:04.0,V_Fri
+2025_PACCC,2025_PACCC-11,2025-07-04,9:00,11,Premier Mixte/Mixed,Repechage 2,200,2,,DZ Vancouver Misfits,,4,01:04.6,V_Fri
+2025_PACCC,2025_PACCC-11,2025-07-04,9:00,11,Premier Mixte/Mixed,Repechage 2,200,3,,Oceanus Dragon Boat Club,,1,00:58.4,V_Fri
+2025_PACCC,2025_PACCC-11,2025-07-04,9:00,11,Premier Mixte/Mixed,Repechage 2,200,4,,Dragon Rage,,2,00:58.7,V_Fri
+2025_PACCC,2025_PACCC-11,2025-07-04,9:00,11,Premier Mixte/Mixed,Repechage 2,200,5,,Bytown Dragons,,3,01:03.2,V_Fri
+2025_PACCC,2025_PACCC-12,2025-07-04,9:06,12,Premier Mixte/Mixed,Final,200,1,,22Dragons Blanc,,5,00:50.1,V_Fri
+2025_PACCC,2025_PACCC-12,2025-07-04,9:06,12,Premier Mixte/Mixed,Final,200,2,,Boston BBB,,3,00:49.9,V_Fri
+2025_PACCC,2025_PACCC-12,2025-07-04,9:06,12,Premier Mixte/Mixed,Final,200,3,,22Dragons Bleu,,1,00:48.2,V_Fri
+2025_PACCC,2025_PACCC-12,2025-07-04,9:06,12,Premier Mixte/Mixed,Final,200,4,,22Dragons True Grit 24U,,2,00:49.5,V_Fri
+2025_PACCC,2025_PACCC-12,2025-07-04,9:06,12,Premier Mixte/Mixed,Final,200,5,,H2O - Premier Mixte,,4,00:50.1,V_Fri
+2025_PACCC,2025_PACCC-12,2025-07-04,9:06,12,Premier Mixte/Mixed,Final,200,6,,Catch22 NYC,,6,00:51.3,V_Fri
+2025_PACCC,2025_PACCC-13,2025-07-04,9:12,13,Senior B Mixte/Mixed,Repechage,200,2,,Heat DBC,,1,01:00.7,V_Fri
+2025_PACCC,2025_PACCC-13,2025-07-04,9:12,13,Senior B Mixte/Mixed,Repechage,200,3,,Evolution Paddling Club,,2,01:00.8,V_Fri
+2025_PACCC,2025_PACCC-13,2025-07-04,9:12,13,Senior B Mixte/Mixed,Repechage,200,4,,22Dragons,,3,01:01.0,V_Fri
+2025_PACCC,2025_PACCC-13,2025-07-04,9:12,13,Senior B Mixte/Mixed,Repechage,200,5,,Bytown Basilisks,,4,01:03.6,V_Fri
+2025_PACCC,2025_PACCC-14,2025-07-04,9:18,14,Senior B & PD-2 Mixte/Mixed,Final,200,2,,H2O - Senior B Mixte (Sr B),,1,00:51.5,V_Fri
+2025_PACCC,2025_PACCC-14,2025-07-04,9:18,14,Senior B & PD-2 Mixte/Mixed,Final,200,3,,ODBC Dragon Masters (Sr B),,2,00:53.8,V_Fri
+2025_PACCC,2025_PACCC-14,2025-07-04,9:18,14,Senior B & PD-2 Mixte/Mixed,Final,200,5,,3R Dragon Paracuda (PD-2),,2,01:20.7,V_Fri
+2025_PACCC,2025_PACCC-14,2025-07-04,9:18,14,Senior B & PD-2 Mixte/Mixed,Final,200,6,,22Dragons Caravela (PD-2),,1,01:09.9,V_Fri
+2025_PACCC,2025_PACCC-15,2025-07-04,9:24,15,BCS/Survivante,Final,200,2,,Empire Dragons,,4,01:03.3,V_Fri
+2025_PACCC,2025_PACCC-15,2025-07-04,9:24,15,BCS/Survivante,Final,200,3,,CBD de la Capitale - Vise-à-vie,,1,01:02.3,V_Fri
+2025_PACCC,2025_PACCC-15,2025-07-04,9:24,15,BCS/Survivante,Final,200,4,,West Island Dragons,,2,01:03.1,V_Fri
+2025_PACCC,2025_PACCC-15,2025-07-04,9:24,15,BCS/Survivante,Final,200,5,,H2O - BCS Seincr'eau,,3,01:03.2,V_Fri
+2025_PACCC,2025_PACCC-16,2025-07-04,9:30,16,Senior D Mixte/Mixed,Final,200,2,,Seattle Sake,,2,01:04.9,V_Fri
+2025_PACCC,2025_PACCC-16,2025-07-04,9:30,16,Senior D Mixte/Mixed,Final,200,3,,Heat DBC,,1,01:02.1,V_Fri
+2025_PACCC,2025_PACCC-16,2025-07-04,9:30,16,Senior D Mixte/Mixed,Final,200,4,,Leathernecks Red,,3,01:04.9,V_Fri
+2025_PACCC,2025_PACCC-16,2025-07-04,9:30,16,Senior D Mixte/Mixed,Final,200,5,,Dragon Beasts,,4,01:05.8,V_Fri
+2025_PACCC,2025_PACCC-17,2025-07-04,9:36,17,BCS/Survivante & 16U Open,Final,200,1,,Blue Bloods DBT,,3,01:00.6,V_Fri
+2025_PACCC,2025_PACCC-17,2025-07-04,9:36,17,BCS/Survivante & 16U Open,Final,200,2,,H2O Fujian Junior Open,,1,00:58.6,V_Fri
+2025_PACCC,2025_PACCC-17,2025-07-04,9:36,17,BCS/Survivante & 16U Open,Final,200,3,,22Dragons,,2,00:59.5,V_Fri
+2025_PACCC,2025_PACCC-17,2025-07-04,9:36,17,BCS/Survivante & 16U Open,Final,200,5,,DragonHeart Panama (BCS),,1,01:07.9,V_Fri
+2025_PACCC,2025_PACCC-17,2025-07-04,9:36,17,BCS/Survivante & 16U Open,Final,200,6,,22D Two Abreast Cote-a-cote(BCS),,2,01:08.6,V_Fri
+2025_PACCC,2025_PACCC-18,2025-07-04,9:44,18,Premier Mixte/Mixed,Grande Final,200,1,,Oceanus Dragon Boat Club,,5,00:58.3,V_Fri
+2025_PACCC,2025_PACCC-18,2025-07-04,9:44,18,Premier Mixte/Mixed,Grande Final,200,2,,22Dragons True Grit 24U,,3,00:57.1,V_Fri
+2025_PACCC,2025_PACCC-18,2025-07-04,9:44,18,Premier Mixte/Mixed,Grande Final,200,3,,H2O Quebec - Premier Mixte,,1,00:54.7,V_Fri
+2025_PACCC,2025_PACCC-18,2025-07-04,9:44,18,Premier Mixte/Mixed,Grande Final,200,4,,UEAA Dragon Boat NYC,,2,00:55.6,V_Fri
+2025_PACCC,2025_PACCC-18,2025-07-04,9:44,18,Premier Mixte/Mixed,Grande Final,200,5,,Maelstrom Immortals,,4,00:57.6,V_Fri
+2025_PACCC,2025_PACCC-18,2025-07-04,9:44,18,Premier Mixte/Mixed,Grande Final,200,6,,Dragon Rage,,6,00:58.5,V_Fri
+2025_PACCC,2025_PACCC-19,2025-07-04,9:52,19,Senior B Mixte/Mixed,Final,200,1,,Evolution Paddling Club,,5,00:59.2,V_Fri
+2025_PACCC,2025_PACCC-19,2025-07-04,9:52,19,Senior B Mixte/Mixed,Final,200,2,,FLCC SOARX,,3,00:58.5,V_Fri
+2025_PACCC,2025_PACCC-19,2025-07-04,9:52,19,Senior B Mixte/Mixed,Final,200,3,,Bucks Dragon Boat Fusion,,1,00:56.9,V_Fri
+2025_PACCC,2025_PACCC-19,2025-07-04,9:52,19,Senior B Mixte/Mixed,Final,200,4,,Bytown Wyrd,,2,00:57.2,V_Fri
+2025_PACCC,2025_PACCC-19,2025-07-04,9:52,19,Senior B Mixte/Mixed,Final,200,5,,Heat DBC,,6,01:00.0,V_Fri
+2025_PACCC,2025_PACCC-19,2025-07-04,9:52,19,Senior B Mixte/Mixed,Final,200,6,,22Dragons,,4,00:58.9,V_Fri
+2025_PACCC,2025_PACCC-20,2025-07-04,10:00,20,Senior A Femmes/Women,Heat 1,200,1,,H2O - Senior A Femmes Bleu,,1,00:57.9,V_Fri
+2025_PACCC,2025_PACCC-20,2025-07-04,10:00,20,Senior A Femmes/Women,Heat 1,200,2,,Bytown Water,,5,01:00.3,V_Fri
+2025_PACCC,2025_PACCC-20,2025-07-04,10:00,20,Senior A Femmes/Women,Heat 1,200,3,,H2O Quebec - Senior A Femmes,,4,00:59.9,V_Fri
+2025_PACCC,2025_PACCC-20,2025-07-04,10:00,20,Senior A Femmes/Women,Heat 1,200,4,,22Dragons,,2,00:59.7,V_Fri
+2025_PACCC,2025_PACCC-20,2025-07-04,10:00,20,Senior A Femmes/Women,Heat 1,200,5,,ODBC Dracona,,3,00:59.8,V_Fri
+2025_PACCC,2025_PACCC-21,2025-07-04,10:08,21,Senior A Femmes/Women,Heat 2,200,2,,Puerto Aventuras DBC,,,DNS,V_Fri
+2025_PACCC,2025_PACCC-21,2025-07-04,10:08,21,Senior A Femmes/Women,Heat 2,200,3,,H2O - Senior A Femmes Orange,,1,00:58.5,V_Fri
+2025_PACCC,2025_PACCC-21,2025-07-04,10:08,21,Senior A Femmes/Women,Heat 2,200,4,,Evolution Paddling Club,,3,01:05.7,V_Fri
+2025_PACCC,2025_PACCC-21,2025-07-04,10:08,21,Senior A Femmes/Women,Heat 2,200,5,,Bytown Fire,,2,00:59.8,V_Fri
+2025_PACCC,2025_PACCC-22,2025-07-04,10:16,22,Senior A Open,Heat,200,1,,22Dragons Blanc,,1,00:55.9,V_Fri
+2025_PACCC,2025_PACCC-22,2025-07-04,10:16,22,Senior A Open,Heat,200,2,,Evolution Paddling Club,,3,00:58.2,V_Fri
+2025_PACCC,2025_PACCC-22,2025-07-04,10:16,22,Senior A Open,Heat,200,3,,22Dragons Bleu,,4,00:58.9,V_Fri
+2025_PACCC,2025_PACCC-22,2025-07-04,10:16,22,Senior A Open,Heat,200,4,,H2O - Senior A Open,,2,00:57.3,V_Fri
+2025_PACCC,2025_PACCC-22,2025-07-04,10:16,22,Senior A Open,Heat,200,5,,Puerto Aventuras DBC,,5,01:04.9,V_Fri
+2025_PACCC,2025_PACCC-23,2025-07-04,10:21,23,Senior C Femmes/Women,Heat,200,2,,ODBC Dragon Masters,,2,00:56.8,V_Fri
+2025_PACCC,2025_PACCC-23,2025-07-04,10:21,23,Senior C Femmes/Women,Heat,200,3,,Bytown Super C's,,1,00:56.8,V_Fri
+2025_PACCC,2025_PACCC-23,2025-07-04,10:21,23,Senior C Femmes/Women,Heat,200,4,,Pickering Dragon Boat Club,,3,00:58.8,V_Fri
+2025_PACCC,2025_PACCC-24,2025-07-04,10:26,24,Senior C & 24U Femmes/Women,Heat,200,1,,22Dragons,,3,01:03.8,V_Fri
+2025_PACCC,2025_PACCC-24,2025-07-04,10:26,24,Senior C & 24U Femmes/Women,Heat,200,2,,Dragonheart Vermont Comets,,5,01:07.3,V_Fri
+2025_PACCC,2025_PACCC-24,2025-07-04,10:26,24,Senior C & 24U Femmes/Women,Heat,200,3,,H2O - Senior C Femmes,,1,01:01.9,V_Fri
+2025_PACCC,2025_PACCC-24,2025-07-04,10:26,24,Senior C & 24U Femmes/Women,Heat,200,4,,Heat DBC,,4,01:06.8,V_Fri
+2025_PACCC,2025_PACCC-24,2025-07-04,10:26,24,Senior C & 24U Femmes/Women,Heat,200,5,,Concordia Uni. PaddlePuff Girls (24U),,2,01:02.5,V_Fri
+2025_PACCC,2025_PACCC-24,2025-07-04,10:26,24,Senior C & 24U Femmes/Women,Heat,200,6,,H2O - U24 Femmes (24U),,,DNS,V_Fri
+2025_PACCC,2025_PACCC-25,2025-07-04,10:31,25,U18 & U16 Femmes/Women,Heat,200,1,,Bytown Sportchicklets (16U),,3,01:05.8,V_Fri
+2025_PACCC,2025_PACCC-25,2025-07-04,10:31,25,U18 & U16 Femmes/Women,Heat,200,2,,H2O Fujian Junior Femmes (16U),,2,01:04.9,V_Fri
+2025_PACCC,2025_PACCC-25,2025-07-04,10:31,25,U18 & U16 Femmes/Women,Heat,200,3,,H2O Junior Femmes (16U),,4,01:07.0,V_Fri
+2025_PACCC,2025_PACCC-25,2025-07-04,10:31,25,U18 & U16 Femmes/Women,Heat,200,5,,SAGHS Sea Serpents (18U),,5,01:07.9,V_Fri
+2025_PACCC,2025_PACCC-25,2025-07-04,10:31,25,U18 & U16 Femmes/Women,Heat,200,6,,22Dragons (18U),,1,01:02.2,V_Fri
+2025_PACCC,2025_PACCC-26,2025-07-04,10:39,26,24U & 18U Open,Heat,200,1,,HVC Hyperion (18U),,4,00:58.0,V_Fri
+2025_PACCC,2025_PACCC-26,2025-07-04,10:39,26,24U & 18U Open,Heat,200,2,,22Dragons (18U),,5,00:58.5,V_Fri
+2025_PACCC,2025_PACCC-26,2025-07-04,10:39,26,24U & 18U Open,Heat,200,4,,Concordia University ConcorDIVAS,,2,00:56.4,V_Fri
+2025_PACCC,2025_PACCC-26,2025-07-04,10:39,26,24U & 18U Open,Heat,200,5,,Universite de Montreal Titanic,,3,00:57.5,V_Fri
+2025_PACCC,2025_PACCC-26,2025-07-04,10:39,26,24U & 18U Open,Heat,200,6,,McGill DragonBoat Z - Piccolo,,1,00:55.8,V_Fri
+2025_PACCC,2025_PACCC-27,2025-07-04,10:47,27,Senior C Open,Heat,200,1,,22Dragons,,1,00:57.3,V_Fri
+2025_PACCC,2025_PACCC-27,2025-07-04,10:47,27,Senior C Open,Heat,200,2,,Dragon Beasts,,4,00:58.7,V_Fri
+2025_PACCC,2025_PACCC-27,2025-07-04,10:47,27,Senior C Open,Heat,200,3,,ODBC Dragon Masters,,2,00:57.9,V_Fri
+2025_PACCC,2025_PACCC-27,2025-07-04,10:47,27,Senior C Open,Heat,200,4,,Bytown Ship of Pain,,5,00:58.7,V_Fri
+2025_PACCC,2025_PACCC-27,2025-07-04,10:47,27,Senior C Open,Heat,200,5,,H2O - Senior C Open,,3,00:58.7,V_Fri
+2025_PACCC,2025_PACCC-28,2025-07-04,10:55,28,Senior A Femmes/Women,Repechage,200,1,,Evolution Paddling Club,,5,01:05.1,V_Fri
+2025_PACCC,2025_PACCC-28,2025-07-04,10:55,28,Senior A Femmes/Women,Repechage,200,2,,H2O Quebec - Senior A Femmes,,1,00:59.1,V_Fri
+2025_PACCC,2025_PACCC-28,2025-07-04,10:55,28,Senior A Femmes/Women,Repechage,200,3,,Bytown Fire,,3,00:59.4,V_Fri
+2025_PACCC,2025_PACCC-28,2025-07-04,10:55,28,Senior A Femmes/Women,Repechage,200,4,,ODBC Dracona,,4,00:59.6,V_Fri
+2025_PACCC,2025_PACCC-28,2025-07-04,10:55,28,Senior A Femmes/Women,Repechage,200,5,,Bytown Water,,2,00:59.4,V_Fri
+2025_PACCC,2025_PACCC-29,2025-07-04,11:03,29,Senior A Open,Final,200,1,,Puerto Aventuras DBC,,5,01:03.1,V_Fri
+2025_PACCC,2025_PACCC-29,2025-07-04,11:03,29,Senior A Open,Final,200,2,,Evolution Paddling Club,,3,00:56.9,V_Fri
+2025_PACCC,2025_PACCC-29,2025-07-04,11:03,29,Senior A Open,Final,200,3,,22Dragons Blanc,,1,00:55.3,V_Fri
+2025_PACCC,2025_PACCC-29,2025-07-04,11:03,29,Senior A Open,Final,200,4,,H2O - Senior A Open,,2,00:56.0,V_Fri
+2025_PACCC,2025_PACCC-29,2025-07-04,11:03,29,Senior A Open,Final,200,5,,22Dragons Bleu,,4,00:59.0,V_Fri
+2025_PACCC,2025_PACCC-30,2025-07-04,11:08,30,Senior C Femmes/Women,Final,200,2,,Pickering Dragon Boat Club,,3,00:59.5,V_Fri
+2025_PACCC,2025_PACCC-30,2025-07-04,11:08,30,Senior C Femmes/Women,Final,200,3,,Bytown Super C's,,1,00:56.8,V_Fri
+2025_PACCC,2025_PACCC-30,2025-07-04,11:08,30,Senior C Femmes/Women,Final,200,4,,ODBC Dragon Masters,,2,00:56.9,V_Fri
+2025_PACCC,2025_PACCC-31,2025-07-04,11:14,31,Senior C & 24U Femmes/Women,Final,200,1,,Heat DBC,,3,01:06.2,V_Fri
+2025_PACCC,2025_PACCC-31,2025-07-04,11:14,31,Senior C & 24U Femmes/Women,Final,200,2,,H2O - Senior C Femmes,,1,01:02.3,V_Fri
+2025_PACCC,2025_PACCC-31,2025-07-04,11:14,31,Senior C & 24U Femmes/Women,Final,200,3,,22Dragons,,2,01:02.9,V_Fri
+2025_PACCC,2025_PACCC-31,2025-07-04,11:14,31,Senior C & 24U Femmes/Women,Final,200,4,,Dragonheart Vermont Comets,,4,01:09.5,V_Fri
+2025_PACCC,2025_PACCC-31,2025-07-04,11:14,31,Senior C & 24U Femmes/Women,Final,200,6,,Concordia Uni. PaddlePuff Girls (24U),,1,01:03.0,V_Fri
+2025_PACCC,2025_PACCC-32,2025-07-04,11:20,32,U18 & U16 Femmes/Women,Final,200,1,,H2O Junior Femmes (16U),,3,01:08.0,V_Fri
+2025_PACCC,2025_PACCC-32,2025-07-04,11:20,32,U18 & U16 Femmes/Women,Final,200,2,,H2O Fujian Junior Femmes (16U),,1,01:04.4,V_Fri
+2025_PACCC,2025_PACCC-32,2025-07-04,11:20,32,U18 & U16 Femmes/Women,Final,200,3,,Bytown Sportchicklets (16U),,2,01:05.4,V_Fri
+2025_PACCC,2025_PACCC-32,2025-07-04,11:20,32,U18 & U16 Femmes/Women,Final,200,5,,SAGHS Sea Serpents (18U),,2,01:07.8,V_Fri
+2025_PACCC,2025_PACCC-32,2025-07-04,11:20,32,U18 & U16 Femmes/Women,Final,200,6,,22Dragons (18U),,1,01:02.1,V_Fri
+2025_PACCC,2025_PACCC-33,2025-07-04,11:28,33,24U & 18U Open,,200,1,,22Dragons (18U),,2,00:57.6,V_Fri
+2025_PACCC,2025_PACCC-33,2025-07-04,11:28,33,24U & 18U Open,,200,2,,HVC Hyperion (18U),,1,00:56.8,V_Fri
+2025_PACCC,2025_PACCC-33,2025-07-04,11:28,33,24U & 18U Open,,200,4,,Universite de Montreal Titanic,,3,00:56.2,V_Fri
+2025_PACCC,2025_PACCC-33,2025-07-04,11:28,33,24U & 18U Open,,200,5,,McGill DragonBoat Z - Piccolo,,1,00:55.0,V_Fri
+2025_PACCC,2025_PACCC-33,2025-07-04,11:28,33,24U & 18U Open,,200,6,,Concordia University ConcorDIVAS,,2,00:56.0,V_Fri
+2025_PACCC,2025_PACCC-34,2025-07-04,11:36,34,Senior A Femmes/Women,Grande Final,200,1,,Bytown Water,,4,00:59.5,V_Fri
+2025_PACCC,2025_PACCC-34,2025-07-04,11:36,34,Senior A Femmes/Women,Grande Final,200,2,,22Dragons,,2,00:58.3,V_Fri
+2025_PACCC,2025_PACCC-34,2025-07-04,11:36,34,Senior A Femmes/Women,Grande Final,200,3,,H2O - Senior A Femmes Bleu,,1,00:57.4,V_Fri
+2025_PACCC,2025_PACCC-34,2025-07-04,11:36,34,Senior A Femmes/Women,Grande Final,200,4,,H2O - Senior A Femmes Orange,,3,00:58.5,V_Fri
+2025_PACCC,2025_PACCC-34,2025-07-04,11:36,34,Senior A Femmes/Women,Grande Final,200,5,,H2O Quebec - Senior A Femmes,,5,00:59.9,V_Fri
+2025_PACCC,2025_PACCC-34,2025-07-04,11:36,34,Senior A Femmes/Women,Grande Final,200,6,,Bytown Fire,,6,01:00.1,V_Fri
+2025_PACCC,2025_PACCC-35,2025-07-04,11:44,35,Senior C Open,Final,200,1,,Bytown Ship of Pain,,4,00:58.4,V_Fri
+2025_PACCC,2025_PACCC-35,2025-07-04,11:44,35,Senior C Open,Final,200,2,,H2O - Senior C Open,,3,00:58.2,V_Fri
+2025_PACCC,2025_PACCC-35,2025-07-04,11:44,35,Senior C Open,Final,200,3,,22Dragons,,2,00:57.7,V_Fri
+2025_PACCC,2025_PACCC-35,2025-07-04,11:44,35,Senior C Open,Final,200,4,,ODBC Dragon Masters,,1,00:57.1,V_Fri
+2025_PACCC,2025_PACCC-35,2025-07-04,11:44,35,Senior C Open,Final,200,5,,Dragon Beasts,,5,00:58.8,V_Fri
+2025_PACCC,2025_PACCC-36,2025-07-04,13:00,36,Senior A Mixte/Mixed,Heat 1,200,1,,Seattle Sake,,2,00:58.7,V_Fri
+2025_PACCC,2025_PACCC-36,2025-07-04,13:00,36,Senior A Mixte/Mixed,Heat 1,200,2,,H2O - Senior A Mixte,,3,00:58.9,V_Fri
+2025_PACCC,2025_PACCC-36,2025-07-04,13:00,36,Senior A Mixte/Mixed,Heat 1,200,3,,Bytown Shadow,,4,01:00.7,V_Fri
+2025_PACCC,2025_PACCC-36,2025-07-04,13:00,36,Senior A Mixte/Mixed,Heat 1,200,4,,3R Dragon 3R Senior A,,1,00:57.2,V_Fri
+2025_PACCC,2025_PACCC-36,2025-07-04,13:00,36,Senior A Mixte/Mixed,Heat 1,200,5,,Puerto Aventuras,,5,01:05.7,V_Fri
+2025_PACCC,2025_PACCC-37,2025-07-04,13:08,37,Senior A Mixte/Mixed,Heat 2,200,1,,H2O QC - Sr A Mixte,,1,00:56.1,V_Fri
+2025_PACCC,2025_PACCC-37,2025-07-04,13:08,37,Senior A Mixte/Mixed,Heat 2,200,2,,ODBC Barracudas,,2,00:56.5,V_Fri
+2025_PACCC,2025_PACCC-37,2025-07-04,13:08,37,Senior A Mixte/Mixed,Heat 2,200,3,,San Juan Dragonborn,,4,01:00.0,V_Fri
+2025_PACCC,2025_PACCC-37,2025-07-04,13:08,37,Senior A Mixte/Mixed,Heat 2,200,4,,H2O - Beat Boat SA,,3,00:59.1,V_Fri
+2025_PACCC,2025_PACCC-37,2025-07-04,13:08,37,Senior A Mixte/Mixed,Heat 2,200,5,,Evolution Paddling Club,,5,01:00.1,V_Fri
+2025_PACCC,2025_PACCC-38,2025-07-04,13:14,38,Senior A Mixte/Mixed,Heat,200,2,,H2O - Senior A Mixte,,1,00:51.3,V_Fri
+2025_PACCC,2025_PACCC-38,2025-07-04,13:14,38,Senior A Mixte/Mixed,Heat,200,3,,22Dragons,,2,00:52.3,V_Fri
+2025_PACCC,2025_PACCC-38,2025-07-04,13:14,38,Senior A Mixte/Mixed,Heat,200,4,,Dragonheart Vermont 40 North,,3,00:54.1,V_Fri
+2025_PACCC,2025_PACCC-39,2025-07-04,13:20,39,Senior C & ACS Mixte/Mixed,Heat,200,1,,Bytown C-Surge,,2,00:59.6,V_Fri
+2025_PACCC,2025_PACCC-39,2025-07-04,13:20,39,Senior C & ACS Mixte/Mixed,Heat,200,2,,Dragon Beasts,,3,01:01.0,V_Fri
+2025_PACCC,2025_PACCC-39,2025-07-04,13:20,39,Senior C & ACS Mixte/Mixed,Heat,200,3,,Seattle Sake,,4,01:02.7,V_Fri
+2025_PACCC,2025_PACCC-39,2025-07-04,13:20,39,Senior C & ACS Mixte/Mixed,Heat,200,4,,ODBC Dragon Masters,,1,00:59.2,V_Fri
+2025_PACCC,2025_PACCC-39,2025-07-04,13:20,39,Senior C & ACS Mixte/Mixed,Heat,200,5,,Seattle Sake (ACS),,5,01:10.5,V_Fri
+2025_PACCC,2025_PACCC-39,2025-07-04,13:20,39,Senior C & ACS Mixte/Mixed,Heat,200,6,,Wellness Warriors Boston (ACS),,6,01:13.1,V_Fri
+2025_PACCC,2025_PACCC-40,2025-07-04,13:26,40,Senior C Mixte/Mixed,Heat,200,3,,22Dragons,,1,00:54.7,V_Fri
+2025_PACCC,2025_PACCC-40,2025-07-04,13:26,40,Senior C Mixte/Mixed,Heat,200,4,,H2O - Senior C Mixte,,2,00:55.0,V_Fri
+2025_PACCC,2025_PACCC-4,2025-07-04,13:32,41,24U Mixed Small,Heat,200,6,,H2O - U24 Mixte,,1,00:59.0,V_Fri
+2025_PACCC,2025_PACCC-1,2025-07-04,13:32,41,24U Mixed Small,Heat,200,5,,Bytown Carleton Ravens (24U),,3,01:00.9,V_Fri
+2025_PACCC,2025_PACCC-2,2025-07-04,13:32,41,U16 Mixed Small,Heat,200,2,,H2O - Fujian U16 Mixed,,2,01:00.3,V_Fri
+2025_PACCC,2025_PACCC-5,2025-07-04,13:32,41,U16 Mixed Small,Heat,200,3,,Bytown Flash Dragons (16U),,4,01:06.0,V_Fri
+2025_PACCC,2025_PACCC-42,2025-07-04,13:38,42,Post Secondary Mixte/Mixed,Heat,200,1,,Concordia University Chaos,,5,00:53.9,V_Fri
+2025_PACCC,2025_PACCC-42,2025-07-04,13:38,42,Post Secondary Mixte/Mixed,Heat,200,2,,Uni. de Montreal Submarine,,2,00:52.1,V_Fri
+2025_PACCC,2025_PACCC-42,2025-07-04,13:38,42,Post Secondary Mixte/Mixed,Heat,200,3,,McGill DragonBoat Z Goku,,1,00:51.9,V_Fri
+2025_PACCC,2025_PACCC-42,2025-07-04,13:38,42,Post Secondary Mixte/Mixed,Heat,200,4,,Uni. de Montreal Airbus,,3,00:52.3,V_Fri
+2025_PACCC,2025_PACCC-42,2025-07-04,13:38,42,Post Secondary Mixte/Mixed,Heat,200,5,,Marianopolis DoD Thunder,,4,00:53.0,V_Fri
+2025_PACCC,2025_PACCC-42,2025-07-04,13:38,42,Post Secondary Mixte/Mixed,Heat,200,6,,Marianopolis DoD Lightning,,6,00:55.1,V_Fri
+2025_PACCC,2025_PACCC-43,2025-07-04,13:44,43,Senior A Mixte/Mixed,Repechage 1,200,2,,Evolution Paddling Club,,2,01:00.8,V_Fri
+2025_PACCC,2025_PACCC-43,2025-07-04,13:44,43,Senior A Mixte/Mixed,Repechage 1,200,3,,Seattle Sake,,1,00:59.5,V_Fri
+2025_PACCC,2025_PACCC-43,2025-07-04,13:44,43,Senior A Mixte/Mixed,Repechage 1,200,4,,San Juan Dragonborn,,3,01:01.0,V_Fri
+2025_PACCC,2025_PACCC-44,2025-07-04,13:50,44,Senior A Mixte/Mixed,Repechage 2,200,2,,Bytown Shadow,,3,01:00.5,V_Fri
+2025_PACCC,2025_PACCC-44,2025-07-04,13:50,44,Senior A Mixte/Mixed,Repechage 2,200,3,,H2O - Senior A Mixte,,2,00:59.8,V_Fri
+2025_PACCC,2025_PACCC-44,2025-07-04,13:50,44,Senior A Mixte/Mixed,Repechage 2,200,4,,H2O - Beat Boat SA,,1,00:59.8,V_Fri
+2025_PACCC,2025_PACCC-44,2025-07-04,13:50,44,Senior A Mixte/Mixed,Repechage 2,200,5,,Puerto Aventuras,,4,01:06.5,V_Fri
+2025_PACCC,2025_PACCC-45,2025-07-04,13:56,45,Senior A Mixte/Mixed,Final,200,2,,Dragonheart Vermont 40 North,,3,00:54.5,V_Fri
+2025_PACCC,2025_PACCC-45,2025-07-04,13:56,45,Senior A Mixte/Mixed,Final,200,3,,H2O - Senior A Mixte,,1,00:50.6,V_Fri
+2025_PACCC,2025_PACCC-45,2025-07-04,13:56,45,Senior A Mixte/Mixed,Final,200,4,,22Dragons,,2,00:51.7,V_Fri
+2025_PACCC,2025_PACCC-46,2025-07-04,14:02,46,Senior C & ACS Mixte/Mixed,Final,200,1,,Dragon Beasts,,3,01:00.7,V_Fri
+2025_PACCC,2025_PACCC-46,2025-07-04,14:02,46,Senior C & ACS Mixte/Mixed,Final,200,2,,ODBC Dragon Masters,,1,00:58.6,V_Fri
+2025_PACCC,2025_PACCC-46,2025-07-04,14:02,46,Senior C & ACS Mixte/Mixed,Final,200,3,,Bytown C-Surge,,2,00:59.5,V_Fri
+2025_PACCC,2025_PACCC-46,2025-07-04,14:02,46,Senior C & ACS Mixte/Mixed,Final,200,4,,Seattle Sake,,4,01:02.9,V_Fri
+2025_PACCC,2025_PACCC-46,2025-07-04,14:02,46,Senior C & ACS Mixte/Mixed,Final,200,5,,Wellness Warriors Boston (ACS),,5,01:09.1,V_Fri
+2025_PACCC,2025_PACCC-46,2025-07-04,14:02,46,Senior C & ACS Mixte/Mixed,Final,200,6,,Seattle Sake (ACS),,6,01:09.3,V_Fri
+2025_PACCC,2025_PACCC-47,2025-07-04,14:08,47,Senior C Mixte/Mixed,Final,200,3,,22Dragons,,1,00:54.0,V_Fri
+2025_PACCC,2025_PACCC-47,2025-07-04,14:08,47,Senior C Mixte/Mixed,Final,200,4,,H2O - Senior C Mixte,,2,00:54.2,V_Fri
+2025_PACCC,2025_PACCC-4,2025-07-04,14:14,48,24U Mixed Small,Final,200,2,,H2O - U24 Mixte,,1,00:57.8,V_Fri
+2025_PACCC,2025_PACCC-1,2025-07-04,14:14,48,24U Mixed Small,Final,200,3,,Bytown Carleton Ravens (24U),,2,01:01.5,V_Fri
+2025_PACCC,2025_PACCC-2,2025-07-04,14:14,48,U16 Mixed Small,Final,200,5,,H2O - Fujian U16 Mixed,,1,00:59.7,V_Fri
+2025_PACCC,2025_PACCC-5,2025-07-04,14:14,48,U16 Mixed Small,Final,200,6,,Bytown Flash Dragons (16U),,2,01:10.2,V_Fri
+2025_PACCC,2025_PACCC-49,2025-07-04,14:20,49,Post Secondary Mixte/Mixed,Final,200,1,,Concordia University Chaos,,5,00:52.9,V_Fri
+2025_PACCC,2025_PACCC-49,2025-07-04,14:20,49,Post Secondary Mixte/Mixed,Final,200,2,,Uni. de Montreal Airbus,,3,00:52.1,V_Fri
+2025_PACCC,2025_PACCC-49,2025-07-04,14:20,49,Post Secondary Mixte/Mixed,Final,200,3,,McGill DragonBoat Z Goku,,1,00:51.1,V_Fri
+2025_PACCC,2025_PACCC-49,2025-07-04,14:20,49,Post Secondary Mixte/Mixed,Final,200,4,,Uni. de Montreal Submarine,,2,00:52.0,V_Fri
+2025_PACCC,2025_PACCC-49,2025-07-04,14:20,49,Post Secondary Mixte/Mixed,Final,200,5,,Marianopolis DoD Thunder,,4,00:52.5,V_Fri
+2025_PACCC,2025_PACCC-49,2025-07-04,14:20,49,Post Secondary Mixte/Mixed,Final,200,6,,Marianopolis DoD Lightning,,6,00:55.1,V_Fri
+2025_PACCC,2025_PACCC-50,2025-07-04,14:26,50,Senior A Mixte/Mixed,Grande Final,200,1,,H2O - Beat Boat SA,,6,00:59.7,V_Fri
+2025_PACCC,2025_PACCC-50,2025-07-04,14:26,50,Senior A Mixte/Mixed,Grande Final,200,2,,3R Dragon 3R Senior A,,2,00:57.2,V_Fri
+2025_PACCC,2025_PACCC-50,2025-07-04,14:26,50,Senior A Mixte/Mixed,Grande Final,200,3,,H2O QC - Sr A Mixte,,1,00:56.3,V_Fri
+2025_PACCC,2025_PACCC-50,2025-07-04,14:26,50,Senior A Mixte/Mixed,Grande Final,200,4,,ODBC Barracudas,,3,00:57.4,V_Fri
+2025_PACCC,2025_PACCC-50,2025-07-04,14:26,50,Senior A Mixte/Mixed,Grande Final,200,5,,Seattle Sake,,4,00:58.7,V_Fri
+2025_PACCC,2025_PACCC-50,2025-07-04,14:26,50,Senior A Mixte/Mixed,Grande Final,200,6,,H2O - Senior A Mixte,,5,00:58.8,V_Fri
+2025_PACCC,2025_PACCC-51,2025-07-04,14:51,51,Senior B Femmes/Women,Heat 1,200,2,,Bytown Wyverns,,4,01:07.3,V_Fri
+2025_PACCC,2025_PACCC-51,2025-07-04,14:51,51,Senior B Femmes/Women,Heat 1,200,3,,Seattle Sake,,3,01:06.2,V_Fri
+2025_PACCC,2025_PACCC-51,2025-07-04,14:51,51,Senior B Femmes/Women,Heat 1,200,4,,DBT Ohana,,2,01:05.5,V_Fri
+2025_PACCC,2025_PACCC-51,2025-07-04,14:51,51,Senior B Femmes/Women,Heat 1,200,5,,22Dragons / Argentina,,1,01:05.2,V_Fri
+2025_PACCC,2025_PACCC-52,2025-07-04,14:57,52,Senior B Femmes/Women,Heat 2,200,2,,H2O - Senior B Femmes Orange,,1,00:58.5,V_Fri
+2025_PACCC,2025_PACCC-52,2025-07-04,14:57,52,Senior B Femmes/Women,Heat 2,200,3,,Pickering Dragon Boat Club,,2,01:04.5,V_Fri
+2025_PACCC,2025_PACCC-52,2025-07-04,14:57,52,Senior B Femmes/Women,Heat 2,200,4,,Malia PRC,,4,01:05.9,V_Fri
+2025_PACCC,2025_PACCC-52,2025-07-04,14:57,52,Senior B Femmes/Women,Heat 2,200,5,,H2O - Senior B Femmes Bleu,,3,01:04.8,V_Fri
+2025_PACCC,2025_PACCC-53,2025-07-04,15:03,53,Senior B Femmes/Women,Heat,200,2,,Dragonheart Vermont GMG's,,3,00:58.9,V_Fri
+2025_PACCC,2025_PACCC-53,2025-07-04,15:03,53,Senior B Femmes/Women,Heat,200,3,,Bytown Sportchicks,,1,00:54.6,V_Fri
+2025_PACCC,2025_PACCC-53,2025-07-04,15:03,53,Senior B Femmes/Women,Heat,200,4,,ODBC Dragon Masters,,2,00:56.2,V_Fri
+2025_PACCC,2025_PACCC-53,2025-07-04,15:03,53,Senior B Femmes/Women,Heat,200,5,,Paradise City Dragon Boat,,4,01:00.5,V_Fri
+2025_PACCC,2025_PACCC-54,2025-07-04,15:09,54,Senior B & Senior D Open,Heat,200,2,,Seattle Sake,,2,01:00.0,V_Fri
+2025_PACCC,2025_PACCC-54,2025-07-04,15:09,54,Senior B & Senior D Open,Heat,200,3,,H2O - Senior B Open,,1,00:55.2,V_Fri
+2025_PACCC,2025_PACCC-54,2025-07-04,15:09,54,Senior B & Senior D Open,Heat,200,4,,Dragon Beasts (SR D),,3,01:00.8,V_Fri
+2025_PACCC,2025_PACCC-55,2025-07-04,15:15,55,Premier Femmes/Women,Heat,200,1,,H2O - Premier Beat Boat Femmes,,3,01:03.2,V_Fri
+2025_PACCC,2025_PACCC-55,2025-07-04,15:15,55,Premier Femmes/Women,Heat,200,2,,H2O Quebec - Premier Femmes,,1,00:59.1,V_Fri
+2025_PACCC,2025_PACCC-55,2025-07-04,15:15,55,Premier Femmes/Women,Heat,200,3,,Ottawa Dragon Boat Club,,2,01:01.8,V_Fri
+2025_PACCC,2025_PACCC-55,2025-07-04,15:15,55,Premier Femmes/Women,Heat,200,4,,NJDBC Jersey Thunder Women,,5,01:10.1,V_Fri
+2025_PACCC,2025_PACCC-55,2025-07-04,15:15,55,Premier Femmes/Women,Heat,200,5,,Catch22 NYC Paddle Queens,,4,01:05.0,V_Fri
+2025_PACCC,2025_PACCC-56,2025-07-04,15:21,56,Premier & Senior B Open,Heat,200,2,,22Dragons True Grit 24U,,1,00:49.0,V_Fri
+2025_PACCC,2025_PACCC-56,2025-07-04,15:21,56,Premier & Senior B Open,Heat,200,3,,22Dragons,,2,00:49.1,V_Fri
+2025_PACCC,2025_PACCC-56,2025-07-04,15:21,56,Premier & Senior B Open,Heat,200,4,,H2O - Premier Open,,3,00:49.8,V_Fri
+2025_PACCC,2025_PACCC-56,2025-07-04,15:21,56,Premier & Senior B Open,Heat,200,5,,22Dragons A-lso,,4,00:51.1,V_Fri
+2025_PACCC,2025_PACCC-56,2025-07-04,15:21,56,Premier & Senior B Open,Heat,200,6,,ODBC Dragon Masters (SR. B),,5,00:53.1,V_Fri
+2025_PACCC,2025_PACCC-57,2025-07-04,15:27,57,Premier Open,Heat 1,200,1,,BAHA MAR BUOYS & GULLS,,3,00:57.1,V_Fri
+2025_PACCC,2025_PACCC-57,2025-07-04,15:27,57,Premier Open,Heat 1,200,2,,H2O - Premier Beat Boat Open,,5,00:58.7,V_Fri
+2025_PACCC,2025_PACCC-57,2025-07-04,15:27,57,Premier Open,Heat 1,200,3,,Blue Bloods DBT,,4,00:57.1,V_Fri
+2025_PACCC,2025_PACCC-57,2025-07-04,15:27,57,Premier Open,Heat 1,200,4,,Maelstrom Immortals,,1,00:54.5,V_Fri
+2025_PACCC,2025_PACCC-57,2025-07-04,15:27,57,Premier Open,Heat 1,200,5,,Oceanus Dragon Boat Club,,2,00:56.4,V_Fri
+2025_PACCC,2025_PACCC-58,2025-07-04,15:33,58,Premier Open,Heat 2,200,2,,Puerto Aventuras DBC,,4,01:01.4,V_Fri
+2025_PACCC,2025_PACCC-58,2025-07-04,15:33,58,Premier Open,Heat 2,200,3,,UEAA Dragon Boat - Night Fury,,2,00:54.5,V_Fri
+2025_PACCC,2025_PACCC-58,2025-07-04,15:33,58,Premier Open,Heat 2,200,4,,Catch22 NYC Premier Open,,3,00:55.7,V_Fri
+2025_PACCC,2025_PACCC-58,2025-07-04,15:33,58,Premier Open,Heat 2,200,5,,H2O Quebec - Premier Open,,1,00:54.4,V_Fri
+2025_PACCC,2025_PACCC-59,2025-07-04,15:39,59,Premier & Senior A Femmes/Women,Heat,200,1,,22Dragons True Grit 24U,,3,00:53.2,V_Fri
+2025_PACCC,2025_PACCC-59,2025-07-04,15:39,59,Premier & Senior A Femmes/Women,Heat,200,2,,22Dragons,,1,00:51.8,V_Fri
+2025_PACCC,2025_PACCC-59,2025-07-04,15:39,59,Premier & Senior A Femmes/Women,Heat,200,3,,CBD de la Capitale - Les Lotus,,4,00:53.7,V_Fri
+2025_PACCC,2025_PACCC-59,2025-07-04,15:39,59,Premier & Senior A Femmes/Women,Heat,200,4,,H2O - Premier Femmes,,2,00:53.1,V_Fri
+2025_PACCC,2025_PACCC-59,2025-07-04,15:39,59,Premier & Senior A Femmes/Women,Heat,200,5,,UEAA Dragon Boat - Light Fury,,6,00:56.4,V_Fri
+2025_PACCC,2025_PACCC-59,2025-07-04,15:39,59,Premier & Senior A Femmes/Women,Heat,200,6,,3R Dragon Kerozen (Sr A),,5,00:55.5,V_Fri
+2025_PACCC,2025_PACCC-60,2025-07-04,15:45,60,Senior D Femmes/Women,Heat,200,2,,Seattle Sake,,3,01:12.2,V_Fri
+2025_PACCC,2025_PACCC-60,2025-07-04,15:45,60,Senior D Femmes/Women,Heat,200,3,,Bytown Super D's,,1,01:05.8,V_Fri
+2025_PACCC,2025_PACCC-60,2025-07-04,15:45,60,Senior D Femmes/Women,Heat,200,4,,FLCC Titanium Masters,,2,01:08.3,V_Fri
+2025_PACCC,2025_PACCC-61,2025-07-04,15:51,61,Senior B Femmes/Women,Repechage,200,1,,Bytown Wyverns,,5,01:07.1,V_Fri
+2025_PACCC,2025_PACCC-61,2025-07-04,15:51,61,Senior B Femmes/Women,Repechage,200,2,,Malia PRC,,4,01:06.1,V_Fri
+2025_PACCC,2025_PACCC-61,2025-07-04,15:51,61,Senior B Femmes/Women,Repechage,200,3,,22Dragons / Argentina,,1,01:04.1,V_Fri
+2025_PACCC,2025_PACCC-61,2025-07-04,15:51,61,Senior B Femmes/Women,Repechage,200,4,,DBT Ohana,,2,01:05.0,V_Fri
+2025_PACCC,2025_PACCC-61,2025-07-04,15:51,61,Senior B Femmes/Women,Repechage,200,5,,Seattle Sake,,3,01:05.4,V_Fri
+2025_PACCC,2025_PACCC-62,2025-07-04,15:57,62,Senior B Femmes/Women,Final,200,2,,Dragonheart Vermont GMG's,,3,00:58.6,V_Fri
+2025_PACCC,2025_PACCC-62,2025-07-04,15:57,62,Senior B Femmes/Women,Final,200,3,,Bytown Sportchicks,,1,00:54.7,V_Fri
+2025_PACCC,2025_PACCC-62,2025-07-04,15:57,62,Senior B Femmes/Women,Final,200,4,,ODBC Dragon Masters,,2,00:55.8,V_Fri
+2025_PACCC,2025_PACCC-62,2025-07-04,15:57,62,Senior B Femmes/Women,Final,200,5,,Paradise City Dragon Boat,,4,01:00.0,V_Fri
+2025_PACCC,2025_PACCC-63,2025-07-04,16:03,63,Senior B & D Open,Final,200,2,,Dragon Beasts (SR D),,3,01:00.1,V_Fri
+2025_PACCC,2025_PACCC-63,2025-07-04,16:03,63,Senior B & D Open,Final,200,4,,H2O - Senior B Open,,1,00:55.6,V_Fri
+2025_PACCC,2025_PACCC-63,2025-07-04,16:03,63,Senior B & D Open,Final,200,5,,Seattle Sake,,2,01:00.0,V_Fri
+2025_PACCC,2025_PACCC-64,2025-07-04,16:09,64,Premier Open,Repechage,200,1,,H2O - Premier Beat Boat Open,,5,00:58.0,V_Fri
+2025_PACCC,2025_PACCC-64,2025-07-04,16:09,64,Premier Open,Repechage,200,2,,BAHA MAR BUOYS & GULLS,,3,00:56.2,V_Fri
+2025_PACCC,2025_PACCC-64,2025-07-04,16:09,64,Premier Open,Repechage,200,3,,Catch22 NYC Premier Open,,1,00:54.9,V_Fri
+2025_PACCC,2025_PACCC-64,2025-07-04,16:09,64,Premier Open,Repechage,200,4,,Oceanus Dragon Boat Club,,2,00:55.6,V_Fri
+2025_PACCC,2025_PACCC-64,2025-07-04,16:09,64,Premier Open,Repechage,200,5,,Blue Bloods DBT,,4,00:56.9,V_Fri
+2025_PACCC,2025_PACCC-64,2025-07-04,16:09,64,Premier Open,Repechage,200,6,,Puerto Aventuras DBC,,6,00:58.8,V_Fri
+2025_PACCC,2025_PACCC-65,2025-07-04,16:15,65,Premier & Senior B Open,Final,200,1,,ODBC Dragon Masters (SR. B),,1,00:51.8,V_Fri
+2025_PACCC,2025_PACCC-65,2025-07-04,16:15,65,Premier & Senior B Open,Final,200,3,,H2O - Premier Open,,3,00:49.1,V_Fri
+2025_PACCC,2025_PACCC-65,2025-07-04,16:15,65,Premier & Senior B Open,Final,200,4,,22Dragons True Grit 24U,,2,00:48.6,V_Fri
+2025_PACCC,2025_PACCC-65,2025-07-04,16:15,65,Premier & Senior B Open,Final,200,5,,22Dragons,,1,00:47.5,V_Fri
+2025_PACCC,2025_PACCC-65,2025-07-04,16:15,65,Premier & Senior B Open,Final,200,6,,22Dragons A-lso,,4,00:49.3,V_Fri
+2025_PACCC,2025_PACCC-66,2025-07-04,16:21,66,Premier Femmes/Women,Final,200,1,,NJDBC Jersey Thunder Women,,5,01:07.2,V_Fri
+2025_PACCC,2025_PACCC-66,2025-07-04,16:21,66,Premier Femmes/Women,Final,200,2,,H2O - Premier Beat Boat Femmes,,3,01:01.9,V_Fri
+2025_PACCC,2025_PACCC-66,2025-07-04,16:21,66,Premier Femmes/Women,Final,200,3,,H2O Quebec - Premier Femmes,,1,00:57.6,V_Fri
+2025_PACCC,2025_PACCC-66,2025-07-04,16:21,66,Premier Femmes/Women,Final,200,4,,Ottawa Dragon Boat Club,,2,01:00.6,V_Fri
+2025_PACCC,2025_PACCC-66,2025-07-04,16:21,66,Premier Femmes/Women,Final,200,5,,Catch22 NYC Paddle Queens,,4,01:02.4,V_Fri
+2025_PACCC,2025_PACCC-67,2025-07-04,16:27,67,Senior D Femmes/Women,Final,200,2,,Seattle Sake,,3,01:07.6,V_Fri
+2025_PACCC,2025_PACCC-67,2025-07-04,16:27,67,Senior D Femmes/Women,Final,200,3,,Bytown Super D's,,1,01:05.2,V_Fri
+2025_PACCC,2025_PACCC-67,2025-07-04,16:27,67,Senior D Femmes/Women,Final,200,4,,FLCC Titanium Masters,,2,01:07.1,V_Fri
+2025_PACCC,2025_PACCC-68,2025-07-04,16:33,68,Senior B Femmes/Women,Grande Final,200,1,,DBT Ohana,,3,01:05.3,V_Fri
+2025_PACCC,2025_PACCC-68,2025-07-04,16:33,68,Senior B Femmes/Women,Grande Final,200,2,,H2O - Senior B Femmes Bleu,,4,01:05.4,V_Fri
+2025_PACCC,2025_PACCC-68,2025-07-04,16:33,68,Senior B Femmes/Women,Grande Final,200,3,,H2O - Senior B Femmes Orange,,1,01:00.7,V_Fri
+2025_PACCC,2025_PACCC-68,2025-07-04,16:33,68,Senior B Femmes/Women,Grande Final,200,4,,Pickering Dragon Boat Club,,5,01:05.5,V_Fri
+2025_PACCC,2025_PACCC-68,2025-07-04,16:33,68,Senior B Femmes/Women,Grande Final,200,5,,22Dragons / Argentina,,2,01:05.2,V_Fri
+2025_PACCC,2025_PACCC-68,2025-07-04,16:33,68,Senior B Femmes/Women,Grande Final,200,6,,Seattle Sake,,6,01:06.6,V_Fri
+2025_PACCC,2025_PACCC-69,2025-07-04,16:39,69,Premier & Senior A Femmes/Women,Final,200,1,,3R Dragon Kerozen (Sr A),,6,00:55.3,V_Fri
+2025_PACCC,2025_PACCC-69,2025-07-04,16:39,69,Premier & Senior A Femmes/Women,Final,200,2,,UEAA Dragon Boat - Light Fury,,4,00:54.4,V_Fri
+2025_PACCC,2025_PACCC-69,2025-07-04,16:39,69,Premier & Senior A Femmes/Women,Final,200,3,,22Dragons True Grit 24U,,3,00:52.9,V_Fri
+2025_PACCC,2025_PACCC-69,2025-07-04,16:39,69,Premier & Senior A Femmes/Women,Final,200,4,,22Dragons,,1,00:51.3,V_Fri
+2025_PACCC,2025_PACCC-69,2025-07-04,16:39,69,Premier & Senior A Femmes/Women,Final,200,5,,H2O - Premier Femmes,,2,00:52.8,V_Fri
+2025_PACCC,2025_PACCC-69,2025-07-04,16:39,69,Premier & Senior A Femmes/Women,Final,200,6,,CBD de la Capitale - Les Lotus,,5,00:54.5,V_Fri
+2025_PACCC,2025_PACCC-70,2025-07-04,16:45,70,Premier Open,Grande Final,200,1,,Oceanus Dragon Boat Club,,6,00:56.2,V_Fri
+2025_PACCC,2025_PACCC-70,2025-07-04,16:45,70,Premier Open,Grande Final,200,2,,UEAA Dragon Boat - Night Fury,,3,00:54.4,V_Fri
+2025_PACCC,2025_PACCC-70,2025-07-04,16:45,70,Premier Open,Grande Final,200,3,,H2O Quebec - Premier Open,,1,00:53.4,V_Fri
+2025_PACCC,2025_PACCC-70,2025-07-04,16:45,70,Premier Open,Grande Final,200,4,,Maelstrom Immortals,,2,00:53.9,V_Fri
+2025_PACCC,2025_PACCC-70,2025-07-04,16:45,70,Premier Open,Grande Final,200,5,,Catch22 NYC Premier Open,,4,00:54.7,V_Fri
+2025_PACCC,2025_PACCC-70,2025-07-04,16:45,70,Premier Open,Grande Final,200,6,,BAHA MAR BUOYS & GULLS,,5,00:56.1,V_Fri

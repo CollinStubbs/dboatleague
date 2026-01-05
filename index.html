@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>North American Dragon Boat League</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">North American Dragon Boat League</p>
+          <h1>Race the Current. Track the Season.</h1>
+          <p class="lead">
+            League standings, key stats, and race performance at a glance. Sort the
+            leaderboard to explore the data.
+          </p>
+          <div class="meta">
+            <span>Season: 2025</span>
+            <span id="data-status" class="muted">Data source: loading regatta CSVs...</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-label">Featured Snapshot</div>
+          <div class="card-title">Regattas Loaded</div>
+          <div id="snapshot-value" class="card-value">--</div>
+          <div id="snapshot-note" class="card-note">Waiting on data</div>
+        </div>
+      </header>
+
+      <section class="board">
+        <div class="board-header">
+          <div>
+            <h2>League Leaderboard</h2>
+            <p class="subtle">Click a column to sort. Click again to reverse.</p>
+          </div>
+        
+          <div class="controls">
+            <label for="regatta-filter">Regatta</label>
+            <select id="regatta-filter">
+              <option value="ALL">All regattas</option>
+            </select>
+            <a id="regatta-link" class="regatta-link" href="#" aria-disabled="true">
+              View regatta summary
+            </a>
+            <label for="division-filter">Division</label>
+            <select id="division-filter">
+              <option value="ALL">All divisions</option>
+            </select>
+            <div class="slider-group">
+              <label for="min-races">Min races</label>
+              <div class="slider-wrap">
+                <input id="min-races" type="range" min="0" max="25" step="1" value="0" />
+                <span id="min-races-value">0+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table id="leaderboard" aria-describedby="leaderboard-desc">
+            <caption id="leaderboard-desc">
+              Standings compiled from regatta CSV race results.
+            </caption>
+            <thead>
+              <tr>
+                <th data-key="rank" aria-sort="ascending">Rank</th>
+                <th data-key="team">Team</th>
+                <th data-key="division">Division</th>
+                <th data-key="avg500">Avg 500m</th>
+                <th data-key="avg200">Avg 200m</th>
+                <th data-key="avg2000">Avg 2000m</th>
+                <th data-key="sandbag">
+                  <span class="tooltip">
+                    Sandbag
+                    <span class="tooltip-text">
+                      The sandbag factor is the difference in seconds between the average qualifying time and the average final time of a teams 500m races. A positive number means the average final time is faster than the average qualifying time.
+                    </span>
+                  </span>
+                </th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

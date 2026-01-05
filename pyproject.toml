@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dragonboat-db"
+version = "0.1.0"
+description = "Dragon boat regatta results database and PDF importers"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "alembic>=1.13",
+  "pdfplumber>=0.11",
+  "sqlalchemy>=2.0",
+  "typer>=0.12",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+dragonboat-db = "dragonboat_db.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
