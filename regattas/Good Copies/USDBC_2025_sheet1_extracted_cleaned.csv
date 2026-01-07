@@ -1,0 +1,557 @@
+regatta_id,race_id,date,start_time,race_no,event,round,distance_m,lane,seed,team_name,team_id,place,time,page
+USDBC_2025,USDBC_2025-1,2025-10-17,07:30,1,senior B mixed,Round 1,500,1,,Windy City Dragons,,1,2:18.509,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-1,2025-10-17,07:30,1,senior B mixed,Round 1,500,3,,Southbreeze,,2,2:18.919,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-1,2025-10-17,07:30,1,senior B mixed,Round 1,500,2,,NBP Paddling,,3,2:20.035,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-1,2025-10-17,07:30,1,senior B mixed,Round 1,500,6,,Lone Star Dragons,,4,2:24.129,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-1,2025-10-17,07:30,1,senior B mixed,Round 1,500,4,,HEAT Dragon Boat Club,,5,2:27.783,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-1,2025-10-17,07:30,1,senior B mixed,Round 1,500,5,,Seattle SAKE Senior B,,6,2:30.615,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-2,2025-10-17,07:39,2,PD-2 open,Round 1,500,2,,Adaptive Fusion,,1,2:17.932,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-2,2025-10-17,07:39,2,ACP open,Round 1,500,4,,Rose City Rockets,,1,2:36.952,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-3,2025-10-17,07:48,3,premier open,Round 1,500,4,,Catch22 Open,,1,2:12.752,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-3,2025-10-17,07:48,3,premier open,Round 1,500,1,,UEAA Dragon Boat NYC,,2,2:13.218,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-3,2025-10-17,07:48,3,premier open,Round 1,500,3,,Pennsylvania DBC,,3,2:16.866,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-3,2025-10-17,07:48,3,premier open,Round 1,500,2,,Boston Titans Boat Club,,4,2:19.176,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-3,2025-10-17,07:48,3,premier open,Round 1,500,5,,Red Dragons Miami,,5,2:26.746,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-4,2025-10-17,08:06,4,senior C mixed,Round 1,500,2,,SACA Golden Dragons,,1,2:27.651,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-4,2025-10-17,08:06,4,senior C mixed,Round 1,500,4,,NBP Paddling,,2,2:29.299,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-4,2025-10-17,08:06,4,senior C mixed,Round 1,500,3,,Blazing Paddles,,3,2:41.953,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-4,2025-10-17,08:06,4,senior C mixed,Round 1,500,5,,Leatherneck Warriors C,,4,2:42.949,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-4,2025-10-17,08:06,4,senior C mixed,Round 1,500,1,,Jax Fire Dragons,,5,2:43.617,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-5,2025-10-17,08:15,5,senior C mixed,Round 1,500,3,,Philadelphia Dragon Boat Assoc,,1,2:10.696,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-5,2025-10-17,08:15,5,senior C mixed,Round 1,500,4,,HEAT Dragon Boat Club,,2,2:23.478,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-5,2025-10-17,08:15,5,senior C mixed,Round 1,500,2,,Seattle SAKE Senior C,,3,2:28.784,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-6,2025-10-17,08:24,6,premier women,Heat 1,500,3,,UEAA Dragon Boat NYC,,1,2:30.709,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-6,2025-10-17,08:24,6,premier women,Heat 1,500,4,,Arizona Sunsoon,,2,2:30.803,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-6,2025-10-17,08:24,6,premier women,Heat 1,500,2,,DCDBC - Cherry Bombs,,3,2:32.949,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-6,2025-10-17,08:24,6,premier women,Heat 1,500,5,,Philadelphia Flying Phoenix,,4,2:39.425,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-7,2025-10-17,08:33,7,premier women,Round 1,500,1,,Southbreeze,,,2:09.584,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-7,2025-10-17,08:33,7,premier women,Round 1,500,2,,Boston BBB DBC,,2,2:11.204,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-7,2025-10-17,08:33,7,premier women,Round 1,500,3,,Lone Star Dragons,,3,2:16.700,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-7,2025-10-17,08:33,7,senior B women,Round 1,500,5,,Bucks Dragon Boat Fusion,,1,2:14.966,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-8,2025-10-17,08:42,8,senior A open,Round 1,500,5,,UNYTED,,1,2:14.968,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-8,2025-10-17,08:42,8,senior A open,Round 1,500,4,,NBP Paddling,,2,2:15.580,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-8,2025-10-17,08:42,8,senior A open,Round 1,500,2,,Southbreeze,,3,2:16.818,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-8,2025-10-17,08:42,8,senior A open,Round 1,500,3,,Windy City Dragons,,4,2:19.758,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-9,2025-10-17,08:51,9,senior A open,Round 1,500,2,,Bucks Dragon Boat Fusion,,1,2:04.602,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-9,2025-10-17,08:51,9,senior A open,Round 1,500,1,,DCDBC - District Daddies,,2,2:05.450,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-9,2025-10-17,08:51,9,senior A open,Round 1,500,3,,San Francisco Dragon Warriors,,3,2:14.430,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-9,2025-10-17,08:51,9,senior C open,Round 1,500,5,,Philadelphia Dragon Boat Assoc,,1,2:10.008,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-10,2025-10-17,09:00,10,senior B women,Round 1,500,2,,Philadelphia Dragon Boat Assoc,,1,2:26.158,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-10,2025-10-17,09:00,10,senior B women,Round 1,500,4,,NBP Paddling,,2,2:32.838,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-10,2025-10-17,09:00,10,senior B women,Round 1,500,1,,SACA Golden Dragons,,3,2:33.128,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-10,2025-10-17,09:00,10,senior B women,Round 1,500,3,,Cooper River Dragon Boat Club,,4,2:43.390,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-10,2025-10-17,09:00,10,senior B women,Round 1,500,5,,Red Dragons Miami,,5,2:49.908,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-11,2025-10-17,09:09,11,premier women,Heat 2,500,4,,Catch22 Paddle Queens,,1,2:32.903,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-11,2025-10-17,09:09,11,premier women,Heat 2,500,2,,Windwomen,,2,2:33.707,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-11,2025-10-17,09:09,11,premier women,Heat 2,500,3,,Pennsylvania DBC,,3,2:33.967,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-11,2025-10-17,09:09,11,premier women,Heat 2,500,5,,Ohana New England - ONE Women,,4,2:37.213,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-12,2025-10-17,09:27,12,premier open,Heat 1,500,3,,Southbreeze,,1,1:59.590,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-12,2025-10-17,09:27,12,premier open,Heat 1,500,2,,Lone Star Dragons,,2,2:03.954,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-12,2025-10-17,09:27,12,premier open,Heat 1,500,4,,Phoenix Heat Canoe Club,,3,3:28.054,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-13,2025-10-17,09:36,13,senior A women,Round 1,500,4,,Southbreeze,,1,2:31.398,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-13,2025-10-17,09:36,13,senior A women,Round 1,500,1,,Philadelphia Dragon Boat Assoc,,2,2:32.602,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-13,2025-10-17,09:36,13,senior A women,Round 1,500,5,,Windy City Dragons,,3,2:34.064,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-13,2025-10-17,09:36,13,senior A women,Round 1,500,6,,JDBC Flash,,4,2:37.584,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-13,2025-10-17,09:36,13,senior A women,Round 1,500,2,,DCDBC - First Ladies,,5,2:49.776,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-13,2025-10-17,09:36,13,senior A women,Round 1,500,3,,NJ Dragon Boat Club,,6,3:01.614,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-14,2025-10-17,09:45,14,premier open,Heat 2,500,3,,Boston BBB DBC,,1,1:57.823,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-14,2025-10-17,09:45,14,premier open,Heat 2,500,4,,Northwind,,2,1:59.677,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-14,2025-10-17,09:45,14,premier open,Heat 2,500,2,,Ohana New England - ONE Open,,3,2:04.549,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-14,2025-10-17,09:45,14,premier open,Heat 2,500,5,,San Francisco Dragon Warriors,,4,2:07.343,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-15,2025-10-17,09:54,15,PD-1 open,Round 1,500,2,,Adaptive Fusion,,1,2:37.612,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-15,2025-10-17,09:54,15,PD-1 open,Round 1,500,1,,Out of Sight Dragons,,2,3:13.496,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-15,2025-10-17,09:54,15,senior D women,Round 1,500,4,,Seattle SAKE Senior D,,1,3:06.002,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-15,2025-10-17,09:54,15,senior D women,Round 1,500,5,,Cooper River Dragon Boat Club,,2,3:11.806,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-15,2025-10-17,09:54,15,senior D women,Round 1,500,6,,Phila Flying Phoenix Platinum,,3,3:24.752,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-16,2025-10-17,10:03,16,senior B mixed,Round 1,500,4,,Philadelphia Dragon Boat Assoc,,1,2:05.128,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-16,2025-10-17,10:03,16,senior B mixed,Round 1,500,2,,Bucks Dragon Boat Fusion,,2,2:05.138,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-16,2025-10-17,10:03,16,senior B mixed,Round 1,500,5,,SACA Golden Dragons,,3,2:15.409,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-16,2025-10-17,10:03,16,senior B mixed,Round 1,500,3,,DCDBC - Capitol Thunder,,4,2:18.721,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-17,2025-10-17,10:30,17,PD-2 open,Round 1,500,1,,The Collective,,1,2:47.599,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-17,2025-10-17,10:30,17,PD-2 open,Round 1,500,2,,Out of Sight Dragons,,2,3:00.344,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-17,2025-10-17,10:30,17,senior D open,Round 1,500,4,,HEAT Dragon Boat Club,,1,2:50.070,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-17,2025-10-17,10:30,17,24u mixed,Round 1,500,6,,Southbreeze,,1,2:28.560,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-18,2025-10-17,10:39,18,senior A mixed,Round 1,500,5,,Southbreeze,,1,2:10.136,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-18,2025-10-17,10:39,18,senior A mixed,Round 1,500,2,,Lone Star Dragons,,2,2:11.714,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-18,2025-10-17,10:39,18,senior A mixed,Round 1,500,3,,JDBC Flash,,3,2:13.660,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-18,2025-10-17,10:39,18,senior A mixed,Round 1,500,4,,San Francisco Dragon Warriors,,4,2:18.062,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-19,2025-10-17,10:48,19,senior C women,Round 1,500,2,,Philadelphia Dragon Boat Assoc,,1,2:33.539,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-19,2025-10-17,10:48,19,senior C women,Round 1,500,1,,Heart and Soul,,2,2:36.949,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-19,2025-10-17,10:48,19,senior C women,Round 1,500,3,,WAM,,3,2:45.531,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-19,2025-10-17,10:48,19,BCP mixed,Round 1,500,5,,Survivors In Sync,,1,2:51.025,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-20,2025-10-17,10:57,20,senior A mixed,Round 1,500,6,,Bucks Dragon Boat Fusion,,1,2:20.130,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-20,2025-10-17,10:57,20,senior A mixed,Round 1,500,2,,SACA Golden Dragons,,2,2:24.658,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-20,2025-10-17,10:57,20,senior A mixed,Round 1,500,3,,Windy City Dragons,,3,2:26.330,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-20,2025-10-17,10:57,20,senior A mixed,Round 1,500,5,,Mekong Dragons,,4,2:26.891,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-20,2025-10-17,10:57,20,senior A mixed,Round 1,500,1,,DCDBC - Capitol Thunder,,5,2:29.873,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-20,2025-10-17,10:57,20,senior A mixed,Round 1,500,4,,Blazing Paddles,,6,2:37.248,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-21,2025-10-17,11:06,21,senior C women,Round 1,500,4,,HEAT Dragon Boat Club,,1,2:33.394,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-21,2025-10-17,11:06,21,senior C women,Round 1,500,3,,Phila Flying Phoenix GW,,2,2:48.810,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-22,2025-10-17,11:15,22,senior D mixed,Round 1,500,2,,Leatherneck Warriors D,,1,2:54.632,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-22,2025-10-17,11:15,22,senior D mixed,Round 1,500,1,,NBP Paddling,,2,2:55.391,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-22,2025-10-17,11:15,22,ACP open,Round 1,500,4,,Central Coast SurviveOars,,1,2:57.085,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-22,2025-10-17,11:15,22,ACP open,Round 1,500,5,,Survivor SAKE,,2,3:03.735,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-23,2025-10-17,11:24,23,senior B open,Round 1,500,1,,Windy City Dragons,,1,2:18.066,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-23,2025-10-17,11:24,23,senior B open,Round 1,500,3,,Philadelphia Dragon Boat Assoc,,2,2:18.514,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-23,2025-10-17,11:24,23,senior B open,Round 1,500,2,,SACA Golden Dragons,,3,2:26.843,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-23,2025-10-17,11:24,23,senior B open,Round 1,500,4,,WAM,,4,2:41.031,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-23,2025-10-17,11:24,23,18u open,Round 1,500,6,,Ohana New England - Next ONE,,1,2:36.633,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-24,2025-10-17,11:33,24,premier mixed,Heat 1,500,3,,Southbreeze,,1,2:01.126,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-24,2025-10-17,11:33,24,premier mixed,Heat 1,500,4,,Northwind,,2,2:04.626,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-24,2025-10-17,11:33,24,premier mixed,Heat 1,500,2,,Phoenix Heat Canoe Club,,3,2:06.787,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-24,2025-10-17,11:33,24,premier mixed,Heat 1,500,1,,Arizona Sunsoon,,4,2:07.610,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-24,2025-10-17,11:33,24,premier mixed,Heat 1,500,5,,Catch22 Mixed,,5,2:08.445,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-25,2025-10-17,11:42,25,premier mixed,Heat 2,500,3,,Boston BBB DBC,,1,2:02.963,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-25,2025-10-17,11:42,25,premier mixed,Heat 2,500,4,,Rising Tide,,2,2:03.968,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-25,2025-10-17,11:42,25,premier mixed,Heat 2,500,2,,Wolfpack Racing Club,,3,2:05.416,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-25,2025-10-17,11:42,25,premier mixed,Heat 2,500,5,,Lone Star Dragons,,4,2:11.933,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-25,2025-10-17,11:42,25,premier mixed,Heat 2,500,1,,San Francisco Dragon Warriors,,5,2:15.293,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-26,2025-10-17,11:51,26,premier mixed,Round 1,500,4,,Philadelphia Dragon Boat Assoc,,1,2:19.373,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-26,2025-10-17,11:51,26,premier mixed,Round 1,500,3,,UEAA Dragon Boat NYC,,2,2:21.150,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-26,2025-10-17,11:51,26,premier mixed,Round 1,500,5,,Pennsylvania DBC,,3,2:26.742,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-26,2025-10-17,11:51,26,premier mixed,Round 1,500,1,,DCDBC - Wharf Rats,,4,2:27.299,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-26,2025-10-17,11:51,26,premier mixed,Round 1,500,2,,Jax Fire Dragons,,5,2:42.810,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-27,2025-10-17,12:09,27,senior C mixed,Round 2 ( L ),500,4,,Philadelphia Dragon Boat Assoc,,1,2:21.979,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-27,2025-10-17,12:09,27,senior C mixed,Round 2 ( L ),500,2,,HEAT Dragon Boat Club,,2,2:29.090,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-27,2025-10-17,12:09,27,senior C mixed,Round 2 ( L ),500,3,,Seattle SAKE Senior C,,3,2:31.864,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-28,2025-10-17,12:18,28,ACP open,Round 2 ( L ),500,2,,Rose City Rockets,,1,2:40.036,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-28,2025-10-17,12:18,28,PD-2 open,Round 2 ( L ),500,4,,Adaptive Fusion,,1,2:20.922,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-29,2025-10-17,12:27,29,senior A mixed,Round 2 ( L ),500,1,,Bucks Dragon Boat Fusion,,1,2:22.629,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-29,2025-10-17,12:27,29,senior A mixed,Round 2 ( L ),500,2,,Mekong Dragons,,2,2:27.356,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-29,2025-10-17,12:27,29,senior A mixed,Round 2 ( L ),500,4,,Windy City Dragons,,3,2:27.364,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-29,2025-10-17,12:27,29,senior A mixed,Round 2 ( L ),500,5,,SACA Golden Dragons,,4,2:27.841,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-29,2025-10-17,12:27,29,senior A mixed,Round 2 ( L ),500,6,,DCDBC - Capitol Thunder,,5,2:31.164,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-29,2025-10-17,12:27,29,senior A mixed,Round 2 ( L ),500,3,,Blazing Paddles,,6,2:38.360,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-30,2025-10-17,12:36,30,premier mixed,Rep 1,500,2,,Catch22 Mixed,,1,2:05.852,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-30,2025-10-17,12:36,30,premier mixed,Rep 1,500,3,,Northwind,,2,2:09.254,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-30,2025-10-17,12:36,30,premier mixed,Rep 1,500,4,,Arizona Sunsoon,,3,2:11.266,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-31,2025-10-17,12:45,31,premier mixed,Rep 2,500,3,,Wolfpack Racing Club,,1,2:05.774,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-31,2025-10-17,12:45,31,premier mixed,Rep 2,500,4,,Phoenix Heat Canoe Club,,2,2:06.664,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-31,2025-10-17,12:45,31,premier mixed,Rep 2,500,2,,Lone Star Dragons,,3,2:10.218,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-31,2025-10-17,12:45,31,premier mixed,Rep 2,500,5,,San Francisco Dragon Warriors,,4,2:20.094,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-32,2025-10-17,13:03,32,ACP open,Round 2 ( L ),500,2,,Central Coast SurviveOars,,1,2:57.406,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-32,2025-10-17,13:03,32,ACP open,Round 2 ( L ),500,1,,Survivor SAKE,,2,3:13.122,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-32,2025-10-17,13:03,32,senior D mixed,Round 2 ( L ),500,4,,Leatherneck Warriors D,,1,2:53.725,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-32,2025-10-17,13:03,32,senior D mixed,Round 2 ( L ),500,5,,NBP Paddling,,2,3:02.060,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-33,2025-10-17,13:12,33,senior C open,Round 2 ( L ),500,1,,Philadelphia Dragon Boat Assoc,,1,2:21.403,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-33,2025-10-17,13:12,33,senior A open,Round 2 ( L ),500,5,,Bucks Dragon Boat Fusion,,1,2:07.223,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-33,2025-10-17,13:12,33,senior A open,Round 2 ( L ),500,4,,DCDBC - District Daddies,,2,2:07.679,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-33,2025-10-17,13:12,33,senior A open,Round 2 ( L ),500,3,,San Francisco Dragon Warriors,,3,2:17.763,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-34,2025-10-17,13:21,34,senior B women,Round 2 ( L ),500,1,,Bucks Dragon Boat Fusion,,1,2:21.351,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-34,2025-10-17,13:21,34,premier women,Round 2 ( L ),500,4,,Southbreeze,,1,2:11.681,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-34,2025-10-17,13:21,34,premier women,Round 2 ( L ),500,5,,Boston BBB DBC,,2,2:12.661,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-34,2025-10-17,13:21,34,premier women,Round 2 ( L ),500,3,,Lone Star Dragons,,3,2:18.961,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-35,2025-10-17,13:30,35,senior A open,Round 2 ( L ),500,2,,UNYTED,,1,2:16.620,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-35,2025-10-17,13:30,35,senior A open,Round 2 ( L ),500,3,,NBP Paddling,,2,2:17.164,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-35,2025-10-17,13:30,35,senior A open,Round 2 ( L ),500,4,,Windy City Dragons,,3,2:20.894,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-35,2025-10-17,13:30,35,senior A open,Round 2 ( L ),500,5,,Southbreeze,,4,2:23.536,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-36,2025-10-17,13:39,36,premier women,Rep,500,3,,DCDBC - Cherry Bombs,,1,2:38.683,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-36,2025-10-17,13:39,36,premier women,Rep,500,4,,Windwomen,,2,2:38.943,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-36,2025-10-17,13:39,36,premier women,Rep,500,2,,Pennsylvania DBC,,3,2:39.457,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-36,2025-10-17,13:39,36,premier women,Rep,500,1,,Philadelphia Flying Phoenix,,4,2:40.867,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-36,2025-10-17,13:39,36,premier women,Rep,500,5,,Ohana New England - ONE Women,,5,2:40.873,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-37,2025-10-17,13:57,37,premier open,Round 2 ( L ),500,2,,Catch22 Open,,1,2:12.826,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-37,2025-10-17,13:57,37,premier open,Round 2 ( L ),500,5,,UEAA Dragon Boat NYC,,2,2:16.240,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-37,2025-10-17,13:57,37,premier open,Round 2 ( L ),500,4,,Pennsylvania DBC,,3,2:19.166,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-37,2025-10-17,13:57,37,premier open,Round 2 ( L ),500,3,,Boston Titans Boat Club,,4,2:20.528,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-37,2025-10-17,13:57,37,premier open,Round 2 ( L ),500,1,,Red Dragons Miami,,5,2:27.480,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-38,2025-10-17,14:06,38,senior B mixed,Round 2 ( L ),500,3,,Philadelphia Dragon Boat Assoc,,1,2:09.849,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-38,2025-10-17,14:06,38,senior B mixed,Round 2 ( L ),500,5,,Bucks Dragon Boat Fusion,,2,2:11.919,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-38,2025-10-17,14:06,38,senior B mixed,Round 2 ( L ),500,2,,SACA Golden Dragons,,3,2:22.099,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-38,2025-10-17,14:06,38,senior B mixed,Round 2 ( L ),500,4,,DCDBC - Capitol Thunder,,4,2:28.463,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-39,2025-10-17,14:15,39,senior B mixed,Round 2 ( L ),500,6,,Windy City Dragons,,1,2:21.819,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-39,2025-10-17,14:15,39,senior B mixed,Round 2 ( L ),500,5,,NBP Paddling,,2,2:25.609,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-39,2025-10-17,14:15,39,senior B mixed,Round 2 ( L ),500,4,,Southbreeze,,3,2:25.685,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-39,2025-10-17,14:15,39,senior B mixed,Round 2 ( L ),500,1,,Lone Star Dragons,,4,2:29.827,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-39,2025-10-17,14:15,39,senior B mixed,Round 2 ( L ),500,2,,Seattle SAKE Senior B,,5,2:36.049,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-39,2025-10-17,14:15,39,senior B mixed,Round 2 ( L ),500,3,,HEAT Dragon Boat Club,,6,2:38.793,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-40,2025-10-17,14:24,40,24u mixed,Round 2 ( L ),500,1,,Southbreeze,,1,2:31.946,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-40,2025-10-17,14:24,40,senior D open,Round 2 ( L ),500,3,,HEAT Dragon Boat Club,,1,2:52.780,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-40,2025-10-17,14:24,40,PD-2 open,Round 2 ( L ),500,6,,The Collective,,1,2:53.680,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-40,2025-10-17,14:24,40,PD-2 open,Round 2 ( L ),500,5,,Out of Sight Dragons,,2,3:11.384,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-41,2025-10-17,14:33,41,premier open,Rep,500,4,,Ohana New England - ONE Open,,1,2:05.329,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-41,2025-10-17,14:33,41,premier open,Rep,500,5,,Phoenix Heat Canoe Club,,2,2:05.523,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-41,2025-10-17,14:33,41,premier open,Rep,500,3,,Lone Star Dragons,,3,2:05.787,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-41,2025-10-17,14:33,41,premier open,Rep,500,2,,San Francisco Dragon Warriors,,4,2:07.499,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-42,2025-10-17,14:42,42,premier women,Grand Final,500,3,,UEAA Dragon Boat NYC,,1,2:36.317,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-42,2025-10-17,14:42,42,premier women,Grand Final,500,4,,Arizona Sunsoon,,2,2:36.509,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-42,2025-10-17,14:42,42,premier women,Grand Final,500,2,,Catch22 Paddle Queens,,3,2:36.969,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-42,2025-10-17,14:42,42,premier women,Grand Final,500,5,,DCDBC - Cherry Bombs,,4,2:41.331,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-42,2025-10-17,14:42,42,premier women,Grand Final,500,6,,Pennsylvania DBC,,5,2:44.425,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-42,2025-10-17,14:42,42,premier women,Grand Final,500,1,,Windwomen,,6,2:46.199,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-43,2025-10-17,14:51,43,senior B women,Round 2 ( L ),500,3,,Philadelphia Dragon Boat Assoc,,1,2:34.443,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-43,2025-10-17,14:51,43,senior B women,Round 2 ( L ),500,2,,NBP Paddling,,2,2:39.149,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-43,2025-10-17,14:51,43,senior B women,Round 2 ( L ),500,5,,SACA Golden Dragons,,3,2:41.593,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-43,2025-10-17,14:51,43,senior B women,Round 2 ( L ),500,4,,Cooper River Dragon Boat Club,,4,2:56.183,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-43,2025-10-17,14:51,43,senior B women,Round 2 ( L ),500,1,,Red Dragons Miami,,5,3:03.461,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-44,2025-10-17,15:00,44,senior C women,Round 2 ( L ),500,3,,HEAT Dragon Boat Club,,1,2:31.682,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-44,2025-10-17,15:00,44,senior C women,Round 2 ( L ),500,4,,Phila Flying Phoenix GW,,2,2:46.050,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-45,2025-10-17,15:09,45,senior A mixed,Round 2 ( L ),500,2,,Southbreeze,,1,2:08.692,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-45,2025-10-17,15:09,45,senior A mixed,Round 2 ( L ),500,4,,JDBC Flash,,2,2:13.672,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-45,2025-10-17,15:09,45,senior A mixed,Round 2 ( L ),500,5,,Lone Star Dragons,,3,2:14.728,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-45,2025-10-17,15:09,45,senior A mixed,Round 2 ( L ),500,3,,San Francisco Dragon Warriors,,4,2:20.066,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-46,2025-10-17,15:27,46,senior D women,Round 2 ( L ),500,2,,Seattle SAKE Senior D,,1,2:58.308,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-46,2025-10-17,15:27,46,senior D women,Round 2 ( L ),500,3,,Cooper River Dragon Boat Club,,2,3:00.508,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-46,2025-10-17,15:27,46,PD-1 open,Round 2 ( L ),500,5,,Adaptive Fusion,,1,2:36.486,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-46,2025-10-17,15:27,46,PD-1 open,Round 2 ( L ),500,6,,Out of Sight Dragons,,2,3:05.206,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-47,2025-10-17,15:36,47,senior C mixed,Round 2 ( L ),500,3,,SACA Golden Dragons,,1,2:29.724,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-47,2025-10-17,15:36,47,senior C mixed,Round 2 ( L ),500,2,,NBP Paddling,,2,2:31.514,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-47,2025-10-17,15:36,47,senior C mixed,Round 2 ( L ),500,4,,Blazing Paddles,,3,2:40.670,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-47,2025-10-17,15:36,47,senior C mixed,Round 2 ( L ),500,1,,Leatherneck Warriors C,,4,2:42.154,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-47,2025-10-17,15:36,47,senior C mixed,Round 2 ( L ),500,5,,Jax Fire Dragons,,5,2:45.684,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-48,2025-10-17,15:45,48,premier open,Grand Final,500,4,,Southbreeze,,1,1:56.973,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-48,2025-10-17,15:45,48,premier open,Grand Final,500,2,,Northwind,,2,1:58.281,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-48,2025-10-17,15:45,48,premier open,Grand Final,500,3,,Boston BBB DBC,,3,1:58.427,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-48,2025-10-17,15:45,48,premier open,Grand Final,500,1,,Phoenix Heat Canoe Club,,4,2:03.007,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-48,2025-10-17,15:45,48,premier open,Grand Final,500,5,,Ohana New England - ONE Open,,5,2:04.889,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-48,2025-10-17,15:45,48,premier open,Grand Final,500,6,,Lone Star Dragons,,6,2:06.701,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-49,2025-10-17,15:54,49,senior A women,Round 2 ( L ),500,6,,Philadelphia Dragon Boat Assoc,,1,2:29.441,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-49,2025-10-17,15:54,49,senior A women,Round 2 ( L ),500,3,,Southbreeze,,2,2:29.973,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-49,2025-10-17,15:54,49,senior A women,Round 2 ( L ),500,2,,Windy City Dragons,,3,2:33.758,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-49,2025-10-17,15:54,49,senior A women,Round 2 ( L ),500,1,,JDBC Flash,,4,2:38.214,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-49,2025-10-17,15:54,49,senior A women,Round 2 ( L ),500,5,,DCDBC - First Ladies,,5,2:50.773,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-49,2025-10-17,15:54,49,senior A women,Round 2 ( L ),500,4,,NJ Dragon Boat Club,,6,2:58.351,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-50,2025-10-17,16:03,50,BCP mixed,Round 2 ( L ),500,1,,Survivors In Sync,,1,2:47.235,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-50,2025-10-17,16:03,50,senior C women,Round 2 ( L ),500,5,,Philadelphia Dragon Boat Assoc,,1,2:34.575,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-50,2025-10-17,16:03,50,senior C women,Round 2 ( L ),500,4,,Heart and Soul,,2,2:35.881,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-50,2025-10-17,16:03,50,senior C women,Round 2 ( L ),500,3,,WAM,,3,2:45.041,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-51,2025-10-17,16:21,51,premier mixed,Round 2 ( L ),500,2,,Philadelphia Dragon Boat Assoc,,1,2:16.945,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-51,2025-10-17,16:21,51,premier mixed,Round 2 ( L ),500,4,,UEAA Dragon Boat NYC,,2,2:18.711,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-51,2025-10-17,16:21,51,premier mixed,Round 2 ( L ),500,1,,Pennsylvania DBC,,3,2:24.865,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-51,2025-10-17,16:21,51,premier mixed,Round 2 ( L ),500,5,,DCDBC - Wharf Rats,,4,2:27.337,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-51,2025-10-17,16:21,51,premier mixed,Round 2 ( L ),500,3,,Jax Fire Dragons,,5,2:37.871,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-52,2025-10-17,16:30,52,premier mixed,Grand Final,500,3,,Southbreeze,,1,1:58.315,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-52,2025-10-17,16:30,52,premier mixed,Grand Final,500,2,,Rising Tide,,2,1:59.929,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-52,2025-10-17,16:30,52,premier mixed,Grand Final,500,4,,Boston BBB DBC,,3,2:01.715,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-52,2025-10-17,16:30,52,premier mixed,Grand Final,500,1,,Catch22 Mixed,,4,2:03.387,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-52,2025-10-17,16:30,52,premier mixed,Grand Final,500,5,,Wolfpack Racing Club,,5,2:05.141,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-52,2025-10-17,16:30,52,premier mixed,Grand Final,500,6,,Phoenix Heat Canoe Club,,6,2:06.149,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-53,2025-10-17,16:39,53,18u open,Round 2 ( L ),500,1,,Ohana New England - Next ONE,,1,2:34.288,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-53,2025-10-17,16:39,53,senior B open,Round 2 ( L ),500,6,,Windy City Dragons,,1,2:17.810,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-53,2025-10-17,16:39,53,senior B open,Round 2 ( L ),500,4,,Philadelphia Dragon Boat Assoc,,2,2:18.740,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-53,2025-10-17,16:39,53,senior B open,Round 2 ( L ),500,5,,SACA Golden Dragons,,3,2:30.054,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-53,2025-10-17,16:39,53,senior B open,Round 2 ( L ),500,3,,WAM,,4,2:43.494,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-54,2025-10-18,07:30,54,senior B mixed,Round 1,200,2,,Southbreeze,,1,53.965,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-54,2025-10-18,07:30,54,senior B mixed,Round 1,200,3,,Windy City Dragons,,2,54.011,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-54,2025-10-18,07:30,54,senior B mixed,Round 1,200,6,,NBP Paddling,,3,55.303,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-54,2025-10-18,07:30,54,senior B mixed,Round 1,200,4,,Lone Star Dragons,,4,56.465,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-54,2025-10-18,07:30,54,senior B mixed,Round 1,200,5,,HEAT Dragon Boat Club,,5,58.317,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-54,2025-10-18,07:30,54,senior B mixed,Round 1,200,1,,Seattle SAKE Senior B,,6,58.901,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-55,2025-10-18,07:37,55,PD-2 open,Round 1,200,2,,Adaptive Fusion,,1,54.607,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-55,2025-10-18,07:37,55,ACP open,Round 1,200,4,,Rose City Rockets,,1,1:00.993,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-56,2025-10-18,07:44,56,premier open,Round 1,200,3,,Catch22 Open,,1,50.617,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-56,2025-10-18,07:44,56,premier open,Round 1,200,2,,UEAA Dragon Boat NYC,,2,50.693,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-56,2025-10-18,07:44,56,premier open,Round 1,200,1,,Pennsylvania DBC,,3,52.029,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-56,2025-10-18,07:44,56,premier open,Round 1,200,5,,Boston Titans Boat Club,,4,52.903,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-56,2025-10-18,07:44,56,premier open,Round 1,200,4,,Red Dragons Miami,,5,56.155,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-57,2025-10-18,07:58,57,senior C mixed,Round 1,200,3,,NBP Paddling,,2,58.808,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-57,2025-10-18,07:58,57,senior C mixed,Round 1,200,1,,Blazing Paddles,,3,1:02.156,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-57,2025-10-18,07:58,57,senior C mixed,Round 1,200,4,,Leatherneck Warriors C,,4,1:02.852,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-57,2025-10-18,07:58,57,senior C mixed,Round 1,200,2,,Jax Fire Dragons,,5,1:04.992,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-58,2025-10-18,08:05,58,senior C mixed,Round 1,200,2,,Philadelphia Dragon Boat Assoc,,1,53.649,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-58,2025-10-18,08:05,58,senior C mixed,Round 1,200,3,,HEAT Dragon Boat Club,,2,56.659,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-58,2025-10-18,08:05,58,senior C mixed,Round 1,200,4,,Seattle SAKE Senior C,,3,58.883,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-59,2025-10-18,08:12,59,premier women,Heat 1,200,5,,Arizona Sunsoon,,1,58.255,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-59,2025-10-18,08:12,59,premier women,Heat 1,200,4,,DCDBC - Cherry Bombs,,2,59.263,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-59,2025-10-18,08:12,59,premier women,Heat 1,200,2,,Ohana New England - ONE Women,,3,59.333,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-59,2025-10-18,08:12,59,premier women,Heat 1,200,3,,Pennsylvania DBC,,4,1:00.617,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-60,2025-10-18,08:19,60,premier women,Round 1,200,1,,Boston BBB DBC,,1,52.291,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-60,2025-10-18,08:19,60,premier women,Round 1,200,3,,Southbreeze,,2,53.003,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-60,2025-10-18,08:19,60,premier women,Round 1,200,2,,Lone Star Dragons,,3,53.735,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-60,2025-10-18,08:19,60,senior B women,Round 1,200,5,,Bucks Dragon Boat Fusion,,1,54.241,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-61,2025-10-18,08:26,61,senior A open,Round 1,200,5,,NBP Paddling,,2,52.126,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-61,2025-10-18,08:26,61,senior A open,Round 1,200,2,,Windy City Dragons,,3,53.024,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-62,2025-10-18,08:33,62,senior A open,Round 1,200,3,,DCDBC - District Daddies,,1,49.167,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-62,2025-10-18,08:33,62,senior A open,Round 1,200,1,,Bucks Dragon Boat Fusion,,2,49.367,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-62,2025-10-18,08:33,62,senior A open,Round 1,200,2,,San Francisco Dragon Warriors,,3,52.527,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-62,2025-10-18,08:33,62,senior C open,Round 1,200,5,,Philadelphia Dragon Boat Assoc,,1,56.493,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-63,2025-10-18,08:40,63,senior B women,Round 1,200,5,,Philadelphia Dragon Boat Assoc,,1,58.028,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-63,2025-10-18,08:40,63,senior B women,Round 1,200,2,,SACA Golden Dragons,,2,1:00.298,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-63,2025-10-18,08:40,63,senior B women,Round 1,200,3,,NBP Paddling,,3,1:00.608,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-63,2025-10-18,08:40,63,senior B women,Round 1,200,1,,Cooper River Dragon Boat Club,,4,1:03.450,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-63,2025-10-18,08:40,63,senior B women,Round 1,200,4,,Red Dragons Miami,,5,1:06.634,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-64,2025-10-18,08:47,64,premier women,Heat 2,200,3,,UEAA Dragon Boat NYC,,1,58.084,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-64,2025-10-18,08:47,64,premier women,Heat 2,200,5,,Catch22 Paddle Queens,,2,58.874,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-64,2025-10-18,08:47,64,premier women,Heat 2,200,4,,Windwomen,,3,1:00.152,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-64,2025-10-18,08:47,64,premier women,Heat 2,200,2,,Philadelphia Flying Phoenix,,4,1:00.654,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-65,2025-10-18,09:01,65,premier open,Heat 1,200,3,,Boston BBB DBC,,1,46.722,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-65,2025-10-18,09:01,65,premier open,Heat 1,200,4,,Lone Star Dragons,,3,48.756,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-66,2025-10-18,09:08,66,senior A women,Round 1,200,5,,Southbreeze,,1,58.535,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-66,2025-10-18,09:08,66,senior A women,Round 1,200,3,,Philadelphia Dragon Boat Assoc,,2,59.433,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-66,2025-10-18,09:08,66,senior A women,Round 1,200,1,,Windy City Dragons,,3,1:00.655,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-66,2025-10-18,09:08,66,senior A women,Round 1,200,4,,JDBC Flash,,4,1:01.131,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-66,2025-10-18,09:08,66,senior A women,Round 1,200,6,,DCDBC - First Ladies,,5,1:05.439,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-66,2025-10-18,09:08,66,senior A women,Round 1,200,2,,NJ Dragon Boat Club,,6,1:08.875,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-67,2025-10-18,09:15,67,premier open,Heat 2,200,3,,Southbreeze,,1,45.429,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-67,2025-10-18,09:15,67,premier open,Heat 2,200,5,,Northwind,,2,46.083,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-67,2025-10-18,09:15,67,premier open,Heat 2,200,4,,Phoenix Heat Canoe Club,,3,48.503,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-67,2025-10-18,09:15,67,premier open,Heat 2,200,2,,San Francisco Dragon Warriors,,4,49.591,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-68,2025-10-18,09:22,68,PD-1 open,Round 1,200,1,,Adaptive Fusion,,1,1:03.293,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-68,2025-10-18,09:22,68,PD-1 open,Round 1,200,2,,Out of Sight Dragons,,2,1:10.543,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-68,2025-10-18,09:22,68,senior D women,Round 1,200,6,,Seattle SAKE Senior D,,1,1:09.531,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-68,2025-10-18,09:22,68,senior D women,Round 1,200,4,,Cooper River Dragon Boat Club,,2,1:11.163,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-68,2025-10-18,09:22,68,senior D women,Round 1,200,5,,Phila Flying Phoenix Platinum,,3,1:14.859,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-69,2025-10-18,09:29,69,senior B mixed,Round 1,200,4,,Bucks Dragon Boat Fusion,,1,49.216,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-69,2025-10-18,09:29,69,senior B mixed,Round 1,200,5,,Philadelphia Dragon Boat Assoc,,2,50.342,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-69,2025-10-18,09:29,69,senior B mixed,Round 1,200,3,,SACA Golden Dragons,,3,53.254,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-69,2025-10-18,09:29,69,senior B mixed,Round 1,200,2,,DCDBC - Capitol Thunder,,4,54.824,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-70,2025-10-18,10:18,70,PD-2 open,Round 1,200,2,,The Collective,,1,1:02.869,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-70,2025-10-18,10:18,70,PD-2 open,Round 1,200,1,,Out of Sight Dragons,,2,1:07.021,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-70,2025-10-18,10:18,70,senior D open,Round 1,200,4,,HEAT Dragon Boat Club,,1,1:03.533,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-70,2025-10-18,10:18,70,24u mixed,Round 1,200,6,,Southbreeze,,1,56.473,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-71,2025-10-18,10:25,71,senior A mixed,Round 1,200,3,,Southbreeze,,1,49.788,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-71,2025-10-18,10:25,71,senior A mixed,Round 1,200,4,,Lone Star Dragons,,2,52.096,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-71,2025-10-18,10:25,71,senior A mixed,Round 1,200,2,,JDBC Flash,,3,53.322,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-71,2025-10-18,10:25,71,senior A mixed,Round 1,200,5,,San Francisco Dragon Warriors,,4,53.906,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-72,2025-10-18,10:32,72,senior C women,Round 1,200,1,,Philadelphia Dragon Boat Assoc,,1,1:00.119,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-72,2025-10-18,10:32,72,senior C women,Round 1,200,3,,Heart and Soul,,2,1:00.697,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-72,2025-10-18,10:32,72,senior C women,Round 1,200,2,,WAM,,3,1:05.319,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-72,2025-10-18,10:32,72,BCP mixed,Round 1,200,5,,Survivors In Sync,,1,1:04.243,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-73,2025-10-18,10:39,73,senior A mixed,Round 1,200,4,,Bucks Dragon Boat Fusion,,1,53.547,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-73,2025-10-18,10:39,73,senior A mixed,Round 1,200,6,,SACA Golden Dragons,,2,55.321,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-73,2025-10-18,10:39,73,senior A mixed,Round 1,200,1,,Mekong Dragons,,3,55.709,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-73,2025-10-18,10:39,73,senior A mixed,Round 1,200,2,,Windy City Dragons,,4,55.899,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-73,2025-10-18,10:39,73,senior A mixed,Round 1,200,3,,DCDBC - Capitol Thunder,,5,57.595,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-73,2025-10-18,10:39,73,senior A mixed,Round 1,200,5,,Blazing Paddles,,6,1:02.807,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-74,2025-10-18,10:46,74,senior C women,Round 1,200,3,,HEAT Dragon Boat Club,,1,59.837,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-74,2025-10-18,10:46,74,senior C women,Round 1,200,4,,Phila Flying Phoenix GW,,2,1:05.183,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-75,2025-10-18,10:53,75,senior D mixed,Round 1,200,1,,Leatherneck Warriors D,,1,1:02.667,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-75,2025-10-18,10:53,75,senior D mixed,Round 1,200,2,,NBP Paddling,,2,1:04.415,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-75,2025-10-18,10:53,75,ACP open,Round 1,200,4,,Survivor SAKE,,1,1:07.909,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-75,2025-10-18,10:53,75,ACP open,Round 1,200,5,,Central Coast SurviveOars,,2,1:08.389,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-76,2025-10-18,11:00,76,senior B open,Round 1,200,3,,Windy City Dragons,,1,53.004,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-76,2025-10-18,11:00,76,senior B open,Round 1,200,4,,Philadelphia Dragon Boat Assoc,,2,53.798,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-76,2025-10-18,11:00,76,senior B open,Round 1,200,1,,SACA Golden Dragons,,3,55.074,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-76,2025-10-18,11:00,76,senior B open,Round 1,200,2,,WAM,,4,1:01.614,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-76,2025-10-18,11:00,76,18u open,Round 1,200,6,,Ohana New England - Next ONE,,1,58.906,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-77,2025-10-18,11:07,77,premier mixed,Heat 1,200,3,,Boston BBB DBC,,1,47.499,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-77,2025-10-18,11:07,77,premier mixed,Heat 1,200,5,,Northwind,,2,48.079,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-77,2025-10-18,11:07,77,premier mixed,Heat 1,200,4,,Arizona Sunsoon,,3,49.643,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-77,2025-10-18,11:07,77,premier mixed,Heat 1,200,1,,Phoenix Heat Canoe Club,,4,49.655,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-77,2025-10-18,11:07,77,premier mixed,Heat 1,200,2,,Lone Star Dragons,,5,50.305,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-78,2025-10-18,11:14,78,premier mixed,Heat 2,200,5,,Rising Tide,,1,47.952,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-78,2025-10-18,11:14,78,premier mixed,Heat 2,200,3,,Southbreeze,,3,47.986,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-78,2025-10-18,11:14,78,premier mixed,Heat 2,200,4,,San Francisco Dragon Warriors,,5,52.846,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-79,2025-10-18,11:21,79,premier mixed,Round 1,200,1,,UEAA Dragon Boat NYC,,1,53.922,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-79,2025-10-18,11:21,79,premier mixed,Round 1,200,3,,Philadelphia Dragon Boat Assoc,,2,54.144,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-79,2025-10-18,11:21,79,premier mixed,Round 1,200,4,,Pennsylvania DBC,,3,55.008,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-79,2025-10-18,11:21,79,premier mixed,Round 1,200,2,,DCDBC - Wharf Rats,,4,56.696,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-79,2025-10-18,11:21,79,premier mixed,Round 1,200,5,,Jax Fire Dragons,,5,1:02.072,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-80,2025-10-18,11:35,80,senior C mixed,Round 2 ( L ),200,3,,Philadelphia Dragon Boat Assoc,,1,55.395,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-80,2025-10-18,11:35,80,senior C mixed,Round 2 ( L ),200,4,,HEAT Dragon Boat Club,,2,56.493,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-80,2025-10-18,11:35,80,senior C mixed,Round 2 ( L ),200,2,,Seattle SAKE Senior C,,3,57.995,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-81,2025-10-18,11:42,81,ACP open,Round 2 ( L ),200,2,,Rose City Rockets,,1,59.687,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-81,2025-10-18,11:42,81,PD-2 open,Round 2 ( L ),200,4,,Adaptive Fusion,,1,54.907,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-82,2025-10-18,11:49,82,senior A mixed,Round 2 ( L ),200,5,,Windy City Dragons,,2,55.038,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-82,2025-10-18,11:49,82,senior A mixed,Round 2 ( L ),200,1,,SACA Golden Dragons,,3,55.192,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-82,2025-10-18,11:49,82,senior A mixed,Round 2 ( L ),200,4,,DCDBC - Capitol Thunder,,5,57.624,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-82,2025-10-18,11:49,82,senior A mixed,Round 2 ( L ),200,2,,Blazing Paddles,,6,1:00.108,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-83,2025-10-18,11:56,83,premier mixed,Rep 1,200,2,,Catch22 Mixed,,1,47.855,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-83,2025-10-18,11:56,83,premier mixed,Rep 1,200,3,,Southbreeze,,2,48.157,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-83,2025-10-18,11:56,83,premier mixed,Rep 1,200,4,,Phoenix Heat Canoe Club,,3,50.025,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-84,2025-10-18,12:03,84,premier mixed,Rep 2,200,3,,Northwind,,1,48.353,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-84,2025-10-18,12:03,84,premier mixed,Rep 2,200,4,,Arizona Sunsoon,,2,49.773,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-84,2025-10-18,12:03,84,premier mixed,Rep 2,200,2,,Lone Star Dragons,,3,50.319,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-84,2025-10-18,12:03,84,premier mixed,Rep 2,200,5,,San Francisco Dragon Warriors,,4,53.745,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-85,2025-10-18,12:17,85,ACP open,Round 2 ( L ),200,1,,Central Coast SurviveOars,,1,1:05.082,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-85,2025-10-18,12:17,85,ACP open,Round 2 ( L ),200,2,,Survivor SAKE,,2,1:07.020,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-85,2025-10-18,12:17,85,senior D mixed,Round 2 ( L ),200,5,,Leatherneck Warriors D,,1,1:02.944,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-85,2025-10-18,12:17,85,senior D mixed,Round 2 ( L ),200,4,,NBP Paddling,,2,1:03.682,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-86,2025-10-18,12:24,86,senior C open,Round 2 ( L ),200,1,,Philadelphia Dragon Boat Assoc,,1,56.779,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-86,2025-10-18,12:24,86,senior A open,Round 2 ( L ),200,3,,DCDBC - District Daddies,,1,48.949,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-86,2025-10-18,12:24,86,senior A open,Round 2 ( L ),200,4,,Bucks Dragon Boat Fusion,,2,49.529,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-86,2025-10-18,12:24,86,senior A open,Round 2 ( L ),200,5,,San Francisco Dragon Warriors,,3,54.799,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-87,2025-10-18,12:31,87,senior B women,Round 2 ( L ),200,1,,Bucks Dragon Boat Fusion,,1,53.499,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-87,2025-10-18,12:31,87,premier women,Round 2 ( L ),200,3,,Southbreeze,,1,51.551,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-87,2025-10-18,12:31,87,premier women,Round 2 ( L ),200,4,,Boston BBB DBC,,2,52.013,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-87,2025-10-18,12:31,87,premier women,Round 2 ( L ),200,5,,Lone Star Dragons,,3,54.097,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-88,2025-10-18,12:38,88,senior A open,Round 2 ( L ),200,4,,UNYTED,,1,52.096,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-88,2025-10-18,12:38,88,senior A open,Round 2 ( L ),200,2,,NBP Paddling,,2,52.652,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-88,2025-10-18,12:38,88,senior A open,Round 2 ( L ),200,3,,Southbreeze,,3,53.494,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-89,2025-10-18,12:45,89,premier women,Rep,200,4,,Ohana New England - ONE Women,,1,59.349,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-89,2025-10-18,12:45,89,premier women,Rep,200,3,,DCDBC - Cherry Bombs,,2,59.763,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-89,2025-10-18,12:45,89,premier women,Rep,200,5,,Pennsylvania DBC,,3,59.941,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-89,2025-10-18,12:45,89,premier women,Rep,200,2,,Windwomen,,4,59.979,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-89,2025-10-18,12:45,89,premier women,Rep,200,1,,Philadelphia Flying Phoenix,,5,1:00.819,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-90,2025-10-18,12:59,90,premier open,Round 2 ( L ),200,4,,Catch22 Open,,1,49.915,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-90,2025-10-18,12:59,90,premier open,Round 2 ( L ),200,3,,UEAA Dragon Boat NYC,,2,50.411,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-90,2025-10-18,12:59,90,premier open,Round 2 ( L ),200,5,,Pennsylvania DBC,,3,51.739,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-90,2025-10-18,12:59,90,premier open,Round 2 ( L ),200,1,,Boston Titans Boat Club,,4,52.199,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-90,2025-10-18,12:59,90,premier open,Round 2 ( L ),200,2,,Red Dragons Miami,,5,55.121,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-91,2025-10-18,13:06,91,senior B mixed,Round 2 ( L ),200,3,,Bucks Dragon Boat Fusion,,1,49.601,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-91,2025-10-18,13:06,91,senior B mixed,Round 2 ( L ),200,2,,Philadelphia Dragon Boat Assoc,,2,50.175,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-91,2025-10-18,13:06,91,senior B mixed,Round 2 ( L ),200,4,,SACA Golden Dragons,,3,53.103,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-91,2025-10-18,13:06,91,senior B mixed,Round 2 ( L ),200,5,,DCDBC - Capitol Thunder,,4,55.733,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-92,2025-10-18,13:13,92,senior B mixed,Round 2 ( L ),200,4,,Windy City Dragons,,1,53.835,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-92,2025-10-18,13:13,92,senior B mixed,Round 2 ( L ),200,5,,Southbreeze,,2,54.685,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-92,2025-10-18,13:13,92,senior B mixed,Round 2 ( L ),200,1,,NBP Paddling,,3,55.151,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-92,2025-10-18,13:13,92,senior B mixed,Round 2 ( L ),200,3,,Lone Star Dragons,,4,57.969,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-92,2025-10-18,13:13,92,senior B mixed,Round 2 ( L ),200,6,,Seattle SAKE Senior B,,5,58.737,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-92,2025-10-18,13:13,92,senior B mixed,Round 2 ( L ),200,2,,HEAT Dragon Boat Club,,6,59.169,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-93,2025-10-18,13:20,93,24u mixed,Round 2 ( L ),200,1,,Southbreeze,,1,56.358,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-93,2025-10-18,13:20,93,senior D open,Round 2 ( L ),200,3,,HEAT Dragon Boat Club,,1,1:02.804,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-93,2025-10-18,13:20,93,PD-2 open,Round 2 ( L ),200,5,,The Collective,,1,1:00.916,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-93,2025-10-18,13:20,93,PD-2 open,Round 2 ( L ),200,6,,Out of Sight Dragons,,2,1:07.116,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-94,2025-10-18,13:27,94,premier open,Rep,200,3,,Ohana New England - ONE Open,,1,48.288,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-94,2025-10-18,13:27,94,premier open,Rep,200,4,,Phoenix Heat Canoe Club,,2,48.974,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-94,2025-10-18,13:27,94,premier open,Rep,200,5,,San Francisco Dragon Warriors,,4,49.842,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-95,2025-10-18,13:34,95,premier women,Grand Final,200,2,,Catch22 Paddle Queens,,1,58.353,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-95,2025-10-18,13:34,95,premier women,Grand Final,200,4,,Arizona Sunsoon,,2,58.397,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-95,2025-10-18,13:34,95,premier women,Grand Final,200,3,,UEAA Dragon Boat NYC,,3,58.643,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-95,2025-10-18,13:34,95,premier women,Grand Final,200,1,,DCDBC - Cherry Bombs,,4,59.263,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-95,2025-10-18,13:34,95,premier women,Grand Final,200,5,,Ohana New England - ONE Women,,5,59.819,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-95,2025-10-18,13:34,95,premier women,Grand Final,200,6,,Pennsylvania DBC,,6,59.879,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-96,2025-10-18,13:41,96,senior B women,Round 2 ( L ),200,1,,Philadelphia Dragon Boat Assoc,,1,57.056,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-96,2025-10-18,13:41,96,senior B women,Round 2 ( L ),200,3,,SACA Golden Dragons,,2,59.326,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-96,2025-10-18,13:41,96,senior B women,Round 2 ( L ),200,4,,NBP Paddling,,3,1:00.000,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-96,2025-10-18,13:41,96,senior B women,Round 2 ( L ),200,5,,Cooper River Dragon Boat Club,,4,1:03.720,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-96,2025-10-18,13:41,96,senior B women,Round 2 ( L ),200,2,,Red Dragons Miami,,5,1:03.982,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-97,2025-10-18,13:48,97,senior C women,Round 2 ( L ),200,4,,HEAT Dragon Boat Club,,1,59.088,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-97,2025-10-18,13:48,97,senior C women,Round 2 ( L ),200,3,,Phila Flying Phoenix GW,,2,1:04.272,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-98,2025-10-18,13:55,98,senior A mixed,Round 2 ( L ),200,4,,Southbreeze,,1,49.901,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-98,2025-10-18,13:55,98,senior A mixed,Round 2 ( L ),200,3,,Lone Star Dragons,,2,51.409,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-98,2025-10-18,13:55,98,senior A mixed,Round 2 ( L ),200,5,,JDBC Flash,,3,52.267,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-98,2025-10-18,13:55,98,senior A mixed,Round 2 ( L ),200,2,,San Francisco Dragon Warriors,,4,52.743,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-99,2025-10-18,14:09,99,senior D women,Round 2 ( L ),200,2,,Cooper River Dragon Boat Club,,1,1:05.101,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-99,2025-10-18,14:09,99,senior D women,Round 2 ( L ),200,1,,Seattle SAKE Senior D,,2,1:05.447,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-99,2025-10-18,14:09,99,senior D women,Round 2 ( L ),200,3,,Phila Flying Phoenix Platinum,,3,1:07.557,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-99,2025-10-18,14:09,99,PD-1 open,Round 2 ( L ),200,6,,Adaptive Fusion,,1,1:00.253,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-99,2025-10-18,14:09,99,PD-1 open,Round 2 ( L ),200,5,,Out of Sight Dragons,,2,1:07.961,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-100,2025-10-18,14:16,100,senior C mixed,Round 2 ( L ),200,1,,SACA Golden Dragons,,1,57.489,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-100,2025-10-18,14:16,100,senior C mixed,Round 2 ( L ),200,4,,NBP Paddling,,2,58.091,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-100,2025-10-18,14:16,100,senior C mixed,Round 2 ( L ),200,5,,Blazing Paddles,,3,1:01.249,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-100,2025-10-18,14:16,100,senior C mixed,Round 2 ( L ),200,2,,Leatherneck Warriors C,,4,1:01.467,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-100,2025-10-18,14:16,100,senior C mixed,Round 2 ( L ),200,3,,Jax Fire Dragons,,5,1:03.067,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-101,2025-10-18,14:23,101,premier open,Grand Final,200,3,,Southbreeze,,1,45.147,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-101,2025-10-18,14:23,101,premier open,Grand Final,200,2,,Boston BBB DBC,,2,45.769,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-101,2025-10-18,14:23,101,premier open,Grand Final,200,4,,Northwind,,3,46.333,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-101,2025-10-18,14:23,101,premier open,Grand Final,200,5,,Ohana New England - ONE Open,,4,48.303,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-101,2025-10-18,14:23,101,premier open,Grand Final,200,1,,Phoenix Heat Canoe Club,,5,48.963,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-101,2025-10-18,14:23,101,premier open,Grand Final,200,6,,Lone Star Dragons,,6,49.089,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-102,2025-10-18,14:30,102,senior A women,Round 2 ( L ),200,2,,Southbreeze,,1,58.229,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-102,2025-10-18,14:30,102,senior A women,Round 2 ( L ),200,4,,Philadelphia Dragon Boat Assoc,,2,58.711,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-102,2025-10-18,14:30,102,senior A women,Round 2 ( L ),200,6,,Windy City Dragons,,3,59.757,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-102,2025-10-18,14:30,102,senior A women,Round 2 ( L ),200,3,,JDBC Flash,,4,1:00.683,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-102,2025-10-18,14:30,102,senior A women,Round 2 ( L ),200,1,,DCDBC - First Ladies,,5,1:04.913,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-102,2025-10-18,14:30,102,senior A women,Round 2 ( L ),200,5,,NJ Dragon Boat Club,,6,1:09.343,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-103,2025-10-18,14:37,103,BCP mixed,Round 2 ( L ),200,1,,Survivors In Sync,,1,1:03.144,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-103,2025-10-18,14:37,103,senior C women,Round 2 ( L ),200,3,,Heart and Soul,,2,1:00.772,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-103,2025-10-18,14:37,103,senior C women,Round 2 ( L ),200,5,,WAM,,3,1:04.000,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-104,2025-10-18,14:51,104,premier mixed,Round 2 ( L ),200,1,,Jax Fire Dragons,,5,1:01.570,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-105,2025-10-18,14:58,105,premier mixed,Grand Final,200,1,,Southbreeze,,1,46.264,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-105,2025-10-18,14:58,105,premier mixed,Grand Final,200,4,,Rising Tide,,2,46.512,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-105,2025-10-18,14:58,105,premier mixed,Grand Final,200,2,,Wolfpack Racing Club,,3,47.176,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-105,2025-10-18,14:58,105,premier mixed,Grand Final,200,6,,Northwind,,5,47.572,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-106,2025-10-18,15:05,106,18u open,Round 2 ( L ),200,1,,Ohana New England - Next ONE,,1,58.652,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-106,2025-10-18,15:05,106,senior B open,Round 2 ( L ),200,4,,Windy City Dragons,,1,53.322,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-106,2025-10-18,15:05,106,senior B open,Round 2 ( L ),200,3,,Philadelphia Dragon Boat Assoc,,2,53.882,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-106,2025-10-18,15:05,106,senior B open,Round 2 ( L ),200,5,,WAM,,4,1:02.638,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-107,2025-10-19,07:30,107,senior B open,Final,2000,4,,Windy City Dragons,,1,9:32.540,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-107,2025-10-19,07:30,107,senior B open,Final,2000,3,,Philadelphia Dragon Boat Assoc,,2,9:34.274,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-107,2025-10-19,07:30,107,senior B open,Final,2000,2,,SACA Golden Dragons,,3,10:15.049,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-107,2025-10-19,07:30,107,senior B open,Final,2000,1,,WAM,,4,11:17.900,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-107,2025-10-19,07:30,107,senior A women,Final,2000,8,,Windy City Dragons,,1,10:37.889,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-107,2025-10-19,07:30,107,senior A women,Final,2000,10,,Southbreeze,,2,10:41.804,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-107,2025-10-19,07:30,107,senior A women,Final,2000,7,,JDBC Flash,,3,11:43.613,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-107,2025-10-19,07:30,107,senior A women,Final,2000,6,,DCDBC - First Ladies,,4,12:06.069,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-107,2025-10-19,07:30,107,senior A women,Final,2000,5,,NJ Dragon Boat Club,,5,16:02.400,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-107,2025-10-19,07:30,107,BCP mixed,Final,2000,11,,Survivors In Sync,,1,11:39.470,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-108,2025-10-19,08:05,108,premier open,Final,2000,7,,Southbreeze,,1,8:29.911,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-108,2025-10-19,08:05,108,premier open,Final,2000,6,,Northwind,,2,8:38.988,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-108,2025-10-19,08:05,108,premier open,Final,2000,5,,Boston BBB DBC,,3,8:42.048,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-108,2025-10-19,08:05,108,premier open,Final,2000,2,,Lone Star Dragons,,4,8:58.608,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-108,2025-10-19,08:05,108,premier open,Final,2000,3,,Ohana New England - ONE Open,,6,9:01.241,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-108,2025-10-19,08:05,108,premier open,Final,2000,1,,San Francisco Dragon Warriors,,7,9:05.035,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-109,2025-10-19,08:40,109,premier open,Final,2000,5,,Catch22 Open,,1,9:43.661,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-109,2025-10-19,08:40,109,premier open,Final,2000,4,,UEAA Dragon Boat NYC,,2,9:50.661,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-109,2025-10-19,08:40,109,premier open,Final,2000,3,,Pennsylvania DBC,,3,9:56.881,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-109,2025-10-19,08:40,109,premier open,Final,2000,2,,Boston Titans Boat Club,,4,10:05.690,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-109,2025-10-19,08:40,109,premier open,Final,2000,1,,Red Dragons Miami,,5,10:41.447,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-109,2025-10-19,08:40,109,senior B women,Final,2000,10,,Philadelphia Dragon Boat Assoc,,1,10:13.049,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-109,2025-10-19,08:40,109,senior B women,Final,2000,9,,NBP Paddling,,2,10:43.364,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-109,2025-10-19,08:40,109,senior B women,Final,2000,8,,SACA Golden Dragons,,3,10:44.838,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-109,2025-10-19,08:40,109,senior B women,Final,2000,6,,Red Dragons Miami,,4,12:24.353,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-109,2025-10-19,08:40,109,senior B women,Final,2000,7,,Cooper River Dragon Boat Club,,5,12:24.694,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-109,2025-10-19,08:40,109,PD-1 open,Final,2000,12,,Adaptive Fusion,,1,11:16.062,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-109,2025-10-19,08:40,109,PD-1 open,Final,2000,11,,Out of Sight Dragons,,2,13:24.646,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-110,2025-10-19,09:15,110,premier women,Final,2000,3,,Southbreeze,,1,9:14.721,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-110,2025-10-19,09:15,110,premier women,Final,2000,2,,Boston BBB DBC,,2,9:26.734,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-110,2025-10-19,09:15,110,premier women,Final,2000,1,,Lone Star Dragons,,3,10:05.115,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-110,2025-10-19,09:15,110,senior A open,Final,2000,6,,Bucks Dragon Boat Fusion,,1,9:06.608,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-110,2025-10-19,09:15,110,senior A open,Final,2000,5,,DCDBC - District Daddies,,2,9:14.264,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-110,2025-10-19,09:15,110,senior A open,Final,2000,4,,San Francisco Dragon Warriors,,3,10:05.255,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-111,2025-10-19,09:50,111,senior D mixed,Final,2000,2,,Leatherneck Warriors D,,1,12:06.496,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-111,2025-10-19,09:50,111,senior D mixed,Final,2000,1,,NBP Paddling,,2,12:13.391,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-111,2025-10-19,09:50,111,senior D women,Final,2000,5,,Seattle SAKE Senior D,,1,12:29.989,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-111,2025-10-19,09:50,111,senior D women,Final,2000,4,,Cooper River Dragon Boat Club,,2,13:07.537,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-111,2025-10-19,09:50,111,senior D women,Final,2000,3,,Phila Flying Phoenix Platinum,,3,14:03.924,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-112,2025-10-19,10:25,112,senior B mixed,Final,2000,4,,Philadelphia Dragon Boat Assoc,,1,8:45.211,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-112,2025-10-19,10:25,112,senior B mixed,Final,2000,3,,Bucks Dragon Boat Fusion,,2,9:06.679,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-112,2025-10-19,10:25,112,senior B mixed,Final,2000,2,,SACA Golden Dragons,,3,9:58.857,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-112,2025-10-19,10:25,112,senior B mixed,Final,2000,1,,DCDBC - Capitol Thunder,,4,10:06.961,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-112,2025-10-19,10:25,112,ACP open,Final,2000,5,,Rose City Rockets,,1,11:19.703,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-113,2025-10-19,11:00,113,senior B mixed,Final,2000,6,,Windy City Dragons,,1,9:46.144,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-113,2025-10-19,11:00,113,senior B mixed,Final,2000,5,,Southbreeze,,2,10:00.577,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-113,2025-10-19,11:00,113,senior B mixed,Final,2000,4,,NBP Paddling,,3,10:07.071,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-113,2025-10-19,11:00,113,senior B mixed,Final,2000,3,,Lone Star Dragons,,4,10:11.523,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-113,2025-10-19,11:00,113,senior B mixed,Final,2000,1,,Seattle SAKE Senior B,,5,10:47.413,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-113,2025-10-19,11:00,113,senior B mixed,Final,2000,2,,HEAT Dragon Boat Club,,6,11:50.850,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-113,2025-10-19,11:00,113,24u mixed,Final,2000,7,,Southbreeze,,1,9:55.803,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-114,2025-10-19,11:35,114,senior B women,Final,2000,1,,Bucks Dragon Boat Fusion,,1,9:48.034,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-114,2025-10-19,11:35,114,senior C women,Final,2000,3,,HEAT Dragon Boat Club,,1,10:36.573,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-114,2025-10-19,11:35,114,senior C women,Final,2000,2,,Phila Flying Phoenix GW,,2,11:47.414,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-115,2025-10-19,12:10,115,senior A open,Final,2000,4,,UNYTED,,1,9:42.399,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-115,2025-10-19,12:10,115,senior A open,Final,2000,3,,NBP Paddling,,2,9:48.355,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-115,2025-10-19,12:10,115,senior A open,Final,2000,1,,Windy City Dragons,,3,9:58.083,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-115,2025-10-19,12:10,115,senior A open,Final,2000,2,,Southbreeze,,4,10:09.707,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-115,2025-10-19,12:10,115,premier women,Final,2000,11,,Arizona Sunsoon,,1,10:42.874,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-115,2025-10-19,12:10,115,premier women,Final,2000,12,,UEAA Dragon Boat NYC,,2,10:47.032,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-115,2025-10-19,12:10,115,premier women,Final,2000,10,,Catch22 Paddle Queens,,3,10:55.617,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-115,2025-10-19,12:10,115,premier women,Final,2000,9,,DCDBC - Cherry Bombs,,4,10:56.064,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-115,2025-10-19,12:10,115,premier women,Final,2000,8,,Pennsylvania DBC,,5,11:16.630,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-115,2025-10-19,12:10,115,premier women,Final,2000,7,,Windwomen,,6,11:16.786,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-115,2025-10-19,12:10,115,premier women,Final,2000,6,,Philadelphia Flying Phoenix,,7,11:17.922,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-115,2025-10-19,12:10,115,premier women,Final,2000,5,,Ohana New England - ONE Women,,8,11:21.178,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-116,2025-10-19,12:45,116,senior C mixed,Final,2000,3,,Philadelphia Dragon Boat Assoc,,1,9:48.999,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-116,2025-10-19,12:45,116,senior C mixed,Final,2000,2,,HEAT Dragon Boat Club,,2,10:28.100,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-116,2025-10-19,12:45,116,senior C mixed,Final,2000,1,,Seattle SAKE Senior C,,3,10:47.717,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-116,2025-10-19,12:45,116,PD-2 open,Final,2000,4,,Adaptive Fusion,,1,10:06.153,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-117,2025-10-19,13:20,117,senior C mixed,Final,2000,5,,SACA Golden Dragons,,1,10:34.812,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-117,2025-10-19,13:20,117,senior C mixed,Final,2000,4,,NBP Paddling,,2,10:52.103,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-117,2025-10-19,13:20,117,senior C mixed,Final,2000,3,,Blazing Paddles,,3,11:48.247,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-117,2025-10-19,13:20,117,senior C mixed,Final,2000,2,,Leatherneck Warriors C,,4,11:57.537,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-117,2025-10-19,13:20,117,senior C mixed,Final,2000,1,,Jax Fire Dragons,,5,11:58.253,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-118,2025-10-19,13:55,118,premier mixed,Final,2000,10,,Southbreeze,,1,8:32.744,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-118,2025-10-19,13:55,118,premier mixed,Final,2000,9,,Rising Tide,,2,8:34.181,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-118,2025-10-19,13:55,118,premier mixed,Final,2000,8,,Boston BBB DBC,,3,8:37.521,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-118,2025-10-19,13:55,118,premier mixed,Final,2000,4,,Northwind,,4,8:50.278,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-118,2025-10-19,13:55,118,premier mixed,Final,2000,7,,Catch22 Mixed,,5,9:03.495,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-118,2025-10-19,13:55,118,premier mixed,Final,2000,6,,Wolfpack Racing Club,,6,9:03.625,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-118,2025-10-19,13:55,118,premier mixed,Final,2000,3,,Lone Star Dragons,,7,9:16.297,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-118,2025-10-19,13:55,118,premier mixed,Final,2000,2,,Arizona Sunsoon,,8,9:16.632,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-118,2025-10-19,13:55,118,premier mixed,Final,2000,1,,San Francisco Dragon Warriors,,9,10:10.587,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-118,2025-10-19,13:55,118,premier mixed,Final,2000,5,,Phoenix Heat Canoe Club,,10,12:21.592,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-119,2025-10-19,14:30,119,premier mixed,Final,2000,5,,Philadelphia Dragon Boat Assoc,,1,9:34.957,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-119,2025-10-19,14:30,119,premier mixed,Final,2000,4,,UEAA Dragon Boat NYC,,2,9:59.818,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-119,2025-10-19,14:30,119,premier mixed,Final,2000,2,,DCDBC - Wharf Rats,,3,10:06.981,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-119,2025-10-19,14:30,119,premier mixed,Final,2000,3,,Pennsylvania DBC,,4,10:16.968,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-119,2025-10-19,14:30,119,premier mixed,Final,2000,1,,Jax Fire Dragons,,5,11:49.377,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-119,2025-10-19,14:30,119,18u open,Final,2000,6,,Ohana New England - Next ONE,,1,11:04.773,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-119,2025-10-19,14:30,119,senior D open,Final,2000,7,,HEAT Dragon Boat Club,,1,11:49.734,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-119,2025-10-19,14:30,119,PD-2 open,Final,2000,9,,The Collective,,1,11:29.995,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-119,2025-10-19,14:30,119,PD-2 open,Final,2000,8,,Out of Sight Dragons,,2,12:17.699,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-120,2025-10-19,15:05,120,senior A mixed,Final,2000,4,,Southbreeze,,1,9:08.521,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-120,2025-10-19,15:05,120,senior A mixed,Final,2000,2,,JDBC Flash,,2,9:24.652,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-120,2025-10-19,15:05,120,senior A mixed,Final,2000,3,,Lone Star Dragons,,3,9:40.621,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-120,2025-10-19,15:05,120,senior A mixed,Final,2000,1,,San Francisco Dragon Warriors,,4,9:54.271,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-121,2025-10-19,15:40,121,senior A mixed,Final,2000,6,,Bucks Dragon Boat Fusion,,1,9:53.922,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-121,2025-10-19,15:40,121,senior A mixed,Final,2000,4,,Windy City Dragons,,2,10:02.454,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-121,2025-10-19,15:40,121,senior A mixed,Final,2000,5,,SACA Golden Dragons,,3,10:19.271,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-121,2025-10-19,15:40,121,senior A mixed,Final,2000,2,,DCDBC - Capitol Thunder,,4,10:26.155,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-121,2025-10-19,15:40,121,senior A mixed,Final,2000,3,,Mekong Dragons,,5,10:31.194,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-121,2025-10-19,15:40,121,senior A mixed,Final,2000,1,,Blazing Paddles,,6,11:03.947,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-121,2025-10-19,15:40,121,senior C women,Final,2000,9,,Philadelphia Dragon Boat Assoc,,1,10:26.361,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-121,2025-10-19,15:40,121,senior C women,Final,2000,8,,Heart and Soul,,2,10:52.433,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-121,2025-10-19,15:40,121,senior C women,Final,2000,7,,WAM,,3,11:46.018,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-121,2025-10-19,15:40,121,ACP open,Final,2000,12,,Central Coast SurviveOars,,1,11:59.045,USDBC 2025 - Sheet1.csv
+USDBC_2025,USDBC_2025-121,2025-10-19,15:40,121,ACP open,Final,2000,11,,Survivor SAKE,,2,12:06.194,USDBC 2025 - Sheet1.csv
