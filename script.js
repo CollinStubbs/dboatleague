@@ -277,12 +277,12 @@ function normalizeDivisionName(eventName) {
       return "Women";
     }
     if (text.includes("MIXED")) {
-      return "Premier Mixed";
+      return "Mixed";
     }
     if (text.includes("OPEN")) {
       return "Open";
     }
-    return "Premier Mixed";
+    return "Mixed";
   }
   if (text.includes("SPORT")) {
     if (text.includes("WOMEN")) {
