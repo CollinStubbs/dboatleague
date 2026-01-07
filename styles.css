@@ -462,6 +462,28 @@ h1 {
   margin-bottom: 20px;
 }
 
+.team-filters {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.team-filters select {
+  border-radius: 999px;
+  border: 1px solid rgba(17, 32, 48, 0.2);
+  background: #fff;
+  color: var(--ink);
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
 .team-analytics {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));

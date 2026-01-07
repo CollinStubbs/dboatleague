@@ -1,29 +1,29 @@
 const regattaFiles = [
-  "regattas/Good Copies/2025-Chicago-IDBF-Results-race-data - 2025-Chicago-IDBF-Results-race-data.csv",
-  "regattas/Good Copies/2025_CDBC_2025-08-21_day1_races.csv",
-  "regattas/Good Copies/2025_CDBC_2025-08-22_day2_races_FIXED.csv",
-  "regattas/Good Copies/2025_CDBC_2025-08-23_day3_races.csv",
-  "regattas/Good Copies/2025_CDBC_2025-08-24_day4_races_FIXED.csv",
-  "regattas/Good Copies/2025-GWNC-Final-Results-race-data - 2025-GWNC-Final-Results-race-data.csv",
-  "regattas/Good Copies/2025-GWNS_Final-Results_race-data_rewritten - 2025-GWNS_Final-Results_race-data_rewritten.csv",
-  "regattas/Good Copies/2025-Sarasota-IDBF-Race-Results - 2025-Sarasota-IDBF-Race-Results.csv",
-  "regattas/Good Copies/2025-TIDBRF-Race-Results_extracted - 2025-TIDBRF-Race-Results_extracted.csv",
-  "regattas/Good Copies/2025_hamilton_waterfest_saturday_races_FIXED - 2025_hamilton_waterfest_saturday_races_FIXED.csv",
-  "regattas/Good Copies/2025_KCDBF_results_FIXED - 2025_KCDBF_results_FIXED.csv",
-  "regattas/Good Copies/2025_Mercer_DBF_results_FIXED - 2025_Mercer_DBF_results_FIXED.csv",
-  "regattas/Good Copies/2025_milton_races_FIXED - 2025_milton_races_FIXED.csv",
-  "regattas/Good Copies/2025_New_York_IDBF_results_FIXED - 2025_New_York_IDBF_results_FIXED.csv",
-  "regattas/Good Copies/2025_Orlando_DBF_results_FIXED - 2025_Orlando_DBF_results_FIXED.csv",
-  "regattas/Good Copies/2025_PACCC_Fri_extracted_cleaned.csv",
-  "regattas/Good Copies/2025_PACCC_Sat_extracted_cleaned.csv",
-  "regattas/Good Copies/2025_PACCC_Sun_extracted_cleaned.csv",
-  "regattas/Good Copies/2025_CONCORD_SAT_extracted_with_event_starttime_distance.csv",
-  "regattas/Good Copies/2025_CONCORD_SUN_extracted_with_event_starttime_distance.csv",
-  "regattas/Good Copies/USDBC_2025_sheet1_extracted_cleaned.csv",
-  "regattas/Good Copies/2025_pickering_saturday_extracted_fixed.csv",
-  "regattas/Good Copies/2025_pickering_sunday_extracted - 2025_pickering_sunday_extracted.csv",
-  "regattas/Good Copies/2025_welland_hope_floats_extracted_fixed - 2025_welland_hope_floats_extracted_fixed.csv",
-  "regattas/Good Copies/port_perry_2025_race_data_extracted - port_perry_2025_race_data_extracted.csv",
+  "regattas/2025/2025-Chicago-IDBF-Results-race-data - 2025-Chicago-IDBF-Results-race-data.csv",
+  "regattas/2025/2025_CDBC_2025-08-21_day1_races.csv",
+  "regattas/2025/2025_CDBC_2025-08-22_day2_races_FIXED.csv",
+  "regattas/2025/2025_CDBC_2025-08-23_day3_races.csv",
+  "regattas/2025/2025_CDBC_2025-08-24_day4_races_FIXED.csv",
+  "regattas/2025/2025-GWNC-Final-Results-race-data - 2025-GWNC-Final-Results-race-data.csv",
+  "regattas/2025/2025-GWNS_Final-Results_race-data_rewritten - 2025-GWNS_Final-Results_race-data_rewritten.csv",
+  "regattas/2025/2025-Sarasota-IDBF-Race-Results - 2025-Sarasota-IDBF-Race-Results.csv",
+  "regattas/2025/2025-TIDBRF-Race-Results_extracted - 2025-TIDBRF-Race-Results_extracted.csv",
+  "regattas/2025/2025_hamilton_waterfest_saturday_races_FIXED - 2025_hamilton_waterfest_saturday_races_FIXED.csv",
+  "regattas/2025/2025_KCDBF_results_FIXED - 2025_KCDBF_results_FIXED.csv",
+  "regattas/2025/2025_Mercer_DBF_results_FIXED - 2025_Mercer_DBF_results_FIXED.csv",
+  "regattas/2025/2025_milton_races_FIXED - 2025_milton_races_FIXED.csv",
+  "regattas/2025/2025_New_York_IDBF_results_FIXED - 2025_New_York_IDBF_results_FIXED.csv",
+  "regattas/2025/2025_Orlando_DBF_results_FIXED - 2025_Orlando_DBF_results_FIXED.csv",
+  "regattas/2025/2025_PACCC_Fri_extracted_cleaned.csv",
+  "regattas/2025/2025_PACCC_Sat_extracted_cleaned.csv",
+  "regattas/2025/2025_PACCC_Sun_extracted_cleaned.csv",
+  "regattas/2025/2025_CONCORD_SAT_extracted_with_event_starttime_distance.csv",
+  "regattas/2025/2025_CONCORD_SUN_extracted_with_event_starttime_distance.csv",
+  "regattas/2025/USDBC_2025_sheet1_extracted_cleaned.csv",
+  "regattas/2025/2025_pickering_saturday_extracted_fixed.csv",
+  "regattas/2025/2025_pickering_sunday_extracted - 2025_pickering_sunday_extracted.csv",
+  "regattas/2025/2025_welland_hope_floats_extracted_fixed - 2025_welland_hope_floats_extracted_fixed.csv",
+  "regattas/2025/port_perry_2025_race_data_extracted - port_perry_2025_race_data_extracted.csv",
 ];
 
 const teamNameEl = document.querySelector("#team-name");
@@ -31,6 +31,7 @@ const teamRegattasEl = document.querySelector("#team-regattas");
 const teamRacesEl = document.querySelector("#team-races");
 const teamStatusEl = document.querySelector("#team-status");
 const tableBody = document.querySelector("#team-results-body");
+const teamYearSelect = document.querySelector("#team-year");
 const analyticsEventEl = document.querySelector("#analytics-event");
 const analyticsPodiumsEl = document.querySelector("#analytics-podiums");
 const analyticsAvg200El = document.querySelector("#analytics-avg-200");
@@ -40,6 +41,8 @@ const analyticsBest200El = document.querySelector("#analytics-best-200");
 const analyticsBest500El = document.querySelector("#analytics-best-500");
 const analyticsBest2000El = document.querySelector("#analytics-best-2000");
 const analyticsSandbagEl = document.querySelector("#analytics-sandbag");
+
+let allTeamRows = [];
 
 function parseCsv(text) {
   const rows = [];
@@ -196,6 +199,11 @@ function normalizeRegattaId(regattaId) {
     return "2025_CONCORD";
   }
   return raw;
+}
+
+function getYearFromRegattaId(regattaId) {
+  const match = String(regattaId || "").match(/^(\d{4})/);
+  return match ? match[1] : "";
 }
 
 function normalizeTeamName(name) {
@@ -373,6 +381,36 @@ function sortRows(rows) {
   });
 }
 
+function updateYearOptions(years) {
+  teamYearSelect.innerHTML = "";
+  years.forEach((year) => {
+    const option = document.createElement("option");
+    option.value = year;
+    option.textContent = year;
+    teamYearSelect.appendChild(option);
+  });
+}
+
+function applyYearFilter() {
+  const selectedYear = teamYearSelect.value;
+  const yearRows = selectedYear
+    ? allTeamRows.filter(
+        (row) => getYearFromRegattaId(normalizeRegattaId(row.regatta_id)) === selectedYear
+      )
+    : allTeamRows;
+
+  const sortedRows = sortRows(yearRows);
+  teamRegattasEl.textContent = `Regattas: ${
+    new Set(yearRows.map((row) => normalizeRegattaId(row.regatta_id)).filter(Boolean)).size
+  }`;
+  teamRacesEl.textContent = `Races: ${yearRows.length}`;
+  teamStatusEl.textContent =
+    yearRows.length > 0 ? "Showing all recorded race entries." : "No results found.";
+
+  updateAnalytics(yearRows);
+  renderRows(sortedRows);
+}
+
 function getTeamFromUrl() {
   const params = new URLSearchParams(window.location.search);
   return params.get("team");
@@ -392,21 +430,23 @@ async function loadTeamResults(teamName) {
   );
 
   const allRows = results.flat();
-  const teamRows = allRows.filter(
+  allTeamRows = allRows.filter(
     (row) => normalizeTeamName(row.team_name).toUpperCase() === normalizedTarget
   );
-  const sortedRows = sortRows(teamRows);
 
   teamNameEl.textContent = normalizedTarget || "Team Results";
-  teamRegattasEl.textContent = `Regattas: ${
-    new Set(teamRows.map((row) => row.regatta_id).filter(Boolean)).size
-  }`;
-  teamRacesEl.textContent = `Races: ${teamRows.length}`;
-  teamStatusEl.textContent =
-    teamRows.length > 0 ? "Showing all recorded race entries." : "No results found.";
-
-  updateAnalytics(teamRows);
-  renderRows(sortedRows);
+  const years = Array.from(
+    new Set(
+      allTeamRows
+        .map((row) => getYearFromRegattaId(normalizeRegattaId(row.regatta_id)))
+        .filter(Boolean)
+    )
+  ).sort();
+  updateYearOptions(years);
+  if (years.length > 0) {
+    teamYearSelect.value = years[0];
+  }
+  applyYearFilter();
 }
 
 const teamName = getTeamFromUrl();
@@ -419,3 +459,8 @@ if (!teamName) {
     console.error(error);
   });
 }
+
+teamYearSelect.addEventListener("change", () => {
+  applyYearFilter();
+});
+

@@ -1,33 +1,34 @@
 const regattaFiles = [
-  "regattas/Good Copies/2025-Chicago-IDBF-Results-race-data - 2025-Chicago-IDBF-Results-race-data.csv",
-  "regattas/Good Copies/2025_CDBC_2025-08-21_day1_races.csv",
-  "regattas/Good Copies/2025_CDBC_2025-08-22_day2_races_FIXED.csv",
-  "regattas/Good Copies/2025_CDBC_2025-08-23_day3_races.csv",
-  "regattas/Good Copies/2025_CDBC_2025-08-24_day4_races_FIXED.csv",
-  "regattas/Good Copies/2025-GWNC-Final-Results-race-data - 2025-GWNC-Final-Results-race-data.csv",
-  "regattas/Good Copies/2025-GWNS_Final-Results_race-data_rewritten - 2025-GWNS_Final-Results_race-data_rewritten.csv",
-  "regattas/Good Copies/2025-Sarasota-IDBF-Race-Results - 2025-Sarasota-IDBF-Race-Results.csv",
-  "regattas/Good Copies/2025-TIDBRF-Race-Results_extracted - 2025-TIDBRF-Race-Results_extracted.csv",
-  "regattas/Good Copies/2025_hamilton_waterfest_saturday_races_FIXED - 2025_hamilton_waterfest_saturday_races_FIXED.csv",
-  "regattas/Good Copies/2025_KCDBF_results_FIXED - 2025_KCDBF_results_FIXED.csv",
-  "regattas/Good Copies/2025_Mercer_DBF_results_FIXED - 2025_Mercer_DBF_results_FIXED.csv",
-  "regattas/Good Copies/2025_milton_races_FIXED - 2025_milton_races_FIXED.csv",
-  "regattas/Good Copies/2025_New_York_IDBF_results_FIXED - 2025_New_York_IDBF_results_FIXED.csv",
-  "regattas/Good Copies/2025_Orlando_DBF_results_FIXED - 2025_Orlando_DBF_results_FIXED.csv",
-  "regattas/Good Copies/2025_PACCC_Fri_extracted_cleaned.csv",
-  "regattas/Good Copies/2025_PACCC_Sat_extracted_cleaned.csv",
-  "regattas/Good Copies/2025_PACCC_Sun_extracted_cleaned.csv",
-  "regattas/Good Copies/2025_CONCORD_SAT_extracted_with_event_starttime_distance.csv",
-  "regattas/Good Copies/2025_CONCORD_SUN_extracted_with_event_starttime_distance.csv",
-  "regattas/Good Copies/USDBC_2025_sheet1_extracted_cleaned.csv",
-  "regattas/Good Copies/2025_pickering_saturday_extracted_fixed.csv",
-  "regattas/Good Copies/2025_pickering_sunday_extracted - 2025_pickering_sunday_extracted.csv",
-  "regattas/Good Copies/2025_welland_hope_floats_extracted_fixed - 2025_welland_hope_floats_extracted_fixed.csv",
-  "regattas/Good Copies/port_perry_2025_race_data_extracted - port_perry_2025_race_data_extracted.csv",
+  "regattas/2025/2025-Chicago-IDBF-Results-race-data - 2025-Chicago-IDBF-Results-race-data.csv",
+  "regattas/2025/2025_CDBC_2025-08-21_day1_races.csv",
+  "regattas/2025/2025_CDBC_2025-08-22_day2_races_FIXED.csv",
+  "regattas/2025/2025_CDBC_2025-08-23_day3_races.csv",
+  "regattas/2025/2025_CDBC_2025-08-24_day4_races_FIXED.csv",
+  "regattas/2025/2025-GWNC-Final-Results-race-data - 2025-GWNC-Final-Results-race-data.csv",
+  "regattas/2025/2025-GWNS_Final-Results_race-data_rewritten - 2025-GWNS_Final-Results_race-data_rewritten.csv",
+  "regattas/2025/2025-Sarasota-IDBF-Race-Results - 2025-Sarasota-IDBF-Race-Results.csv",
+  "regattas/2025/2025-TIDBRF-Race-Results_extracted - 2025-TIDBRF-Race-Results_extracted.csv",
+  "regattas/2025/2025_hamilton_waterfest_saturday_races_FIXED - 2025_hamilton_waterfest_saturday_races_FIXED.csv",
+  "regattas/2025/2025_KCDBF_results_FIXED - 2025_KCDBF_results_FIXED.csv",
+  "regattas/2025/2025_Mercer_DBF_results_FIXED - 2025_Mercer_DBF_results_FIXED.csv",
+  "regattas/2025/2025_milton_races_FIXED - 2025_milton_races_FIXED.csv",
+  "regattas/2025/2025_New_York_IDBF_results_FIXED - 2025_New_York_IDBF_results_FIXED.csv",
+  "regattas/2025/2025_Orlando_DBF_results_FIXED - 2025_Orlando_DBF_results_FIXED.csv",
+  "regattas/2025/2025_PACCC_Fri_extracted_cleaned.csv",
+  "regattas/2025/2025_PACCC_Sat_extracted_cleaned.csv",
+  "regattas/2025/2025_PACCC_Sun_extracted_cleaned.csv",
+  "regattas/2025/2025_CONCORD_SAT_extracted_with_event_starttime_distance.csv",
+  "regattas/2025/2025_CONCORD_SUN_extracted_with_event_starttime_distance.csv",
+  "regattas/2025/USDBC_2025_sheet1_extracted_cleaned.csv",
+  "regattas/2025/2025_pickering_saturday_extracted_fixed.csv",
+  "regattas/2025/2025_pickering_sunday_extracted - 2025_pickering_sunday_extracted.csv",
+  "regattas/2025/2025_welland_hope_floats_extracted_fixed - 2025_welland_hope_floats_extracted_fixed.csv",
+  "regattas/2025/port_perry_2025_race_data_extracted - port_perry_2025_race_data_extracted.csv",
 ];
 
 const tableBody = document.querySelector("#leaderboard tbody");
 const headers = Array.from(document.querySelectorAll("#leaderboard thead th"));
+const yearSelect = document.querySelector("#year-filter");
 const regattaSelect = document.querySelector("#regatta-filter");
 const divisionSelect = document.querySelector("#division-filter");
 const minRacesSelect = document.querySelector("#min-races");
@@ -41,6 +42,7 @@ const regattaLink = document.querySelector("#regatta-link");
 
 let data = [];
 let rawRows = [];
+let availableYears = [];
 
 const sortState = {
   key: "avg500",
@@ -169,6 +171,11 @@ function normalizeRegattaId(regattaId) {
     return "2025_CONCORD";
   }
   return raw;
+}
+
+function getYearFromRegattaId(regattaId) {
+  const match = String(regattaId || "").match(/^(\d{4})/);
+  return match ? match[1] : "";
 }
 
 function normalizeTeamName(name) {
@@ -582,6 +589,7 @@ function formatRegattaName(regattaId) {
 }
 
 function updateRegattaOptions(regattaIds) {
+  regattaSelect.innerHTML = '<option value="ALL">All regattas</option>';
   const sortedIds = [...regattaIds].sort();
   sortedIds.forEach((regattaId) => {
     const option = document.createElement("option");
@@ -591,7 +599,25 @@ function updateRegattaOptions(regattaIds) {
   });
 }
 
+function updateYearOptions(years) {
+  yearSelect.innerHTML = "";
+  years.forEach((year) => {
+    const option = document.createElement("option");
+    option.value = year;
+    option.textContent = year;
+    yearSelect.appendChild(option);
+  });
+}
+
+function filterRowsByYear(rows) {
+  const selectedYear = yearSelect.value;
+  return selectedYear
+    ? rows.filter((row) => getYearFromRegattaId(row.regattaId) === selectedYear)
+    : rows;
+}
+
 function updateDivisionOptions(divisions) {
+  divisionSelect.innerHTML = '<option value="ALL">All divisions</option>';
   const sortedDivisions = [...divisions].sort();
   sortedDivisions.forEach((divisionName) => {
     const option = document.createElement("option");
@@ -602,10 +628,11 @@ function updateDivisionOptions(divisions) {
 }
 
 function applyRegattaFilter(regattaId) {
+  const yearRows = filterRowsByYear(rawRows);
   const filtered =
     regattaId === "ALL"
-      ? rawRows
-      : rawRows.filter((row) => row.regattaId === regattaId);
+      ? yearRows
+      : yearRows.filter((row) => row.regattaId === regattaId);
   const leaderboard = buildLeaderboard(filtered);
   applyDivisionFilter(leaderboard);
   tableCaption.textContent =
@@ -625,6 +652,19 @@ function applyRegattaFilter(regattaId) {
     regattaLink.href = `regatta.html?regatta=${encodeURIComponent(regattaId)}`;
   }
 }
+
+yearSelect.addEventListener("change", () => {
+  const yearRows = filterRowsByYear(rawRows);
+  const regattaIds = new Set(yearRows.map((row) => row.regattaId));
+  updateRegattaOptions(regattaIds);
+  const divisions = new Set(
+    yearRows
+      .map((row) => normalizeDivisionName(row.event))
+      .filter((divisionName) => divisionName)
+  );
+  updateDivisionOptions(divisions);
+  applyRegattaFilter("ALL");
+});
 
 regattaSelect.addEventListener("change", (event) => {
   applyRegattaFilter(event.target.value);
@@ -683,9 +723,17 @@ async function loadRegattas() {
   );
 
   rawRows = results.flat();
-  const regattaIds = new Set(rawRows.map((row) => row.regattaId));
+  availableYears = Array.from(
+    new Set(rawRows.map((row) => getYearFromRegattaId(row.regattaId)).filter(Boolean))
+  ).sort();
+  updateYearOptions(availableYears);
+  if (availableYears.length > 0) {
+    yearSelect.value = availableYears[0];
+  }
+  const yearRows = filterRowsByYear(rawRows);
+  const regattaIds = new Set(yearRows.map((row) => row.regattaId));
   const divisions = new Set(
-    rawRows
+    yearRows
       .map((row) => normalizeDivisionName(row.event))
       .filter((divisionName) => divisionName)
   );
@@ -711,5 +759,6 @@ loadRegattas().catch((error) => {
 window.NADBL = {
   setData,
 };
+
 
 
