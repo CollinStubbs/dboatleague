@@ -169,6 +169,9 @@ function normalizeRegattaId(regattaId) {
   if (raw.startsWith("2025_CDBC_")) {
     return "2025_CDBC";
   }
+  if (raw.startsWith("2025_CONCORD_")) {
+    return "2025_CONCORD";
+  }
   return raw;
 }
 
