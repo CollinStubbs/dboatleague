@@ -32,6 +32,7 @@ const regattaSelect = document.querySelector("#regatta-filter");
 const divisionSelect = document.querySelector("#division-filter");
 const minRacesSelect = document.querySelector("#min-races");
 const minRacesValue = document.querySelector("#min-races-value");
+const allDistancesToggle = document.querySelector("#all-distances");
 const dataStatus = document.querySelector("#data-status");
 const snapshotValue = document.querySelector("#snapshot-value");
 const snapshotNote = document.querySelector("#snapshot-note");
@@ -452,6 +453,7 @@ function buildLeaderboard(rows) {
       avg200,
       avg500,
       avg2000,
+      hasAllDistances: avg200 !== null && avg500 !== null && avg2000 !== null,
       sandbag,
       status: "watch",
     };
@@ -638,13 +640,20 @@ function applyDivisionFilter(leaderboard) {
     selectedDivision === "ALL"
       ? leaderboard
       : leaderboard.filter((entry) => entry.division === selectedDivision);
-  applyRaceFilter(filtered);
+  applyDistanceFilter(filtered);
 }
 
 function applyRaceFilter(leaderboard) {
   const minRaces = Number.parseInt(minRacesSelect.value, 10) || 0;
   const filtered = leaderboard.filter((entry) => entry.races >= minRaces);
   setData(filtered);
+}
+
+function applyDistanceFilter(leaderboard) {
+  const filtered = allDistancesToggle.checked
+    ? leaderboard.filter((entry) => entry.hasAllDistances)
+    : leaderboard;
+  applyRaceFilter(filtered);
 }
 
 function updateMinRacesLabel() {
@@ -654,6 +663,10 @@ function updateMinRacesLabel() {
 
 minRacesSelect.addEventListener("input", () => {
   updateMinRacesLabel();
+  applyRegattaFilter(regattaSelect.value);
+});
+
+allDistancesToggle.addEventListener("change", () => {
   applyRegattaFilter(regattaSelect.value);
 });
 
