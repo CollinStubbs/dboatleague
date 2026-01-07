@@ -560,7 +560,23 @@ function setData(newData) {
 }
 
 function formatRegattaName(regattaId) {
-  return regattaId.replace(/_/g, " ").replace(/\s+/g, " ").trim();
+  const cleaned = String(regattaId || "")
+    .replace(/_/g, " ")
+    .replace(/-/g, " ")
+    .replace(/\b(results|final)\b/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!cleaned) {
+    return "";
+  }
+  const parts = cleaned.split(" ");
+  const yearIndex = parts.findIndex((part) => /^\d{4}$/.test(part));
+  let year = "";
+  if (yearIndex >= 0) {
+    year = parts.splice(yearIndex, 1)[0];
+  }
+  const name = parts.join(" ").trim();
+  return `${year || "YYYY"} ${name}`.trim().toUpperCase();
 }
 
 function updateRegattaOptions(regattaIds) {
