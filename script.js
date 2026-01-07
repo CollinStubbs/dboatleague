@@ -1,29 +1,29 @@
 const regattaFiles = [
-  "regattas/2025/2025-Chicago-IDBF-Results-race-data - 2025-Chicago-IDBF-Results-race-data.csv",
   "regattas/2025/2025_CDBC_2025-08-21_day1_races.csv",
-  "regattas/2025/2025_CDBC_2025-08-22_day2_races_FIXED.csv",
+  "regattas/2025/2025_CDBC_2025-08-22_day2_races.csv",
   "regattas/2025/2025_CDBC_2025-08-23_day3_races.csv",
-  "regattas/2025/2025_CDBC_2025-08-24_day4_races_FIXED.csv",
-  "regattas/2025/2025-GWNC-Final-Results-race-data - 2025-GWNC-Final-Results-race-data.csv",
-  "regattas/2025/2025-GWNS_Final-Results_race-data_rewritten - 2025-GWNS_Final-Results_race-data_rewritten.csv",
-  "regattas/2025/2025-Sarasota-IDBF-Race-Results - 2025-Sarasota-IDBF-Race-Results.csv",
-  "regattas/2025/2025-TIDBRF-Race-Results_extracted - 2025-TIDBRF-Race-Results_extracted.csv",
-  "regattas/2025/2025_hamilton_waterfest_saturday_races_FIXED - 2025_hamilton_waterfest_saturday_races_FIXED.csv",
-  "regattas/2025/2025_KCDBF_results_FIXED - 2025_KCDBF_results_FIXED.csv",
-  "regattas/2025/2025_Mercer_DBF_results_FIXED - 2025_Mercer_DBF_results_FIXED.csv",
-  "regattas/2025/2025_milton_races_FIXED - 2025_milton_races_FIXED.csv",
-  "regattas/2025/2025_New_York_IDBF_results_FIXED - 2025_New_York_IDBF_results_FIXED.csv",
-  "regattas/2025/2025_Orlando_DBF_results_FIXED - 2025_Orlando_DBF_results_FIXED.csv",
-  "regattas/2025/2025_PACCC_Fri_extracted_cleaned.csv",
-  "regattas/2025/2025_PACCC_Sat_extracted_cleaned.csv",
-  "regattas/2025/2025_PACCC_Sun_extracted_cleaned.csv",
-  "regattas/2025/2025_CONCORD_SAT_extracted_with_event_starttime_distance.csv",
-  "regattas/2025/2025_CONCORD_SUN_extracted_with_event_starttime_distance.csv",
-  "regattas/2025/USDBC_2025_sheet1_extracted_cleaned.csv",
-  "regattas/2025/2025_pickering_saturday_extracted_fixed.csv",
-  "regattas/2025/2025_pickering_sunday_extracted - 2025_pickering_sunday_extracted.csv",
-  "regattas/2025/2025_welland_hope_floats_extracted_fixed - 2025_welland_hope_floats_extracted_fixed.csv",
-  "regattas/2025/port_perry_2025_race_data_extracted - port_perry_2025_race_data_extracted.csv",
+  "regattas/2025/2025_CDBC_2025-08-24_day4_races.csv",
+  "regattas/2025/2025_CONCORD_SAT.csv",
+  "regattas/2025/2025_CONCORD_SUN.csv",
+  "regattas/2025/2025_hamilton.csv",
+  "regattas/2025/2025_KCDBF.csv",
+  "regattas/2025/2025_Mercer_DBF.csv",
+  "regattas/2025/2025_milton.csv",
+  "regattas/2025/2025_New_York_IDBF.csv",
+  "regattas/2025/2025_Orlando_DBF.csv",
+  "regattas/2025/2025_PACCC_Fri.csv",
+  "regattas/2025/2025_PACCC_Sat.csv",
+  "regattas/2025/2025_PACCC_Sun.csv",
+  "regattas/2025/2025_pickering_saturday.csv",
+  "regattas/2025/2025_pickering_sunday.csv",
+  "regattas/2025/2025_port_perry.csv",
+  "regattas/2025/2025_USDBC.csv",
+  "regattas/2025/2025_welland_hope_floats.csv",
+  "regattas/2025/2025-Chicago-IDBF.csv",
+  "regattas/2025/2025-GWNC.csv",
+  "regattas/2025/2025-GWNS.csv",
+  "regattas/2025/2025-Sarasota-IDBF.csv",
+  "regattas/2025/2025-TIDBRF.csv",
 ];
 
 const tableBody = document.querySelector("#leaderboard tbody");
@@ -759,6 +759,7 @@ loadRegattas().catch((error) => {
 window.NADBL = {
   setData,
 };
+
 
 
 
