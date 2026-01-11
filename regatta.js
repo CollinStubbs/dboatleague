@@ -161,6 +161,276 @@ function normalizeTeamKey(name) {
   return normalizeTeamName(name).replace(/\s+/g, "").toUpperCase();
 }
 
+function normalizeDivisionName(eventName) {
+  const raw = String(eventName || "").trim();
+  if (!raw) {
+    return "Mixed";
+  }
+  const text = raw.toUpperCase();
+  if (text.includes("BCP") || text.includes("BCS") || text.includes("CANCER") || text.includes("SURVIVOR")) {
+    return "BCP";
+  }
+  if (text.includes("PARA")) {
+    return "Para";
+  }
+  if (text.includes("SPECIAL NEEDS")) {
+    return "Special Needs";
+  }
+  if (text.includes("UNIVERSITY")) {
+    return "University";
+  }
+  if (text.includes("JUNIOR")) {
+    return "Youth";
+  }
+  if (text.includes("YOUTH")) {
+    return "Youth";
+  }
+  if (text.includes("REC")) {
+    if (text.includes("WOMEN")) {
+      return "Women";
+    }
+    if (text.includes("MIXED")) {
+      return "Mixed";
+    }
+    if (text.includes("OPEN")) {
+      return "Open";
+    }
+    return "Mixed";
+  }
+  if (
+    text.includes("COMMUNITY") ||
+    text.includes("NON PROFIT") ||
+    text.includes("NOT-FOR-PROFIT")
+  ) {
+    if (text.includes("WOMEN")) {
+      return "Women";
+    }
+    if (text.includes("MIXED")) {
+      return "Mixed";
+    }
+    if (text.includes("OPEN")) {
+      return "Open";
+    }
+    return "Mixed";
+  }
+  if (text.includes("PREMIER")) {
+    if (text.includes("WOMEN")) {
+      return "Women";
+    }
+    if (text.includes("MIXED")) {
+      return "Mixed";
+    }
+    if (text.includes("OPEN")) {
+      return "Open";
+    }
+    return "Mixed";
+  }
+  if (text.includes("SPORT")) {
+    if (text.includes("WOMEN")) {
+      return "Women";
+    }
+    if (text.includes("MIXED")) {
+      return "Mixed";
+    }
+    if (text.includes("OPEN")) {
+      return "Open";
+    }
+  }
+  if (
+    text.includes("SENIOR WOMEN") ||
+    text.includes("SENIOR WOMEN'S") ||
+    text.includes("SENIOR WOMENS") ||
+    text.includes("SR WOMEN")
+  ) {
+    return "Women";
+  }
+  if (text.includes("SPORT OPEN")) {
+    return "Open";
+  }
+  if (text.includes("WOMEN")) {
+    return "Women";
+  }
+  if (text.includes("MIXED")) {
+    return "Mixed";
+  }
+  if (text.includes("OPEN")) {
+    return "Open";
+  }
+  return "Mixed";
+}
+
+function getDivisionFromEvent(eventName) {
+  const raw = String(eventName || "").trim();
+  const text = raw.toUpperCase();
+  const hasWomen = text.includes("WOMEN");
+  const hasMixed = text.includes("MIXED");
+  const hasOpen = text.includes("OPEN");
+  const divisionHits = Number(hasWomen) + Number(hasMixed) + Number(hasOpen);
+
+  return {
+    division: normalizeDivisionName(eventName),
+    isAmbiguous: divisionHits > 1,
+  };
+}
+
+function getDivisionFromTeam(teamName) {
+  if (teamNameHasDivision(teamName, "Women")) {
+    return "Women";
+  }
+  if (teamNameHasDivision(teamName, "Open")) {
+    return "Open";
+  }
+  if (teamNameHasDivision(teamName, "Mixed")) {
+    return "Mixed";
+  }
+  if (teamNameHasDivision(teamName, "BCP")) {
+    return "BCP";
+  }
+  if (teamNameHasDivision(teamName, "Para")) {
+    return "Para";
+  }
+  if (teamNameHasDivision(teamName, "Special Needs")) {
+    return "Special Needs";
+  }
+  if (teamNameHasDivision(teamName, "University")) {
+    return "University";
+  }
+  if (teamNameHasDivision(teamName, "Youth")) {
+    return "Youth";
+  }
+  return "";
+}
+
+function resolveDivision(eventName, teamName) {
+  const eventDivision = getDivisionFromEvent(eventName);
+  if (!eventDivision.isAmbiguous) {
+    return eventDivision.division;
+  }
+  return getDivisionFromTeam(teamName) || "Mixed";
+}
+
+function teamNameHasDivision(teamName, division) {
+  const text = String(teamName || "").toUpperCase();
+  if (!text) {
+    return false;
+  }
+  if (division === "Women") {
+    return text.includes("WOMEN");
+  }
+  if (division === "Open") {
+    return text.includes("OPEN");
+  }
+  if (division === "Mixed") {
+    return text.includes("MIXED");
+  }
+  if (division === "BCP") {
+    return text.includes("BCP") || text.includes("BCS") || text.includes("CANCER") || text.includes("SURVIVOR");
+  }
+  if (division === "Para") {
+    return text.includes("PARA");
+  }
+  if (division === "Special Needs") {
+    return text.includes("SPECIAL NEEDS");
+  }
+  if (division === "University") {
+    return text.includes("UNIVERSITY");
+  }
+  if (division === "Youth") {
+    return text.includes("YOUTH") || text.includes("JUNIOR");
+  }
+  return false;
+}
+
+function resolveDivisionForSplit(eventName, teamName) {
+  const eventInfo = getDivisionFromEvent(eventName);
+  if (!eventInfo.isAmbiguous) {
+    return eventInfo.division;
+  }
+  return getDivisionFromTeam(teamName);
+}
+
+function pickPrimaryDivision(counts) {
+  const priorities = ["Mixed", "Open", "Women", "BCP", "Para", "Special Needs", "University", "Youth"];
+  let bestDivision = "";
+  let bestCount = -1;
+
+  Object.entries(counts).forEach(([division, count]) => {
+    if (count > bestCount) {
+      bestDivision = division;
+      bestCount = count;
+      return;
+    }
+    if (count === bestCount) {
+      const currentIndex = priorities.indexOf(division);
+      const bestIndex = priorities.indexOf(bestDivision);
+      if (bestIndex === -1 || (currentIndex !== -1 && currentIndex < bestIndex)) {
+        bestDivision = division;
+      }
+    }
+  });
+
+  return bestDivision;
+}
+
+function resolveDivisionWithPrimary(eventName, teamName, teamDivisionMap) {
+  const eventInfo = getDivisionFromEvent(eventName);
+  if (!eventInfo.isAmbiguous) {
+    return eventInfo.division;
+  }
+  const baseName = normalizeTeamName(teamName);
+  const teamKey = normalizeTeamKey(baseName);
+  const entry = teamDivisionMap.get(teamKey);
+  if (entry && entry.primary) {
+    return entry.primary;
+  }
+  return getDivisionFromTeam(teamName) || "Mixed";
+}
+
+function buildTeamDivisionMap(rows) {
+  const teamDivisions = new Map();
+
+  rows.forEach((row) => {
+    const baseName = normalizeTeamName(row.team_name);
+    if (!baseName) {
+      return;
+    }
+    const teamKey = normalizeTeamKey(baseName);
+    const division = resolveDivisionForSplit(row.event, row.team_name);
+    if (!division) {
+      return;
+    }
+    const entry = teamDivisions.get(teamKey) || { counts: {}, primary: "" };
+    entry.counts[division] = (entry.counts[division] || 0) + 1;
+    teamDivisions.set(teamKey, entry);
+  });
+
+  teamDivisions.forEach((entry) => {
+    entry.primary = pickPrimaryDivision(entry.counts);
+  });
+
+  return teamDivisions;
+}
+
+function getEffectiveTeamName(teamName, division, teamDivisionMap) {
+  const baseName = normalizeTeamName(teamName);
+  if (!baseName) {
+    return "";
+  }
+  if (teamNameHasDivision(baseName, division)) {
+    return baseName;
+  }
+  const teamKey = normalizeTeamKey(baseName);
+  const entry = teamDivisionMap.get(teamKey);
+  const divisionCount = entry ? Object.keys(entry.counts).length : 0;
+  if (!entry || divisionCount <= 1) {
+    return baseName;
+  }
+  if (division === entry.primary) {
+    return baseName;
+  }
+  return `${baseName} - ${division}`;
+}
+
 function isExcludedPlace(value) {
   const normalized = String(value || "").trim().toUpperCase();
   return normalized === "DNF" || normalized === "DNS" || normalized === "NA" || normalized === "N/A";
@@ -217,6 +487,7 @@ function sortRows(rows) {
 function renderRows(rows) {
   tableBody.innerHTML = rows
     .map((row) => {
+      const teamLabel = row.__teamEffective || normalizeTeamName(row.team_name);
       return `
         <tr>
           <td>${formatCell(row.date)}</td>
@@ -226,7 +497,7 @@ function renderRows(rows) {
           <td>${formatCell(row.round)}</td>
           <td>${formatDistance(row.distance_m)}</td>
           <td>${formatCell(row.lane)}</td>
-          <td>${formatCell(normalizeTeamName(row.team_name))}</td>
+          <td>${formatCell(teamLabel)}</td>
           <td>${formatCell(row.place)}</td>
           <td>${formatCell(row.time)}</td>
         </tr>
@@ -317,7 +588,15 @@ async function loadRegattaSummary(regattaId) {
   );
 
   const allRows = results.flat();
-  const regattaRows = allRows.filter(
+  const teamDivisionMap = buildTeamDivisionMap(allRows);
+  const effectiveRows = allRows.map((row) => {
+    const division = resolveDivisionWithPrimary(row.event, row.team_name, teamDivisionMap);
+    return {
+      ...row,
+      __teamEffective: getEffectiveTeamName(row.team_name, division, teamDivisionMap),
+    };
+  });
+  const regattaRows = effectiveRows.filter(
     (row) => normalizeRegattaId(row.regatta_id) === regattaId
   );
   const sortedRows = sortRows(regattaRows);
@@ -327,7 +606,7 @@ async function loadRegattaSummary(regattaId) {
     new Set(regattaRows.map((row) => row.race_id).filter(Boolean)).size
   }`;
   regattaTeamsEl.textContent = `Teams: ${
-    new Set(regattaRows.map((row) => normalizeTeamName(row.team_name)).filter(Boolean)).size
+    new Set(regattaRows.map((row) => row.__teamEffective || normalizeTeamName(row.team_name)).filter(Boolean)).size
   }`;
   regattaEntriesEl.textContent = `Entries: ${regattaRows.length}`;
   regattaStatusEl.textContent =
