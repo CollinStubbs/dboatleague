@@ -1,0 +1,575 @@
+regatta_id,race_id,date,start_time,race_no,event,round,distance_m,lane,seed,team_name,team_id,place,time,page
+2025_CCNC,2025_CCNC-1,2025-10-17,07:30,1,senior B mixed,round 1,500,1,,Windy City Dragons Mundelein,,1,2:18.509,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-1,2025-10-17,07:30,1,senior B mixed,round 1,500,3,,Southbreeze Long Beach,,2,2:18.919,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-1,2025-10-17,07:30,1,senior B mixed,round 1,500,2,,NBP Paddling Sarasota,,3,2:20.035,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-1,2025-10-17,07:30,1,senior B mixed,round 1,500,6,,Lone Star Dragons Houston,,4,2:24.129,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-1,2025-10-17,07:30,1,senior B mixed,round 1,500,4,,HEAT Dragon Boat Club The Villages,,5,2:27.783,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-1,2025-10-17,07:30,1,senior B mixed,round 1,500,5,,Seattle SAKE Senior B,,6,2:30.615,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-2,2025-10-17,07:39,2,PD-2 open,round 1,500,2,,Adaptive Fusion Long Beach,,1,2:17.932,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-2,2025-10-17,07:39,2,ACP open,round 1,500,4,,Rose City Rockets Banks,,1,2:36.952,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-3,2025-10-17,07:48,3,premier open,round 1,500,4,,Catch22 Open NYC,,1,2:12.752,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-3,2025-10-17,07:48,3,premier open,round 1,500,1,,UEAA Dragon Boat NYC New York,,2,2:13.218,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-3,2025-10-17,07:48,3,premier open,round 1,500,3,,Pennsylvania DBC Philadelphia,,3,2:16.866,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-3,2025-10-17,07:48,3,premier open,round 1,500,2,,Boston Titans Boat Club,,4,2:19.176,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-3,2025-10-17,07:48,3,premier open,round 1,500,5,,Red Dragons Miami,,5,2:26.746,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-4,2025-10-17,08:06,4,senior C mixed,round 1,500,2,,SACA Golden Dragons Tampa,,1,2:27.651,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-4,2025-10-17,08:06,4,senior C mixed,round 1,500,4,,NBP Paddling Sarasota,,2,2:29.299,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-4,2025-10-17,08:06,4,senior C mixed,round 1,500,3,,Blazing Paddles Plantation,,3,2:41.953,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-4,2025-10-17,08:06,4,senior C mixed,round 1,500,5,,"Leatherneck Warriors C The Villages, FL",,4,2:42.949,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-4,2025-10-17,08:06,4,senior C mixed,round 1,500,1,,Jax Fire Dragons Jacksonville,,5,2:43.617,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-5,2025-10-17,08:15,5,senior C mixed,round 1,500,3,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,2:10.696,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-5,2025-10-17,08:15,5,senior C mixed,round 1,500,4,,HEAT Dragon Boat Club The Villages,,2,2:23.478,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-5,2025-10-17,08:15,5,senior C mixed,round 1,500,2,,Seattle SAKE Senior C,,3,2:28.784,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-6,2025-10-17,08:24,6,premier women,heat 1,500,3,,UEAA Dragon Boat NYC New York,,1,2:30.709,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-6,2025-10-17,08:24,6,premier women,heat 1,500,4,,Arizona Sunsoon Tempe,,2,2:30.803,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-6,2025-10-17,08:24,6,premier women,heat 1,500,2,,DCDBC - Cherry Bombs Washington,,3,2:32.949,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-6,2025-10-17,08:24,6,premier women,heat 1,500,5,,Philadelphia Flying Phoenix,,4,2:39.425,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-7,2025-10-17,08:33,7,premier women,round 1,500,1,,Southbreeze Long Beach,,1,2:09.584,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-7,2025-10-17,08:33,7,premier women,round 1,500,2,,Boston BBB DBC,,2,2:11.204,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-7,2025-10-17,08:33,7,premier women,round 1,500,3,,Lone Star Dragons Houston,,3,2:16.700,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-7,2025-10-17,08:33,7,senior B women,round 1,500,5,,Bucks Dragon Boat Fusion Newtown,,1,2:14.966,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-8,2025-10-17,08:42,8,senior A open,round 1,500,5,,UNYTED Queens,,1,2:14.968,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-8,2025-10-17,08:42,8,senior A open,round 1,500,4,,NBP Paddling Sarasota,,2,2:15.580,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-8,2025-10-17,08:42,8,senior A open,round 1,500,2,,Southbreeze Long Beach,,3,2:16.818,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-8,2025-10-17,08:42,8,senior A open,round 1,500,3,,Windy City Dragons Mundelein,,4,2:19.758,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-9,2025-10-17,08:51,9,senior A open,round 1,500,2,,Bucks Dragon Boat Fusion Newtown,,1,2:04.602,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-9,2025-10-17,08:51,9,senior A open,round 1,500,1,,DCDBC - District Daddies Washington,,2,2:05.450,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-9,2025-10-17,08:51,9,senior A open,round 1,500,3,,San Francisco Dragon Warriors,,3,2:14.430,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-9,2025-10-17,08:51,9,senior C open,round 1,500,5,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,2:10.008,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-10,2025-10-17,09:00,10,senior B women,round 1,500,2,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,2:26.158,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-10,2025-10-17,09:00,10,senior B women,round 1,500,4,,NBP Paddling Sarasota,,2,2:32.838,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-10,2025-10-17,09:00,10,senior B women,round 1,500,1,,SACA Golden Dragons Tampa,,3,2:33.128,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-10,2025-10-17,09:00,10,senior B women,round 1,500,3,,Cooper River Dragon Boat Club Pennsauken,,4,2:43.390,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-10,2025-10-17,09:00,10,senior B women,round 1,500,5,,Red Dragons Miami,,5,2:49.908,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-11,2025-10-17,09:09,11,premier women,heat 2,500,4,,Catch22 Paddle Queens NYC,,1,2:32.903,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-11,2025-10-17,09:09,11,premier women,heat 2,500,2,,Windwomen San Francisco,,2,2:33.707,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-11,2025-10-17,09:09,11,premier women,heat 2,500,3,,Pennsylvania DBC Philadelphia,,3,2:33.967,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-11,2025-10-17,09:09,11,premier women,heat 2,500,5,,Ohana New England - ONE Women Boston,,4,2:37.213,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-12,2025-10-17,09:27,12,premier open,heat 1,500,3,,Southbreeze Long Beach,,1,1:59.590,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-12,2025-10-17,09:27,12,premier open,heat 1,500,2,,Lone Star Dragons Houston,,2,2:03.954,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-12,2025-10-17,09:27,12,premier open,heat 1,500,4,,Phoenix Heat Canoe Club Tempe,,3,3:28.054,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-13,2025-10-17,09:36,13,senior A women,round 1,500,4,,Southbreeze Long Beach,,1,2:31.398,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-13,2025-10-17,09:36,13,senior A women,round 1,500,1,,Philadelphia Dragon Boat Assoc Lafayette Hill,,2,2:32.602,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-13,2025-10-17,09:36,13,senior A women,round 1,500,5,,Windy City Dragons Mundelein,,3,2:34.064,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-13,2025-10-17,09:36,13,senior A women,round 1,500,6,,JDBC Flash Jacksonville Beach,,4,2:37.584,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-13,2025-10-17,09:36,13,senior A women,round 1,500,2,,DCDBC - First Ladies Washington,,5,2:49.776,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-13,2025-10-17,09:36,13,senior A women,round 1,500,3,,NJ Dragon Boat Club Lake Parsippany,,6,3:01.614,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-14,2025-10-17,09:45,14,premier open,heat 2,500,3,,Boston BBB DBC,,1,1:57.823,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-14,2025-10-17,09:45,14,premier open,heat 2,500,4,,Northwind San Francisco,,2,1:59.677,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-14,2025-10-17,09:45,14,premier open,heat 2,500,2,,Ohana New England - ONE Open Boston,,3,2:04.549,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-14,2025-10-17,09:45,14,premier open,heat 2,500,5,,San Francisco Dragon Warriors,,4,2:07.343,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-15,2025-10-17,09:54,15,PD-1 open,round 1,500,2,,Adaptive Fusion Long Beach,,1,2:37.612,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-15,2025-10-17,09:54,15,PD-1 open,round 1,500,1,,Out of Sight Dragons Washington,,2,3:13.496,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-15,2025-10-17,09:54,15,senior D women,round 1,500,4,,Seattle SAKE Senior D,,1,3:06.002,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-15,2025-10-17,09:54,15,senior D women,round 1,500,5,,Cooper River Dragon Boat Club Pennsauken,,2,3:11.806,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-15,2025-10-17,09:54,15,senior D women,round 1,500,6,,Phila Flying Phoenix Platinum Philadelphia,,3,3:24.752,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-16,2025-10-17,10:03,16,senior B mixed,round 1,500,4,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,2:05.128,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-16,2025-10-17,10:03,16,senior B mixed,round 1,500,2,,Bucks Dragon Boat Fusion Newtown,,2,2:05.138,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-16,2025-10-17,10:03,16,senior B mixed,round 1,500,5,,SACA Golden Dragons Tampa,,3,2:15.409,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-16,2025-10-17,10:03,16,senior B mixed,round 1,500,3,,DCDBC - Capitol Thunder Washington,,4,2:18.721,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-17,2025-10-17,10:30,17,PD-2 open,round 1,500,1,,The Collective Peachtree City,,1,2:47.599,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-17,2025-10-17,10:30,17,PD-2 open,round 1,500,2,,Out of Sight Dragons Washington,,2,3:00.344,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-17,2025-10-17,10:30,17,senior D open,round 1,500,4,,HEAT Dragon Boat Club The Villages,,1,2:50.070,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-17,2025-10-17,10:30,17,24u mixed,round 1,500,6,,Southbreeze Long Beach,,1,2:28.560,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-18,2025-10-17,10:39,18,senior A mixed,round 1,500,5,,Southbreeze Long Beach,,1,2:10.136,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-18,2025-10-17,10:39,18,senior A mixed,round 1,500,2,,Lone Star Dragons Houston,,2,2:11.714,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-18,2025-10-17,10:39,18,senior A mixed,round 1,500,3,,JDBC Flash Jacksonville Beach,,3,2:13.660,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-18,2025-10-17,10:39,18,senior A mixed,round 1,500,4,,San Francisco Dragon Warriors,,4,2:18.062,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-19,2025-10-17,10:48,19,senior C women,round 1,500,2,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,2:33.539,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-19,2025-10-17,10:48,19,senior C women,round 1,500,1,,Heart and Soul Indian Harbor Beach,,2,2:36.949,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-19,2025-10-17,10:48,19,senior C women,round 1,500,3,,WAM Renton,,3,2:45.531,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-19,2025-10-17,10:48,19,BCP mixed,round 1,500,5,,Survivors In Sync Sarasota,,1,2:51.025,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-20,2025-10-17,10:57,20,senior A mixed,round 1,500,6,,Bucks Dragon Boat Fusion Newtown,,1,2:20.130,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-20,2025-10-17,10:57,20,senior A mixed,round 1,500,2,,SACA Golden Dragons Tampa,,2,2:24.658,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-20,2025-10-17,10:57,20,senior A mixed,round 1,500,3,,Windy City Dragons Mundelein,,3,2:26.330,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-20,2025-10-17,10:57,20,senior A mixed,round 1,500,5,,Mekong Dragons Brookhaven,,4,2:26.891,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-20,2025-10-17,10:57,20,senior A mixed,round 1,500,1,,DCDBC - Capitol Thunder Washington,,5,2:29.873,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-20,2025-10-17,10:57,20,senior A mixed,round 1,500,4,,Blazing Paddles Plantation,,6,2:37.248,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-21,2025-10-17,11:06,21,senior C women,round 1,500,4,,HEAT Dragon Boat Club The Villages,,1,2:33.394,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-21,2025-10-17,11:06,21,senior C women,round 1,500,3,,Phila Flying Phoenix GW Philadelphia,,2,2:48.810,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-22,2025-10-17,11:15,22,senior D mixed,round 1,500,2,,"Leatherneck Warriors D The Villages, FL",,1,2:54.632,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-22,2025-10-17,11:15,22,senior D mixed,round 1,500,1,,NBP Paddling Sarasota,,2,2:55.391,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-22,2025-10-17,11:15,22,ACP open,round 1,500,4,,Central Coast SurviveOars Morro Bay,,1,2:57.085,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-22,2025-10-17,11:15,22,ACP open,round 1,500,5,,Survivor SAKE Seattle,,2,3:03.735,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-23,2025-10-17,11:24,23,senior B open,round 1,500,1,,Windy City Dragons Mundelein,,1,2:18.066,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-23,2025-10-17,11:24,23,senior B open,round 1,500,3,,Philadelphia Dragon Boat Assoc Lafayette Hill,,2,2:18.514,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-23,2025-10-17,11:24,23,senior B open,round 1,500,2,,SACA Golden Dragons Tampa,,3,2:26.843,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-23,2025-10-17,11:24,23,senior B open,round 1,500,4,,WAM Renton,,4,2:41.031,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-23,2025-10-17,11:24,23,18u open,round 1,500,6,,Ohana New England - Next ONE Boston,,1,2:36.633,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-24,2025-10-17,11:33,24,premier mixed,heat 1,500,3,,Southbreeze Long Beach,,1,2:01.126,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-24,2025-10-17,11:33,24,premier mixed,heat 1,500,4,,Northwind San Francisco,,2,2:04.626,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-24,2025-10-17,11:33,24,premier mixed,heat 1,500,2,,Phoenix Heat Canoe Club Tempe,,3,2:06.787,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-24,2025-10-17,11:33,24,premier mixed,heat 1,500,1,,Arizona Sunsoon Tempe,,4,2:07.610,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-24,2025-10-17,11:33,24,premier mixed,heat 1,500,5,,Catch22 Mixed NYC,,5,2:08.445,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-25,2025-10-17,11:42,25,premier mixed,heat 2,500,3,,Boston BBB DBC,,1,2:02.963,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-25,2025-10-17,11:42,25,premier mixed,heat 2,500,4,,Rising Tide Hawthorne,,2,2:03.968,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-25,2025-10-17,11:42,25,premier mixed,heat 2,500,2,,Wolfpack Racing Club Boston,,3,2:05.416,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-25,2025-10-17,11:42,25,premier mixed,heat 2,500,5,,Lone Star Dragons Houston,,4,2:11.933,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-25,2025-10-17,11:42,25,premier mixed,heat 2,500,1,,San Francisco Dragon Warriors,,5,2:15.293,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-26,2025-10-17,11:51,26,premier mixed,round 1,500,4,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,2:19.373,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-26,2025-10-17,11:51,26,premier mixed,round 1,500,3,,UEAA Dragon Boat NYC New York,,2,2:21.150,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-26,2025-10-17,11:51,26,premier mixed,round 1,500,5,,Pennsylvania DBC Philadelphia,,3,2:26.742,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-26,2025-10-17,11:51,26,premier mixed,round 1,500,1,,DCDBC - Wharf Rats Washington,,4,2:27.299,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-26,2025-10-17,11:51,26,premier mixed,round 1,500,2,,Jax Fire Dragons Jacksonville,,5,2:42.810,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-27,2025-10-17,12:09,27,senior C mixed,round 2 ( L ),500,4,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,2:21.979,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-27,2025-10-17,12:09,27,senior C mixed,round 2 ( L ),500,2,,HEAT Dragon Boat Club The Villages,,2,2:29.090,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-27,2025-10-17,12:09,27,senior C mixed,round 2 ( L ),500,3,,Seattle SAKE Senior C,,3,2:31.864,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-28,2025-10-17,12:18,28,ACP open,round 2 ( L ),500,2,,Rose City Rockets Banks,,1,2:40.036,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-28,2025-10-17,12:18,28,PD-2 open,round 2 ( L ),500,4,,Adaptive Fusion Long Beach,,1,2:20.922,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-29,2025-10-17,12:27,29,senior A mixed,round 2 ( L ),500,1,,Bucks Dragon Boat Fusion Newtown,,1,2:22.629,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-29,2025-10-17,12:27,29,senior A mixed,round 2 ( L ),500,2,,Mekong Dragons Brookhaven,,2,2:27.356,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-29,2025-10-17,12:27,29,senior A mixed,round 2 ( L ),500,4,,Windy City Dragons Mundelein,,3,2:27.364,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-29,2025-10-17,12:27,29,senior A mixed,round 2 ( L ),500,5,,SACA Golden Dragons Tampa,,4,2:27.841,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-29,2025-10-17,12:27,29,senior A mixed,round 2 ( L ),500,6,,DCDBC - Capitol Thunder Washington,,5,2:31.164,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-29,2025-10-17,12:27,29,senior A mixed,round 2 ( L ),500,3,,Blazing Paddles Plantation,,6,2:38.360,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-30,2025-10-17,12:36,30,premier mixed,rep 1,500,2,,Catch22 Mixed NYC,,1,2:05.852,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-30,2025-10-17,12:36,30,premier mixed,rep 1,500,3,,Northwind San Francisco,,2,2:09.254,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-30,2025-10-17,12:36,30,premier mixed,rep 1,500,4,,Arizona Sunsoon Tempe,,3,2:11.266,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-31,2025-10-17,12:45,31,premier mixed,rep 2,500,3,,Wolfpack Racing Club Boston,,1,2:05.774,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-31,2025-10-17,12:45,31,premier mixed,rep 2,500,4,,Phoenix Heat Canoe Club Tempe,,2,2:06.664,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-31,2025-10-17,12:45,31,premier mixed,rep 2,500,2,,Lone Star Dragons Houston,,3,2:10.218,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-31,2025-10-17,12:45,31,premier mixed,rep 2,500,5,,San Francisco Dragon Warriors,,4,2:20.094,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-32,2025-10-17,13:03,32,ACP open,round 2 ( L ),500,2,,Central Coast SurviveOars Morro Bay,,1,2:57.406,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-32,2025-10-17,13:03,32,ACP open,round 2 ( L ),500,1,,Survivor SAKE Seattle,,2,3:13.122,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-32,2025-10-17,13:03,32,senior D mixed,round 2 ( L ),500,4,,"Leatherneck Warriors D The Villages, FL",,1,2:53.725,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-32,2025-10-17,13:03,32,senior D mixed,round 2 ( L ),500,5,,NBP Paddling Sarasota,,2,3:02.060,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-33,2025-10-17,13:12,33,senior C open,round 2 ( L ),500,1,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,2:21.403,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-33,2025-10-17,13:12,33,senior A open,round 2 ( L ),500,5,,Bucks Dragon Boat Fusion Newtown,,1,2:07.223,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-33,2025-10-17,13:12,33,senior A open,round 2 ( L ),500,4,,DCDBC - District Daddies Washington,,2,2:07.679,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-33,2025-10-17,13:12,33,senior A open,round 2 ( L ),500,3,,San Francisco Dragon Warriors,,3,2:17.763,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-34,2025-10-17,13:21,34,senior B women,round 2 ( L ),500,1,,Bucks Dragon Boat Fusion Newtown,,1,2:21.351,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-34,2025-10-17,13:21,34,premier women,round 2 ( L ),500,4,,Southbreeze Long Beach,,1,2:11.681,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-34,2025-10-17,13:21,34,premier women,round 2 ( L ),500,5,,Boston BBB DBC,,2,2:12.661,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-34,2025-10-17,13:21,34,premier women,round 2 ( L ),500,3,,Lone Star Dragons Houston,,3,2:18.961,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-35,2025-10-17,13:30,35,senior A open,round 2 ( L ),500,2,,UNYTED Queens,,1,2:16.620,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-35,2025-10-17,13:30,35,senior A open,round 2 ( L ),500,3,,NBP Paddling Sarasota,,2,2:17.164,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-35,2025-10-17,13:30,35,senior A open,round 2 ( L ),500,4,,Windy City Dragons Mundelein,,3,2:20.894,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-35,2025-10-17,13:30,35,senior A open,round 2 ( L ),500,5,,Southbreeze Long Beach,,4,2:23.536,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-36,2025-10-17,13:39,36,premier women,rep,500,3,,DCDBC - Cherry Bombs Washington,,1,2:38.683,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-36,2025-10-17,13:39,36,premier women,rep,500,4,,Windwomen San Francisco,,2,2:38.943,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-36,2025-10-17,13:39,36,premier women,rep,500,2,,Pennsylvania DBC Philadelphia,,3,2:39.457,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-36,2025-10-17,13:39,36,premier women,rep,500,1,,Philadelphia Flying Phoenix,,4,2:40.867,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-36,2025-10-17,13:39,36,premier women,rep,500,5,,Ohana New England - ONE Women Boston,,5,2:40.873,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-37,2025-10-17,13:57,37,premier open,round 2 ( L ),500,2,,Catch22 Open NYC,,1,2:12.826,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-37,2025-10-17,13:57,37,premier open,round 2 ( L ),500,5,,UEAA Dragon Boat NYC New York,,2,2:16.240,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-37,2025-10-17,13:57,37,premier open,round 2 ( L ),500,4,,Pennsylvania DBC Philadelphia,,3,2:19.166,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-37,2025-10-17,13:57,37,premier open,round 2 ( L ),500,3,,Boston Titans Boat Club,,4,2:20.528,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-37,2025-10-17,13:57,37,premier open,round 2 ( L ),500,1,,Red Dragons Miami,,5,2:27.480,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-38,2025-10-17,14:06,38,senior B mixed,round 2 ( L ),500,3,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,2:09.849,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-38,2025-10-17,14:06,38,senior B mixed,round 2 ( L ),500,5,,Bucks Dragon Boat Fusion Newtown,,2,2:11.919,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-38,2025-10-17,14:06,38,senior B mixed,round 2 ( L ),500,2,,SACA Golden Dragons Tampa,,3,2:22.099,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-38,2025-10-17,14:06,38,senior B mixed,round 2 ( L ),500,4,,DCDBC - Capitol Thunder Washington,,4,2:28.463,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-39,2025-10-17,14:15,39,senior B mixed,round 2 ( L ),500,6,,Windy City Dragons Mundelein,,1,2:21.819,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-39,2025-10-17,14:15,39,senior B mixed,round 2 ( L ),500,5,,NBP Paddling Sarasota,,2,2:25.609,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-39,2025-10-17,14:15,39,senior B mixed,round 2 ( L ),500,4,,Southbreeze Long Beach,,3,2:25.685,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-39,2025-10-17,14:15,39,senior B mixed,round 2 ( L ),500,1,,Lone Star Dragons Houston,,4,2:29.827,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-39,2025-10-17,14:15,39,senior B mixed,round 2 ( L ),500,2,,Seattle SAKE Senior B,,5,2:36.049,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-39,2025-10-17,14:15,39,senior B mixed,round 2 ( L ),500,3,,HEAT Dragon Boat Club The Villages,,6,2:38.793,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-40,2025-10-17,14:24,40,24u mixed,round 2 ( L ),500,1,,Southbreeze Long Beach,,1,2:31.946,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-40,2025-10-17,14:24,40,senior D open,round 2 ( L ),500,3,,HEAT Dragon Boat Club The Villages,,1,2:52.780,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-40,2025-10-17,14:24,40,PD-2 open,round 2 ( L ),500,6,,The Collective Peachtree City,,1,2:53.680,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-40,2025-10-17,14:24,40,PD-2 open,round 2 ( L ),500,5,,Out of Sight Dragons Washington,,2,3:11.384,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-41,2025-10-17,14:33,41,premier open,rep,500,4,,Ohana New England - ONE Open Boston,,1,2:05.329,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-41,2025-10-17,14:33,41,premier open,rep,500,5,,Phoenix Heat Canoe Club Tempe,,2,2:05.523,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-41,2025-10-17,14:33,41,premier open,rep,500,3,,Lone Star Dragons Houston,,3,2:05.787,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-41,2025-10-17,14:33,41,premier open,rep,500,2,,San Francisco Dragon Warriors,,4,2:07.499,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-42,2025-10-17,14:42,42,premier women,grand final,500,3,,UEAA Dragon Boat NYC New York,,1,2:36.317,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-42,2025-10-17,14:42,42,premier women,grand final,500,4,,Arizona Sunsoon Tempe,,2,2:36.509,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-42,2025-10-17,14:42,42,premier women,grand final,500,2,,Catch22 Paddle Queens NYC,,3,2:36.969,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-42,2025-10-17,14:42,42,premier women,grand final,500,5,,DCDBC - Cherry Bombs Washington,,4,2:41.331,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-42,2025-10-17,14:42,42,premier women,grand final,500,6,,Pennsylvania DBC Philadelphia,,5,2:44.425,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-42,2025-10-17,14:42,42,premier women,grand final,500,1,,Windwomen San Francisco,,6,2:46.199,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-43,2025-10-17,14:51,43,senior B women,round 2 ( L ),500,3,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,2:34.443,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-43,2025-10-17,14:51,43,senior B women,round 2 ( L ),500,2,,NBP Paddling Sarasota,,2,2:39.149,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-43,2025-10-17,14:51,43,senior B women,round 2 ( L ),500,5,,SACA Golden Dragons Tampa,,3,2:41.593,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-43,2025-10-17,14:51,43,senior B women,round 2 ( L ),500,4,,Cooper River Dragon Boat Club Pennsauken,,4,2:56.183,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-43,2025-10-17,14:51,43,senior B women,round 2 ( L ),500,1,,Red Dragons Miami,,5,3:03.461,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-44,2025-10-17,15:00,44,senior C women,round 2 ( L ),500,3,,HEAT Dragon Boat Club The Villages,,1,2:31.682,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-44,2025-10-17,15:00,44,senior C women,round 2 ( L ),500,4,,Phila Flying Phoenix GW Philadelphia,,2,2:46.050,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-45,2025-10-17,15:09,45,senior A mixed,round 2 ( L ),500,2,,Southbreeze Long Beach,,1,2:08.692,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-45,2025-10-17,15:09,45,senior A mixed,round 2 ( L ),500,4,,JDBC Flash Jacksonville Beach,,2,2:13.672,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-45,2025-10-17,15:09,45,senior A mixed,round 2 ( L ),500,5,,Lone Star Dragons Houston,,3,2:14.728,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-45,2025-10-17,15:09,45,senior A mixed,round 2 ( L ),500,3,,San Francisco Dragon Warriors,,4,2:20.066,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-46,2025-10-17,15:27,46,senior D women,round 2 ( L ),500,2,,Seattle SAKE Senior D,,1,2:58.308,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-46,2025-10-17,15:27,46,senior D women,round 2 ( L ),500,3,,Cooper River Dragon Boat Club Pennsauken,,2,3:00.508,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-46,2025-10-17,15:27,46,PD-1 open,round 2 ( L ),500,5,,Adaptive Fusion Long Beach,,1,2:36.486,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-46,2025-10-17,15:27,46,PD-1 open,round 2 ( L ),500,6,,Out of Sight Dragons Washington,,2,3:05.206,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-47,2025-10-17,15:36,47,senior C mixed,round 2 ( L ),500,3,,SACA Golden Dragons Tampa,,1,2:29.724,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-47,2025-10-17,15:36,47,senior C mixed,round 2 ( L ),500,2,,NBP Paddling Sarasota,,2,2:31.514,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-47,2025-10-17,15:36,47,senior C mixed,round 2 ( L ),500,4,,Blazing Paddles Plantation,,3,2:40.670,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-47,2025-10-17,15:36,47,senior C mixed,round 2 ( L ),500,1,,"Leatherneck Warriors C The Villages, FL",,4,2:42.154,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-47,2025-10-17,15:36,47,senior C mixed,round 2 ( L ),500,5,,Jax Fire Dragons Jacksonville,,5,2:45.684,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-48,2025-10-17,15:45,48,premier open,grand final,500,4,,Southbreeze Long Beach,,1,1:56.973,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-48,2025-10-17,15:45,48,premier open,grand final,500,2,,Northwind San Francisco,,2,1:58.281,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-48,2025-10-17,15:45,48,premier open,grand final,500,3,,Boston BBB DBC,,3,1:58.427,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-48,2025-10-17,15:45,48,premier open,grand final,500,1,,Phoenix Heat Canoe Club Tempe,,4,2:03.007,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-48,2025-10-17,15:45,48,premier open,grand final,500,5,,Ohana New England - ONE Open Boston,,5,2:04.889,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-48,2025-10-17,15:45,48,premier open,grand final,500,6,,Lone Star Dragons Houston,,6,2:06.701,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-49,2025-10-17,15:54,49,senior A women,round 2 ( L ),500,6,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,2:29.441,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-49,2025-10-17,15:54,49,senior A women,round 2 ( L ),500,3,,Southbreeze Long Beach,,2,2:29.973,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-49,2025-10-17,15:54,49,senior A women,round 2 ( L ),500,2,,Windy City Dragons Mundelein,,3,2:33.758,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-49,2025-10-17,15:54,49,senior A women,round 2 ( L ),500,1,,JDBC Flash Jacksonville Beach,,4,2:38.214,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-49,2025-10-17,15:54,49,senior A women,round 2 ( L ),500,5,,DCDBC - First Ladies Washington,,5,2:50.773,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-49,2025-10-17,15:54,49,senior A women,round 2 ( L ),500,4,,NJ Dragon Boat Club Lake Parsippany,,6,2:58.351,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-50,2025-10-17,16:03,50,BCP mixed,round 2 ( L ),500,1,,Survivors In Sync Sarasota,,1,2:47.235,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-50,2025-10-17,16:03,50,senior C women,round 2 ( L ),500,5,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,2:34.575,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-50,2025-10-17,16:03,50,senior C women,round 2 ( L ),500,4,,Heart and Soul Indian Harbor Beach,,2,2:35.881,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-50,2025-10-17,16:03,50,senior C women,round 2 ( L ),500,3,,WAM Renton,,3,2:45.041,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-51,2025-10-17,16:21,51,premier mixed,round 2 ( L ),500,2,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,2:16.945,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-51,2025-10-17,16:21,51,premier mixed,round 2 ( L ),500,4,,UEAA Dragon Boat NYC New York,,2,2:18.711,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-51,2025-10-17,16:21,51,premier mixed,round 2 ( L ),500,1,,Pennsylvania DBC Philadelphia,,3,2:24.865,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-51,2025-10-17,16:21,51,premier mixed,round 2 ( L ),500,5,,DCDBC - Wharf Rats Washington,,4,2:27.337,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-51,2025-10-17,16:21,51,premier mixed,round 2 ( L ),500,3,,Jax Fire Dragons Jacksonville,,5,2:37.871,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-52,2025-10-17,16:30,52,premier mixed,grand final,500,3,,Southbreeze Long Beach,,1,1:58.315,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-52,2025-10-17,16:30,52,premier mixed,grand final,500,2,,Rising Tide Hawthorne,,2,1:59.929,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-52,2025-10-17,16:30,52,premier mixed,grand final,500,4,,Boston BBB DBC,,3,2:01.715,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-52,2025-10-17,16:30,52,premier mixed,grand final,500,1,,Catch22 Mixed NYC,,4,2:03.387,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-52,2025-10-17,16:30,52,premier mixed,grand final,500,5,,Wolfpack Racing Club Boston,,5,2:05.141,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-52,2025-10-17,16:30,52,premier mixed,grand final,500,6,,Phoenix Heat Canoe Club Tempe,,6,2:06.149,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-53,2025-10-17,16:39,53,18u open,round 2 ( L ),500,1,,Ohana New England - Next ONE Boston,,1,2:34.288,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-53,2025-10-17,16:39,53,senior B open,round 2 ( L ),500,6,,Windy City Dragons Mundelein,,1,2:17.810,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-53,2025-10-17,16:39,53,senior B open,round 2 ( L ),500,4,,Philadelphia Dragon Boat Assoc Lafayette Hill,,2,2:18.740,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-53,2025-10-17,16:39,53,senior B open,round 2 ( L ),500,5,,SACA Golden Dragons Tampa,,3,2:30.054,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-53,2025-10-17,16:39,53,senior B open,round 2 ( L ),500,3,,WAM Renton,,4,2:43.494,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-54,2025-10-18,07:30,54,senior B mixed,round 1,200,2,,Southbreeze Long Beach,,1,53.965,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-54,2025-10-18,07:30,54,senior B mixed,round 1,200,3,,Windy City Dragons Mundelein,,2,54.011,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-54,2025-10-18,07:30,54,senior B mixed,round 1,200,6,,NBP Paddling Sarasota,,3,55.303,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-54,2025-10-18,07:30,54,senior B mixed,round 1,200,4,,Lone Star Dragons Houston,,4,56.465,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-54,2025-10-18,07:30,54,senior B mixed,round 1,200,5,,HEAT Dragon Boat Club The Villages,,5,58.317,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-54,2025-10-18,07:30,54,senior B mixed,round 1,200,1,,Seattle SAKE Senior B,,6,58.901,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-55,2025-10-18,07:37,55,PD-2 open,round 1,200,2,,Adaptive Fusion Long Beach,,1,54.607,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-55,2025-10-18,07:37,55,ACP open,round 1,200,4,,Rose City Rockets Banks,,1,1:00.993,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-56,2025-10-18,07:44,56,premier open,round 1,200,3,,Catch22 Open NYC,,1,50.617,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-56,2025-10-18,07:44,56,premier open,round 1,200,2,,UEAA Dragon Boat NYC New York,,2,50.693,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-56,2025-10-18,07:44,56,premier open,round 1,200,1,,Pennsylvania DBC Philadelphia,,3,52.029,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-56,2025-10-18,07:44,56,premier open,round 1,200,5,,Boston Titans Boat Club,,4,52.903,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-56,2025-10-18,07:44,56,premier open,round 1,200,4,,Red Dragons Miami,,5,56.155,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-57,2025-10-18,07:58,57,senior C mixed,round 1,200,5,,SACA Golden Dragons Tampa,,1,57.62,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-57,2025-10-18,07:58,57,senior C mixed,round 1,200,3,,NBP Paddling Sarasota,,2,58.808,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-57,2025-10-18,07:58,57,senior C mixed,round 1,200,1,,Blazing Paddles Plantation,,3,1:02.156,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-57,2025-10-18,07:58,57,senior C mixed,round 1,200,4,,"Leatherneck Warriors C The Villages, FL",,4,1:02.852,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-57,2025-10-18,07:58,57,senior C mixed,round 1,200,2,,Jax Fire Dragons Jacksonville,,5,1:04.992,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-58,2025-10-18,08:05,58,senior C mixed,round 1,200,2,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,53.649,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-58,2025-10-18,08:05,58,senior C mixed,round 1,200,3,,HEAT Dragon Boat Club The Villages,,2,56.659,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-58,2025-10-18,08:05,58,senior C mixed,round 1,200,4,,Seattle SAKE Senior C,,3,58.883,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-59,2025-10-18,08:12,59,premier women,heat 1,200,5,,Arizona Sunsoon Tempe,,1,58.255,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-59,2025-10-18,08:12,59,premier women,heat 1,200,4,,DCDBC - Cherry Bombs Washington,,2,59.263,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-59,2025-10-18,08:12,59,premier women,heat 1,200,2,,Ohana New England - ONE Women Boston,,3,59.333,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-59,2025-10-18,08:12,59,premier women,heat 1,200,3,,Pennsylvania DBC Philadelphia,,4,1:00.617,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-60,2025-10-18,08:19,60,premier women,round 1,200,1,,Boston BBB DBC,,1,52.291,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-60,2025-10-18,08:19,60,premier women,round 1,200,3,,Southbreeze Long Beach,,2,53.003,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-60,2025-10-18,08:19,60,premier women,round 1,200,2,,Lone Star Dragons Houston,,3,53.735,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-60,2025-10-18,08:19,60,senior B women,round 1,200,5,,Bucks Dragon Boat Fusion Newtown,,1,54.241,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-61,2025-10-18,08:26,61,senior A open,round 1,200,3,,UNYTED Queens,,1,51.69,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-61,2025-10-18,08:26,61,senior A open,round 1,200,5,,NBP Paddling Sarasota,,2,52.126,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-61,2025-10-18,08:26,61,senior A open,round 1,200,2,,Windy City Dragons Mundelein,,3,53.024,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-61,2025-10-18,08:26,61,senior A open,round 1,200,4,,Southbreeze Long Beach,,4,53.23,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-62,2025-10-18,08:33,62,senior A open,round 1,200,3,,DCDBC - District Daddies Washington,,1,49.167,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-62,2025-10-18,08:33,62,senior A open,round 1,200,1,,Bucks Dragon Boat Fusion Newtown,,2,49.367,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-62,2025-10-18,08:33,62,senior A open,round 1,200,2,,San Francisco Dragon Warriors,,3,52.527,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-62,2025-10-18,08:33,62,senior C open,round 1,200,5,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,56.493,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-63,2025-10-18,08:40,63,senior B women,round 1,200,5,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,58.028,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-63,2025-10-18,08:40,63,senior B women,round 1,200,2,,SACA Golden Dragons Tampa,,2,1:00.298,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-63,2025-10-18,08:40,63,senior B women,round 1,200,3,,NBP Paddling Sarasota,,3,1:00.608,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-63,2025-10-18,08:40,63,senior B women,round 1,200,1,,Cooper River Dragon Boat Club Pennsauken,,4,1:03.450,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-63,2025-10-18,08:40,63,senior B women,round 1,200,4,,Red Dragons Miami,,5,1:06.634,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-64,2025-10-18,08:47,64,premier women,heat 2,200,3,,UEAA Dragon Boat NYC New York,,1,58.084,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-64,2025-10-18,08:47,64,premier women,heat 2,200,5,,Catch22 Paddle Queens NYC,,2,58.874,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-64,2025-10-18,08:47,64,premier women,heat 2,200,4,,Windwomen San Francisco,,3,1:00.152,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-64,2025-10-18,08:47,64,premier women,heat 2,200,2,,Philadelphia Flying Phoenix,,4,1:00.654,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-65,2025-10-18,09:01,65,premier open,heat 1,200,3,,Boston BBB DBC,,1,46.722,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-65,2025-10-18,09:01,65,premier open,heat 1,200,2,,Ohana New England - ONE Open Boston,,2,48.38,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-65,2025-10-18,09:01,65,premier open,heat 1,200,4,,Lone Star Dragons Houston,,3,48.756,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-66,2025-10-18,09:08,66,senior A women,round 1,200,5,,Southbreeze Long Beach,,1,58.535,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-66,2025-10-18,09:08,66,senior A women,round 1,200,3,,Philadelphia Dragon Boat Assoc Lafayette Hill,,2,59.433,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-66,2025-10-18,09:08,66,senior A women,round 1,200,1,,Windy City Dragons Mundelein,,3,1:00.655,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-66,2025-10-18,09:08,66,senior A women,round 1,200,4,,JDBC Flash Jacksonville Beach,,4,1:01.131,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-66,2025-10-18,09:08,66,senior A women,round 1,200,6,,DCDBC - First Ladies Washington,,5,1:05.439,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-66,2025-10-18,09:08,66,senior A women,round 1,200,2,,NJ Dragon Boat Club Lake Parsippany,,6,1:08.875,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-67,2025-10-18,09:15,67,premier open,heat 2,200,3,,Southbreeze Long Beach,,1,45.429,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-67,2025-10-18,09:15,67,premier open,heat 2,200,5,,Northwind San Francisco,,2,46.083,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-67,2025-10-18,09:15,67,premier open,heat 2,200,4,,Phoenix Heat Canoe Club Tempe,,3,48.503,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-67,2025-10-18,09:15,67,premier open,heat 2,200,2,,San Francisco Dragon Warriors,,4,49.591,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-68,2025-10-18,09:22,68,PD-1 open,round 1,200,1,,Adaptive Fusion Long Beach,,1,1:03.293,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-68,2025-10-18,09:22,68,PD-1 open,round 1,200,2,,Out of Sight Dragons Washington,,2,1:10.543,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-68,2025-10-18,09:22,68,senior D women,round 1,200,6,,Seattle SAKE Senior D,,1,1:09.531,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-68,2025-10-18,09:22,68,senior D women,round 1,200,4,,Cooper River Dragon Boat Club Pennsauken,,2,1:11.163,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-68,2025-10-18,09:22,68,senior D women,round 1,200,5,,Phila Flying Phoenix Platinum Philadelphia,,3,1:14.859,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-69,2025-10-18,09:29,69,senior B mixed,round 1,200,4,,Bucks Dragon Boat Fusion Newtown,,1,49.216,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-69,2025-10-18,09:29,69,senior B mixed,round 1,200,5,,Philadelphia Dragon Boat Assoc Lafayette Hill,,2,50.342,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-69,2025-10-18,09:29,69,senior B mixed,round 1,200,3,,SACA Golden Dragons Tampa,,3,53.254,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-69,2025-10-18,09:29,69,senior B mixed,round 1,200,2,,DCDBC - Capitol Thunder Washington,,4,54.824,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-70,2025-10-18,10:18,70,PD-2 open,round 1,200,2,,The Collective Peachtree City,,1,1:02.869,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-70,2025-10-18,10:18,70,PD-2 open,round 1,200,1,,Out of Sight Dragons Washington,,2,1:07.021,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-70,2025-10-18,10:18,70,senior D open,round 1,200,4,,HEAT Dragon Boat Club The Villages,,1,1:03.533,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-70,2025-10-18,10:18,70,24u mixed,round 1,200,6,,Southbreeze Long Beach,,1,56.473,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-71,2025-10-18,10:25,71,senior A mixed,round 1,200,3,,Southbreeze Long Beach,,1,49.788,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-71,2025-10-18,10:25,71,senior A mixed,round 1,200,4,,Lone Star Dragons Houston,,2,52.096,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-71,2025-10-18,10:25,71,senior A mixed,round 1,200,2,,JDBC Flash Jacksonville Beach,,3,53.322,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-71,2025-10-18,10:25,71,senior A mixed,round 1,200,5,,San Francisco Dragon Warriors,,4,53.906,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-72,2025-10-18,10:32,72,senior C women,round 1,200,1,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,1:00.119,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-72,2025-10-18,10:32,72,senior C women,round 1,200,3,,Heart and Soul Indian Harbor Beach,,2,1:00.697,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-72,2025-10-18,10:32,72,senior C women,round 1,200,2,,WAM Renton,,3,1:05.319,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-72,2025-10-18,10:32,72,BCP mixed,round 1,200,5,,Survivors In Sync Sarasota,,1,1:04.243,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-73,2025-10-18,10:39,73,senior A mixed,round 1,200,4,,Bucks Dragon Boat Fusion Newtown,,1,53.547,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-73,2025-10-18,10:39,73,senior A mixed,round 1,200,6,,SACA Golden Dragons Tampa,,2,55.321,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-73,2025-10-18,10:39,73,senior A mixed,round 1,200,1,,Mekong Dragons Brookhaven,,3,55.709,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-73,2025-10-18,10:39,73,senior A mixed,round 1,200,2,,Windy City Dragons Mundelein,,4,55.899,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-73,2025-10-18,10:39,73,senior A mixed,round 1,200,3,,DCDBC - Capitol Thunder Washington,,5,57.595,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-73,2025-10-18,10:39,73,senior A mixed,round 1,200,5,,Blazing Paddles Plantation,,6,1:02.807,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-74,2025-10-18,10:46,74,senior C women,round 1,200,3,,HEAT Dragon Boat Club The Villages,,1,59.837,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-74,2025-10-18,10:46,74,senior C women,round 1,200,4,,Phila Flying Phoenix GW Philadelphia,,2,1:05.183,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-75,2025-10-18,10:53,75,senior D mixed,round 1,200,1,,"Leatherneck Warriors D The Villages, FL",,1,1:02.667,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-75,2025-10-18,10:53,75,senior D mixed,round 1,200,2,,NBP Paddling Sarasota,,2,1:04.415,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-75,2025-10-18,10:53,75,ACP open,round 1,200,4,,Survivor SAKE Seattle,,1,1:07.909,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-75,2025-10-18,10:53,75,ACP open,round 1,200,5,,Central Coast SurviveOars Morro Bay,,2,1:08.389,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-76,2025-10-18,11:00,76,senior B open,round 1,200,3,,Windy City Dragons Mundelein,,1,53.004,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-76,2025-10-18,11:00,76,senior B open,round 1,200,4,,Philadelphia Dragon Boat Assoc Lafayette Hill,,2,53.798,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-76,2025-10-18,11:00,76,senior B open,round 1,200,1,,SACA Golden Dragons Tampa,,3,55.074,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-76,2025-10-18,11:00,76,senior B open,round 1,200,2,,WAM Renton,,4,1:01.614,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-76,2025-10-18,11:00,76,18u open,round 1,200,6,,Ohana New England - Next ONE Boston,,1,58.906,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-77,2025-10-18,11:07,77,premier mixed,heat 1,200,3,,Boston BBB DBC,,1,47.499,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-77,2025-10-18,11:07,77,premier mixed,heat 1,200,5,,Northwind San Francisco,,2,48.079,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-77,2025-10-18,11:07,77,premier mixed,heat 1,200,4,,Arizona Sunsoon Tempe,,3,49.643,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-77,2025-10-18,11:07,77,premier mixed,heat 1,200,1,,Phoenix Heat Canoe Club Tempe,,4,49.655,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-77,2025-10-18,11:07,77,premier mixed,heat 1,200,2,,Lone Star Dragons Houston,,5,50.305,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-78,2025-10-18,11:14,78,premier mixed,heat 2,200,5,,Rising Tide Hawthorne,,1,47.952,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-78,2025-10-18,11:14,78,premier mixed,heat 2,200,1,,Wolfpack Racing Club Boston,,2,47.98,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-78,2025-10-18,11:14,78,premier mixed,heat 2,200,3,,Southbreeze Long Beach,,3,47.986,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-78,2025-10-18,11:14,78,premier mixed,heat 2,200,2,,Catch22 Mixed NYC,,4,49.73,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-78,2025-10-18,11:14,78,premier mixed,heat 2,200,4,,San Francisco Dragon Warriors,,5,52.846,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-79,2025-10-18,11:21,79,premier mixed,round 1,200,1,,UEAA Dragon Boat NYC New York,,1,53.922,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-79,2025-10-18,11:21,79,premier mixed,round 1,200,3,,Philadelphia Dragon Boat Assoc Lafayette Hill,,2,54.144,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-79,2025-10-18,11:21,79,premier mixed,round 1,200,4,,Pennsylvania DBC Philadelphia,,3,55.008,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-79,2025-10-18,11:21,79,premier mixed,round 1,200,2,,DCDBC - Wharf Rats Washington,,4,56.696,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-79,2025-10-18,11:21,79,premier mixed,round 1,200,5,,Jax Fire Dragons Jacksonville,,5,1:02.072,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-80,2025-10-18,11:35,80,senior C mixed,round 2 ( L ),200,3,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,55.395,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-80,2025-10-18,11:35,80,senior C mixed,round 2 ( L ),200,4,,HEAT Dragon Boat Club The Villages,,2,56.493,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-80,2025-10-18,11:35,80,senior C mixed,round 2 ( L ),200,2,,Seattle SAKE Senior C,,3,57.995,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-81,2025-10-18,11:42,81,ACP open,round 2 ( L ),200,2,,Rose City Rockets Banks,,1,59.687,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-81,2025-10-18,11:42,81,PD-2 open,round 2 ( L ),200,4,,Adaptive Fusion Long Beach,,1,54.907,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-82,2025-10-18,11:49,82,senior A mixed,round 2 ( L ),200,3,,Bucks Dragon Boat Fusion Newtown,,1,54.08,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-82,2025-10-18,11:49,82,senior A mixed,round 2 ( L ),200,5,,Windy City Dragons Mundelein,,2,55.038,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-82,2025-10-18,11:49,82,senior A mixed,round 2 ( L ),200,1,,SACA Golden Dragons Tampa,,3,55.192,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-82,2025-10-18,11:49,82,senior A mixed,round 2 ( L ),200,6,,Mekong Dragons Brookhaven,,4,56.46,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-82,2025-10-18,11:49,82,senior A mixed,round 2 ( L ),200,4,,DCDBC - Capitol Thunder Washington,,5,57.624,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-82,2025-10-18,11:49,82,senior A mixed,round 2 ( L ),200,2,,Blazing Paddles Plantation,,6,1:00.108,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-83,2025-10-18,11:56,83,premier mixed,rep 1,200,2,,Catch22 Mixed NYC,,1,47.855,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-83,2025-10-18,11:56,83,premier mixed,rep 1,200,3,,Southbreeze Long Beach,,2,48.157,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-83,2025-10-18,11:56,83,premier mixed,rep 1,200,4,,Phoenix Heat Canoe Club Tempe,,3,50.025,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-84,2025-10-18,12:03,84,premier mixed,rep 2,200,3,,Northwind San Francisco,,1,48.353,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-84,2025-10-18,12:03,84,premier mixed,rep 2,200,4,,Arizona Sunsoon Tempe,,2,49.773,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-84,2025-10-18,12:03,84,premier mixed,rep 2,200,2,,Lone Star Dragons Houston,,3,50.319,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-84,2025-10-18,12:03,84,premier mixed,rep 2,200,5,,San Francisco Dragon Warriors,,4,53.745,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-85,2025-10-18,12:17,85,ACP open,round 2 ( L ),200,1,,Central Coast SurviveOars Morro Bay,,1,1:05.082,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-85,2025-10-18,12:17,85,ACP open,round 2 ( L ),200,2,,Survivor SAKE Seattle,,2,1:07.020,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-85,2025-10-18,12:17,85,senior D mixed,round 2 ( L ),200,5,,"Leatherneck Warriors D The Villages, FL",,1,1:02.944,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-85,2025-10-18,12:17,85,senior D mixed,round 2 ( L ),200,4,,NBP Paddling Sarasota,,2,1:03.682,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-86,2025-10-18,12:24,86,senior C open,round 2 ( L ),200,1,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,56.779,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-86,2025-10-18,12:24,86,senior A open,round 2 ( L ),200,3,,DCDBC - District Daddies Washington,,1,48.949,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-86,2025-10-18,12:24,86,senior A open,round 2 ( L ),200,4,,Bucks Dragon Boat Fusion Newtown,,2,49.529,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-86,2025-10-18,12:24,86,senior A open,round 2 ( L ),200,5,,San Francisco Dragon Warriors,,3,54.799,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-87,2025-10-18,12:31,87,senior B women,round 2 ( L ),200,1,,Bucks Dragon Boat Fusion Newtown,,1,53.499,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-87,2025-10-18,12:31,87,premier women,round 2 ( L ),200,3,,Southbreeze Long Beach,,1,51.551,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-87,2025-10-18,12:31,87,premier women,round 2 ( L ),200,4,,Boston BBB DBC,,2,52.013,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-87,2025-10-18,12:31,87,premier women,round 2 ( L ),200,5,,Lone Star Dragons Houston,,3,54.097,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-88,2025-10-18,12:38,88,senior A open,round 2 ( L ),200,4,,UNYTED Queens,,1,52.096,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-88,2025-10-18,12:38,88,senior A open,round 2 ( L ),200,2,,NBP Paddling Sarasota,,2,52.652,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-88,2025-10-18,12:38,88,senior A open,round 2 ( L ),200,3,,Southbreeze Long Beach,,3,53.494,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-88,2025-10-18,12:38,88,senior A open,round 2 ( L ),200,5,,Windy City Dragons Mundelein,,4,53.67,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-89,2025-10-18,12:45,89,premier women,rep,200,4,,Ohana New England - ONE Women Boston,,1,59.349,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-89,2025-10-18,12:45,89,premier women,rep,200,3,,DCDBC - Cherry Bombs Washington,,2,59.763,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-89,2025-10-18,12:45,89,premier women,rep,200,5,,Pennsylvania DBC Philadelphia,,3,59.941,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-89,2025-10-18,12:45,89,premier women,rep,200,2,,Windwomen San Francisco,,4,59.979,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-89,2025-10-18,12:45,89,premier women,rep,200,1,,Philadelphia Flying Phoenix,,5,1:00.819,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-90,2025-10-18,12:59,90,premier open,round 2 ( L ),200,4,,Catch22 Open NYC,,1,49.915,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-90,2025-10-18,12:59,90,premier open,round 2 ( L ),200,3,,UEAA Dragon Boat NYC New York,,2,50.411,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-90,2025-10-18,12:59,90,premier open,round 2 ( L ),200,5,,Pennsylvania DBC Philadelphia,,3,51.739,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-90,2025-10-18,12:59,90,premier open,round 2 ( L ),200,1,,Boston Titans Boat Club,,4,52.199,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-90,2025-10-18,12:59,90,premier open,round 2 ( L ),200,2,,Red Dragons Miami,,5,55.121,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-91,2025-10-18,13:06,91,senior B mixed,round 2 ( L ),200,3,,Bucks Dragon Boat Fusion Newtown,,1,49.601,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-91,2025-10-18,13:06,91,senior B mixed,round 2 ( L ),200,2,,Philadelphia Dragon Boat Assoc Lafayette Hill,,2,50.175,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-91,2025-10-18,13:06,91,senior B mixed,round 2 ( L ),200,4,,SACA Golden Dragons Tampa,,3,53.103,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-91,2025-10-18,13:06,91,senior B mixed,round 2 ( L ),200,5,,DCDBC - Capitol Thunder Washington,,4,55.733,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-92,2025-10-18,13:13,92,senior B mixed,round 2 ( L ),200,4,,Windy City Dragons Mundelein,,1,53.835,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-92,2025-10-18,13:13,92,senior B mixed,round 2 ( L ),200,5,,Southbreeze Long Beach,,2,54.685,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-92,2025-10-18,13:13,92,senior B mixed,round 2 ( L ),200,1,,NBP Paddling Sarasota,,3,55.151,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-92,2025-10-18,13:13,92,senior B mixed,round 2 ( L ),200,3,,Lone Star Dragons Houston,,4,57.969,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-92,2025-10-18,13:13,92,senior B mixed,round 2 ( L ),200,6,,Seattle SAKE Senior B,,5,58.737,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-92,2025-10-18,13:13,92,senior B mixed,round 2 ( L ),200,2,,HEAT Dragon Boat Club The Villages,,6,59.169,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-93,2025-10-18,13:20,93,24u mixed,round 2 ( L ),200,1,,Southbreeze Long Beach,,1,56.358,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-93,2025-10-18,13:20,93,senior D open,round 2 ( L ),200,3,,HEAT Dragon Boat Club The Villages,,1,1:02.804,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-93,2025-10-18,13:20,93,PD-2 open,round 2 ( L ),200,5,,The Collective Peachtree City,,1,1:00.916,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-93,2025-10-18,13:20,93,PD-2 open,round 2 ( L ),200,6,,Out of Sight Dragons Washington,,2,1:07.116,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-94,2025-10-18,13:27,94,premier open,rep,200,3,,Ohana New England - ONE Open Boston,,1,48.288,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-94,2025-10-18,13:27,94,premier open,rep,200,4,,Phoenix Heat Canoe Club Tempe,,2,48.974,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-94,2025-10-18,13:27,94,premier open,rep,200,2,,Lone Star Dragons Houston,,3,49.13,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-94,2025-10-18,13:27,94,premier open,rep,200,5,,San Francisco Dragon Warriors,,4,49.842,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-95,2025-10-18,13:34,95,premier women,grand final,200,2,,Catch22 Paddle Queens NYC,,1,58.353,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-95,2025-10-18,13:34,95,premier women,grand final,200,4,,Arizona Sunsoon Tempe,,2,58.397,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-95,2025-10-18,13:34,95,premier women,grand final,200,3,,UEAA Dragon Boat NYC New York,,3,58.643,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-95,2025-10-18,13:34,95,premier women,grand final,200,1,,DCDBC - Cherry Bombs Washington,,4,59.263,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-95,2025-10-18,13:34,95,premier women,grand final,200,5,,Ohana New England - ONE Women Boston,,5,59.819,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-95,2025-10-18,13:34,95,premier women,grand final,200,6,,Pennsylvania DBC Philadelphia,,6,59.879,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-96,2025-10-18,13:41,96,senior B women,round 2 ( L ),200,1,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,57.056,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-96,2025-10-18,13:41,96,senior B women,round 2 ( L ),200,3,,SACA Golden Dragons Tampa,,2,59.326,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-96,2025-10-18,13:41,96,senior B women,round 2 ( L ),200,4,,NBP Paddling Sarasota,,3,1:00.000,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-96,2025-10-18,13:41,96,senior B women,round 2 ( L ),200,5,,Cooper River Dragon Boat Club Pennsauken,,4,1:03.720,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-96,2025-10-18,13:41,96,senior B women,round 2 ( L ),200,2,,Red Dragons Miami,,5,1:03.982,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-97,2025-10-18,13:48,97,senior C women,round 2 ( L ),200,4,,HEAT Dragon Boat Club The Villages,,1,59.088,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-97,2025-10-18,13:48,97,senior C women,round 2 ( L ),200,3,,Phila Flying Phoenix GW Philadelphia,,2,1:04.272,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-98,2025-10-18,13:55,98,senior A mixed,round 2 ( L ),200,4,,Southbreeze Long Beach,,1,49.901,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-98,2025-10-18,13:55,98,senior A mixed,round 2 ( L ),200,3,,Lone Star Dragons Houston,,2,51.409,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-98,2025-10-18,13:55,98,senior A mixed,round 2 ( L ),200,5,,JDBC Flash Jacksonville Beach,,3,52.267,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-98,2025-10-18,13:55,98,senior A mixed,round 2 ( L ),200,2,,San Francisco Dragon Warriors,,4,52.743,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-99,2025-10-18,14:09,99,senior D women,round 2 ( L ),200,2,,Cooper River Dragon Boat Club Pennsauken,,1,1:05.101,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-99,2025-10-18,14:09,99,senior D women,round 2 ( L ),200,1,,Seattle SAKE Senior D,,2,1:05.447,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-99,2025-10-18,14:09,99,senior D women,round 2 ( L ),200,3,,Phila Flying Phoenix Platinum Philadelphia,,3,1:07.557,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-99,2025-10-18,14:09,99,PD-1 open,round 2 ( L ),200,6,,Adaptive Fusion Long Beach,,1,1:00.253,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-99,2025-10-18,14:09,99,PD-1 open,round 2 ( L ),200,5,,Out of Sight Dragons Washington,,2,1:07.961,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-100,2025-10-18,14:16,100,senior C mixed,round 2 ( L ),200,1,,SACA Golden Dragons Tampa,,1,57.489,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-100,2025-10-18,14:16,100,senior C mixed,round 2 ( L ),200,4,,NBP Paddling Sarasota,,2,58.091,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-100,2025-10-18,14:16,100,senior C mixed,round 2 ( L ),200,5,,Blazing Paddles Plantation,,3,1:01.249,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-100,2025-10-18,14:16,100,senior C mixed,round 2 ( L ),200,2,,"Leatherneck Warriors C The Villages, FL",,4,1:01.467,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-100,2025-10-18,14:16,100,senior C mixed,round 2 ( L ),200,3,,Jax Fire Dragons Jacksonville,,5,1:03.067,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-101,2025-10-18,14:23,101,premier open,grand final,200,3,,Southbreeze Long Beach,,1,45.147,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-101,2025-10-18,14:23,101,premier open,grand final,200,2,,Boston BBB DBC,,2,45.769,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-101,2025-10-18,14:23,101,premier open,grand final,200,4,,Northwind San Francisco,,3,46.333,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-101,2025-10-18,14:23,101,premier open,grand final,200,5,,Ohana New England - ONE Open Boston,,4,48.303,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-101,2025-10-18,14:23,101,premier open,grand final,200,1,,Phoenix Heat Canoe Club Tempe,,5,48.963,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-101,2025-10-18,14:23,101,premier open,grand final,200,6,,Lone Star Dragons Houston,,6,49.089,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-102,2025-10-18,14:30,102,senior A women,round 2 ( L ),200,2,,Southbreeze Long Beach,,1,58.229,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-102,2025-10-18,14:30,102,senior A women,round 2 ( L ),200,4,,Philadelphia Dragon Boat Assoc Lafayette Hill,,2,58.711,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-102,2025-10-18,14:30,102,senior A women,round 2 ( L ),200,6,,Windy City Dragons Mundelein,,3,59.757,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-102,2025-10-18,14:30,102,senior A women,round 2 ( L ),200,3,,JDBC Flash Jacksonville Beach,,4,1:00.683,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-102,2025-10-18,14:30,102,senior A women,round 2 ( L ),200,1,,DCDBC - First Ladies Washington,,5,1:04.913,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-102,2025-10-18,14:30,102,senior A women,round 2 ( L ),200,5,,NJ Dragon Boat Club Lake Parsippany,,6,1:09.343,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-103,2025-10-18,14:37,103,BCP mixed,round 2 ( L ),200,1,,Survivors In Sync Sarasota,,1,1:03.144,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-103,2025-10-18,14:37,103,senior C women,round 2 ( L ),200,4,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,59.72,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-103,2025-10-18,14:37,103,senior C women,round 2 ( L ),200,3,,Heart and Soul Indian Harbor Beach,,2,1:00.772,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-103,2025-10-18,14:37,103,senior C women,round 2 ( L ),200,5,,WAM Renton,,3,1:04.000,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-104,2025-10-18,14:51,104,premier mixed,round 2 ( L ),200,5,,UEAA Dragon Boat NYC New York,,1,52.59,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-104,2025-10-18,14:51,104,premier mixed,round 2 ( L ),200,4,,Philadelphia Dragon Boat Assoc Lafayette Hill,,2,52.77,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-104,2025-10-18,14:51,104,premier mixed,round 2 ( L ),200,2,,Pennsylvania DBC Philadelphia,,3,54.58,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-104,2025-10-18,14:51,104,premier mixed,round 2 ( L ),200,3,,DCDBC - Wharf Rats Washington,,4,56.62,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-104,2025-10-18,14:51,104,premier mixed,round 2 ( L ),200,1,,Jax Fire Dragons Jacksonville,,5,1:01.570,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-105,2025-10-18,14:58,105,premier mixed,grand final,200,1,,Southbreeze Long Beach,,1,46.264,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-105,2025-10-18,14:58,105,premier mixed,grand final,200,4,,Rising Tide Hawthorne,,2,46.512,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-105,2025-10-18,14:58,105,premier mixed,grand final,200,2,,Wolfpack Racing Club Boston,,3,47.176,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-105,2025-10-18,14:58,105,premier mixed,grand final,200,3,,Boston BBB DBC,,4,47.33,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-105,2025-10-18,14:58,105,premier mixed,grand final,200,6,,Northwind San Francisco,,5,47.572,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-105,2025-10-18,14:58,105,premier mixed,grand final,200,5,,Catch22 Mixed NYC,,6,47.89,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-106,2025-10-18,15:05,106,18u open,round 2 ( L ),200,1,,Ohana New England - Next ONE Boston,,1,58.652,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-106,2025-10-18,15:05,106,senior B open,round 2 ( L ),200,4,,Windy City Dragons Mundelein,,1,53.322,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-106,2025-10-18,15:05,106,senior B open,round 2 ( L ),200,3,,Philadelphia Dragon Boat Assoc Lafayette Hill,,2,53.882,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-106,2025-10-18,15:05,106,senior B open,round 2 ( L ),200,6,,SACA Golden Dragons Tampa,,3,56.17,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-106,2025-10-18,15:05,106,senior B open,round 2 ( L ),200,5,,WAM Renton,,4,1:02.638,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-107,2025-10-19,07:30,107,senior B open,final,2000,4,,Windy City Dragons Mundelein,,1,9:32.540,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-107,2025-10-19,07:30,107,senior B open,final,2000,3,,Philadelphia Dragon Boat Assoc Lafayette Hill,,2,9:34.274,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-107,2025-10-19,07:30,107,senior B open,final,2000,2,,SACA Golden Dragons Tampa,,3,10:15.049,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-107,2025-10-19,07:30,107,senior B open,final,2000,1,,WAM Renton,,4,11:17.900,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-107,2025-10-19,07:30,107,senior A women,final,2000,8,,Windy City Dragons Mundelein,,1,10:37.889,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-107,2025-10-19,07:30,107,senior A women,final,2000,10,,Southbreeze Long Beach,,2,10:41.804,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-107,2025-10-19,07:30,107,senior A women,final,2000,7,,JDBC Flash Jacksonville Beach,,3,11:43.613,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-107,2025-10-19,07:30,107,senior A women,final,2000,6,,DCDBC - First Ladies Washington,,4,12:06.069,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-107,2025-10-19,07:30,107,senior A women,final,2000,5,,NJ Dragon Boat Club Lake Parsippany,,5,16:02.400,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-107,2025-10-19,07:30,107,BCP mixed,final,2000,11,,Survivors In Sync Sarasota,,1,11:39.470,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-108,2025-10-19,08:05,108,premier open,final,2000,7,,Southbreeze Long Beach,,1,8:29.911,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-108,2025-10-19,08:05,108,premier open,final,2000,6,,Northwind San Francisco,,2,8:38.988,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-108,2025-10-19,08:05,108,premier open,final,2000,5,,Boston BBB DBC,,3,8:42.048,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-108,2025-10-19,08:05,108,premier open,final,2000,2,,Lone Star Dragons Houston,,4,8:58.608,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-108,2025-10-19,08:05,108,premier open,final,2000,3,,Ohana New England - ONE Open Boston,,6,9:01.241,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-108,2025-10-19,08:05,108,premier open,final,2000,1,,San Francisco Dragon Warriors,,7,9:05.035,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-109,2025-10-19,08:40,109,premier open,final,2000,5,,Catch22 Open NYC,,1,9:43.661,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-109,2025-10-19,08:40,109,premier open,final,2000,4,,UEAA Dragon Boat NYC New York,,2,9:50.661,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-109,2025-10-19,08:40,109,premier open,final,2000,3,,Pennsylvania DBC Philadelphia,,3,9:56.881,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-109,2025-10-19,08:40,109,premier open,final,2000,2,,Boston Titans Boat Club,,4,10:05.690,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-109,2025-10-19,08:40,109,premier open,final,2000,1,,Red Dragons Miami,,5,10:41.447,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-109,2025-10-19,08:40,109,senior B women,final,2000,10,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,10:13.049,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-109,2025-10-19,08:40,109,senior B women,final,2000,9,,NBP Paddling Sarasota,,2,10:43.364,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-109,2025-10-19,08:40,109,senior B women,final,2000,8,,SACA Golden Dragons Tampa,,3,10:44.838,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-109,2025-10-19,08:40,109,senior B women,final,2000,6,,Red Dragons Miami,,4,12:24.353,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-109,2025-10-19,08:40,109,senior B women,final,2000,7,,Cooper River Dragon Boat Club Pennsauken,,5,12:24.694,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-109,2025-10-19,08:40,109,PD-1 open,final,2000,12,,Adaptive Fusion Long Beach,,1,11:16.062,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-109,2025-10-19,08:40,109,PD-1 open,final,2000,11,,Out of Sight Dragons Washington,,2,13:24.646,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-110,2025-10-19,09:15,110,premier women,final,2000,3,,Southbreeze Long Beach,,1,9:14.721,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-110,2025-10-19,09:15,110,premier women,final,2000,2,,Boston BBB DBC,,2,9:26.734,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-110,2025-10-19,09:15,110,premier women,final,2000,1,,Lone Star Dragons Houston,,3,10:05.115,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-110,2025-10-19,09:15,110,senior A open,final,2000,6,,Bucks Dragon Boat Fusion Newtown,,1,9:06.608,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-110,2025-10-19,09:15,110,senior A open,final,2000,5,,DCDBC - District Daddies Washington,,2,9:14.264,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-110,2025-10-19,09:15,110,senior A open,final,2000,4,,San Francisco Dragon Warriors,,3,10:05.255,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-111,2025-10-19,09:50,111,senior D mixed,final,2000,2,,"Leatherneck Warriors D The Villages, FL",,1,12:06.496,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-111,2025-10-19,09:50,111,senior D mixed,final,2000,1,,NBP Paddling Sarasota,,2,12:13.391,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-111,2025-10-19,09:50,111,senior D women,final,2000,5,,Seattle SAKE Senior D,,1,12:29.989,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-111,2025-10-19,09:50,111,senior D women,final,2000,4,,Cooper River Dragon Boat Club Pennsauken,,2,13:07.537,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-111,2025-10-19,09:50,111,senior D women,final,2000,3,,Phila Flying Phoenix Platinum Philadelphia,,3,14:03.924,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-112,2025-10-19,10:25,112,senior B mixed,final,2000,4,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,8:45.211,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-112,2025-10-19,10:25,112,senior B mixed,final,2000,3,,Bucks Dragon Boat Fusion Newtown,,2,9:06.679,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-112,2025-10-19,10:25,112,senior B mixed,final,2000,2,,SACA Golden Dragons Tampa,,3,9:58.857,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-112,2025-10-19,10:25,112,senior B mixed,final,2000,1,,DCDBC - Capitol Thunder Washington,,4,10:06.961,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-112,2025-10-19,10:25,112,ACP open,final,2000,5,,Rose City Rockets Banks,,1,11:19.703,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-113,2025-10-19,11:00,113,senior B mixed,final,2000,6,,Windy City Dragons Mundelein,,1,9:46.144,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-113,2025-10-19,11:00,113,senior B mixed,final,2000,5,,Southbreeze Long Beach,,2,10:00.577,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-113,2025-10-19,11:00,113,senior B mixed,final,2000,4,,NBP Paddling Sarasota,,3,10:07.071,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-113,2025-10-19,11:00,113,senior B mixed,final,2000,3,,Lone Star Dragons Houston,,4,10:11.523,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-113,2025-10-19,11:00,113,senior B mixed,final,2000,1,,Seattle SAKE Senior B,,5,10:47.413,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-113,2025-10-19,11:00,113,senior B mixed,final,2000,2,,HEAT Dragon Boat Club The Villages,,6,11:50.850,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-113,2025-10-19,11:00,113,24u mixed,final,2000,7,,Southbreeze Long Beach,,1,9:55.803,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-114,2025-10-19,11:35,114,senior B women,final,2000,1,,Bucks Dragon Boat Fusion Newtown,,1,9:48.034,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-114,2025-10-19,11:35,114,senior C women,final,2000,3,,HEAT Dragon Boat Club The Villages,,1,10:36.573,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-114,2025-10-19,11:35,114,senior C women,final,2000,2,,Phila Flying Phoenix GW Philadelphia,,2,11:47.414,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-115,2025-10-19,12:10,115,senior A open,final,2000,4,,UNYTED Queens,,1,9:42.399,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-115,2025-10-19,12:10,115,senior A open,final,2000,3,,NBP Paddling Sarasota,,2,9:48.355,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-115,2025-10-19,12:10,115,senior A open,final,2000,1,,Windy City Dragons Mundelein,,3,9:58.083,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-115,2025-10-19,12:10,115,senior A open,final,2000,2,,Southbreeze Long Beach,,4,10:09.707,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-115,2025-10-19,12:10,115,premier women,final,2000,11,,Arizona Sunsoon Tempe,,1,10:42.874,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-115,2025-10-19,12:10,115,premier women,final,2000,12,,UEAA Dragon Boat NYC New York,,2,10:47.032,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-115,2025-10-19,12:10,115,premier women,final,2000,10,,Catch22 Paddle Queens NYC,,3,10:55.617,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-115,2025-10-19,12:10,115,premier women,final,2000,9,,DCDBC - Cherry Bombs Washington,,4,10:56.064,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-115,2025-10-19,12:10,115,premier women,final,2000,8,,Pennsylvania DBC Philadelphia,,5,11:16.630,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-115,2025-10-19,12:10,115,premier women,final,2000,7,,Windwomen San Francisco,,6,11:16.786,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-115,2025-10-19,12:10,115,premier women,final,2000,6,,Philadelphia Flying Phoenix,,7,11:17.922,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-115,2025-10-19,12:10,115,premier women,final,2000,5,,Ohana New England - ONE Women Boston,,8,11:21.178,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-116,2025-10-19,12:45,116,senior C mixed,final,2000,3,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,9:48.999,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-116,2025-10-19,12:45,116,senior C mixed,final,2000,2,,HEAT Dragon Boat Club The Villages,,2,10:28.100,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-116,2025-10-19,12:45,116,senior C mixed,final,2000,1,,Seattle SAKE Senior C,,3,10:47.717,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-116,2025-10-19,12:45,116,PD-2 open,final,2000,4,,Adaptive Fusion Long Beach,,1,10:06.153,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-117,2025-10-19,13:20,117,senior C mixed,final,2000,5,,SACA Golden Dragons Tampa,,1,10:34.812,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-117,2025-10-19,13:20,117,senior C mixed,final,2000,4,,NBP Paddling Sarasota,,2,10:52.103,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-117,2025-10-19,13:20,117,senior C mixed,final,2000,3,,Blazing Paddles Plantation,,3,11:48.247,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-117,2025-10-19,13:20,117,senior C mixed,final,2000,2,,"Leatherneck Warriors C The Villages, FL",,4,11:57.537,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-117,2025-10-19,13:20,117,senior C mixed,final,2000,1,,Jax Fire Dragons Jacksonville,,5,11:58.253,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-118,2025-10-19,13:55,118,premier mixed,final,2000,10,,Southbreeze Long Beach,,1,8:32.744,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-118,2025-10-19,13:55,118,premier mixed,final,2000,9,,Rising Tide Hawthorne,,2,8:34.181,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-118,2025-10-19,13:55,118,premier mixed,final,2000,8,,Boston BBB DBC,,3,8:37.521,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-118,2025-10-19,13:55,118,premier mixed,final,2000,4,,Northwind San Francisco,,4,8:50.278,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-118,2025-10-19,13:55,118,premier mixed,final,2000,7,,Catch22 Mixed NYC,,5,9:03.495,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-118,2025-10-19,13:55,118,premier mixed,final,2000,6,,Wolfpack Racing Club Boston,,6,9:03.625,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-118,2025-10-19,13:55,118,premier mixed,final,2000,3,,Lone Star Dragons Houston,,7,9:16.297,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-118,2025-10-19,13:55,118,premier mixed,final,2000,2,,Arizona Sunsoon Tempe,,8,9:16.632,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-118,2025-10-19,13:55,118,premier mixed,final,2000,1,,San Francisco Dragon Warriors,,9,10:10.587,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-118,2025-10-19,13:55,118,premier mixed,final,2000,5,,Phoenix Heat Canoe Club Tempe,,10,12:21.592,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-119,2025-10-19,14:30,119,premier mixed,final,2000,5,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,9:34.957,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-119,2025-10-19,14:30,119,premier mixed,final,2000,4,,UEAA Dragon Boat NYC New York,,2,9:59.818,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-119,2025-10-19,14:30,119,premier mixed,final,2000,2,,DCDBC - Wharf Rats Washington,,3,10:06.981,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-119,2025-10-19,14:30,119,premier mixed,final,2000,3,,Pennsylvania DBC Philadelphia,,4,10:16.968,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-119,2025-10-19,14:30,119,premier mixed,final,2000,1,,Jax Fire Dragons Jacksonville,,5,11:49.377,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-119,2025-10-19,14:30,119,18u open,final,2000,6,,Ohana New England - Next ONE Boston,,1,11:04.773,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-119,2025-10-19,14:30,119,senior D open,final,2000,7,,HEAT Dragon Boat Club The Villages,,1,11:49.734,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-119,2025-10-19,14:30,119,PD-2 open,final,2000,9,,The Collective Peachtree City,,1,11:29.995,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-119,2025-10-19,14:30,119,PD-2 open,final,2000,8,,Out of Sight Dragons Washington,,2,12:17.699,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-120,2025-10-19,15:05,120,senior A mixed,final,2000,4,,Southbreeze Long Beach,,1,9:08.521,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-120,2025-10-19,15:05,120,senior A mixed,final,2000,2,,JDBC Flash Jacksonville Beach,,2,9:24.652,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-120,2025-10-19,15:05,120,senior A mixed,final,2000,3,,Lone Star Dragons Houston,,3,9:40.621,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-120,2025-10-19,15:05,120,senior A mixed,final,2000,1,,San Francisco Dragon Warriors,,4,9:54.271,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-121,2025-10-19,15:40,121,senior A mixed,final,2000,6,,Bucks Dragon Boat Fusion Newtown,,1,9:53.922,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-121,2025-10-19,15:40,121,senior A mixed,final,2000,4,,Windy City Dragons Mundelein,,2,10:02.454,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-121,2025-10-19,15:40,121,senior A mixed,final,2000,5,,SACA Golden Dragons Tampa,,3,10:19.271,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-121,2025-10-19,15:40,121,senior A mixed,final,2000,2,,DCDBC - Capitol Thunder Washington,,4,10:26.155,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-121,2025-10-19,15:40,121,senior A mixed,final,2000,3,,Mekong Dragons Brookhaven,,5,10:31.194,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-121,2025-10-19,15:40,121,senior A mixed,final,2000,1,,Blazing Paddles Plantation,,6,11:03.947,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-121,2025-10-19,15:40,121,senior C women,final,2000,9,,Philadelphia Dragon Boat Assoc Lafayette Hill,,1,10:26.361,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-121,2025-10-19,15:40,121,senior C women,final,2000,8,,Heart and Soul Indian Harbor Beach,,2,10:52.433,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-121,2025-10-19,15:40,121,senior C women,final,2000,7,,WAM Renton,,3,11:46.018,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-121,2025-10-19,15:40,121,ACP open,final,2000,12,,Central Coast SurviveOars Morro Bay,,1,11:59.045,Untitled spreadsheet - Sheet1 (1).csv
+2025_CCNC,2025_CCNC-121,2025-10-19,15:40,121,ACP open,final,2000,11,,Survivor SAKE Seattle,,2,12:06.194,Untitled spreadsheet - Sheet1 (1).csv

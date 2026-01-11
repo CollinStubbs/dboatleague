@@ -3,6 +3,8 @@ const regattaFiles = [
   "regattas/2025/2025_CDBC_2025-08-22_day2_races.csv",
   "regattas/2025/2025_CDBC_2025-08-23_day3_races.csv",
   "regattas/2025/2025_CDBC_2025-08-24_day4_races.csv",
+  "regattas/2025/2025_CCNC.csv",
+  "regattas/2025/2025_ohana.csv",
   "regattas/2025/2025_CONCORD_SAT.csv",
   "regattas/2025/2025_CONCORD_SUN.csv",
   "regattas/2025/2025_hamilton.csv",
@@ -153,6 +155,10 @@ function normalizeTeamName(name) {
     .replace(/\s*[\[(][^\])]+[\])]\s*$/, "")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function normalizeTeamKey(name) {
+  return normalizeTeamName(name).replace(/\s+/g, "").toUpperCase();
 }
 
 function isExcludedPlace(value) {

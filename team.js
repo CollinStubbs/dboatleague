@@ -3,6 +3,8 @@ const regattaFiles = [
   "regattas/2025/2025_CDBC_2025-08-22_day2_races.csv",
   "regattas/2025/2025_CDBC_2025-08-23_day3_races.csv",
   "regattas/2025/2025_CDBC_2025-08-24_day4_races.csv",
+  "regattas/2025/2025_CCNC.csv",
+  "regattas/2025/2025_ohana.csv",
   "regattas/2025/2025_CONCORD_SAT.csv",
   "regattas/2025/2025_CONCORD_SUN.csv",
   "regattas/2025/2025_hamilton.csv",
@@ -214,6 +216,10 @@ function normalizeTeamName(name) {
     .trim();
 }
 
+function normalizeTeamKey(name) {
+  return normalizeTeamName(name).replace(/\s+/g, "").toUpperCase();
+}
+
 function isExcludedPlace(value) {
   const normalized = String(value || "").trim().toUpperCase();
   return normalized === "DNF" || normalized === "DNS" || normalized === "NA" || normalized === "N/A";
@@ -417,7 +423,7 @@ function getTeamFromUrl() {
 }
 
 async function loadTeamResults(teamName) {
-  const normalizedTarget = normalizeTeamName(teamName).toUpperCase();
+  const normalizedTarget = normalizeTeamKey(teamName);
   const results = await Promise.all(
     regattaFiles.map(async (path) => {
       const response = await fetch(encodeURI(path), { cache: "no-store" });
@@ -431,10 +437,12 @@ async function loadTeamResults(teamName) {
 
   const allRows = results.flat();
   allTeamRows = allRows.filter(
-    (row) => normalizeTeamName(row.team_name).toUpperCase() === normalizedTarget
+    (row) => normalizeTeamKey(row.team_name) === normalizedTarget
   );
 
-  teamNameEl.textContent = normalizedTarget || "Team Results";
+  const displayName =
+    allTeamRows.length > 0 ? normalizeTeamName(allTeamRows[0].team_name) : "";
+  teamNameEl.textContent = displayName || "Team Results";
   const years = Array.from(
     new Set(
       allTeamRows

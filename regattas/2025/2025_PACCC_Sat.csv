@@ -86,7 +86,7 @@ regatta_id,race_id,date,start_time,race_no,event,round,distance_m,lane,seed,team
 2025_PACCC,2025_PACCC-87,2025-07-05,9:20,87,Senior C Femmes/Women,Final,500,3,,Bytown Super C's,,1,02:17.8,V_Sat
 2025_PACCC,2025_PACCC-87,2025-07-05,9:20,87,Senior C Femmes/Women,Final,500,4,,ODBC Dragon Masters,,2,02:19.0,V_Sat
 2025_PACCC,2025_PACCC-88,2025-07-05,9:25,88,Community Femmes/Women,Heat 1,500,2,,Cascades,,3,02:33.1,V_Sat
-2025_PACCC,2025_PACCC-88,2025-07-05,9:25,88,Community Femmes/Women,Heat 1,500,3,,La Galère,,1,02:29.5,V_Sat
+2025_PACCC,2025_PACCC-88,2025-07-05,9:25,88,Community Femmes/Women,Heat 1,500,3,,La Galere,,1,02:29.5,V_Sat
 2025_PACCC,2025_PACCC-88,2025-07-05,9:25,88,Community Femmes/Women,Heat 1,500,4,,Montreal Waves,,2,02:30.9,V_Sat
 2025_PACCC,2025_PACCC-88,2025-07-05,9:25,88,Community Femmes/Women,Heat 1,500,5,,Lez Boat,,4,02:36.9,V_Sat
 2025_PACCC,2025_PACCC-89,2025-07-05,9:30,89,Senior C & 24U Femmes/Women,Final,500,1,,Heat DBC,,3,02:42.0,V_Sat
@@ -227,7 +227,7 @@ regatta_id,race_id,date,start_time,race_no,event,round,distance_m,lane,seed,team
 2025_PACCC,2025_PACCC-116,2025-07-05,11:45,116,Community & MCCAF Femmes/Women,Final B,500,3,,Cascades,,2,02:33.6,V_Sat
 2025_PACCC,2025_PACCC-116,2025-07-05,11:45,116,Community & MCCAF Femmes/Women,Final B,500,5,,Fujian (10),,3,03:05.6,V_Sat
 2025_PACCC,2025_PACCC-117,2025-07-05,11:50,117,Community Femmes/Women,Final A,500,1,,The One Jade Dragon •Arbraska,,5,02:33.5,V_Sat
-2025_PACCC,2025_PACCC-117,2025-07-05,11:50,117,Community Femmes/Women,Final A,500,2,,La Galère,,3,02:29.4,V_Sat
+2025_PACCC,2025_PACCC-117,2025-07-05,11:50,117,Community Femmes/Women,Final A,500,2,,La Galere,,3,02:29.4,V_Sat
 2025_PACCC,2025_PACCC-117,2025-07-05,11:50,117,Community Femmes/Women,Final A,500,3,,Mille Pales,,1,02:28.1,V_Sat
 2025_PACCC,2025_PACCC-117,2025-07-05,11:50,117,Community Femmes/Women,Final A,500,4,,Torpilles - Go Dragon,,2,02:29.3,V_Sat
 2025_PACCC,2025_PACCC-117,2025-07-05,11:50,117,Community Femmes/Women,Final A,500,5,,Montreal Waves,,4,02:31.9,V_Sat
@@ -290,7 +290,7 @@ regatta_id,race_id,date,start_time,race_no,event,round,distance_m,lane,seed,team
 2025_PACCC,2025_PACCC-127,2025-07-05,13:25,127,Community Femmes/Women,,2000,2,,Cascades,,5,11:31.0,V_Sat
 2025_PACCC,2025_PACCC-127,2025-07-05,13:25,127,Community Femmes/Women,,2000,3,,The One Jade Dragon •Arbraska,,7,11:49.0,V_Sat
 2025_PACCC,2025_PACCC-127,2025-07-05,13:25,127,Community Femmes/Women,,2000,4,,Montreal Waves,,3,11:22.3,V_Sat
-2025_PACCC,2025_PACCC-127,2025-07-05,13:25,127,Community Femmes/Women,,2000,5,,La Galère,,2,11:19.4,V_Sat
+2025_PACCC,2025_PACCC-127,2025-07-05,13:25,127,Community Femmes/Women,,2000,5,,La Galere,,2,11:19.4,V_Sat
 2025_PACCC,2025_PACCC-127,2025-07-05,13:25,127,Community Femmes/Women,,2000,6,,Torpilles - Go Dragon,,4,11:27.5,V_Sat
 2025_PACCC,2025_PACCC-127,2025-07-05,13:25,127,Community Femmes/Women,,2000,7,,Mille Pales,,1,11:04.3,V_Sat
 2025_PACCC,2025_PACCC-128,2025-07-05,13:50,128,Senior C & ACS & U16 Mixte/Mixed,,2000,1,,Seattle Sake,,3,10:59.2,V_Sat
@@ -299,7 +299,7 @@ regatta_id,race_id,date,start_time,race_no,event,round,distance_m,lane,seed,team
 2025_PACCC,2025_PACCC-128,2025-07-05,13:50,128,Senior C & ACS & U16 Mixte/Mixed,,2000,4,,ODBC Dragon Masters,,1,10:22.0,V_Sat
 2025_PACCC,2025_PACCC-128,2025-07-05,13:50,128,Senior C & ACS & U16 Mixte/Mixed,,2000,5,,Seattle Sake (ACS),,1,12:21.1,V_Sat
 2025_PACCC,2025_PACCC-128,2025-07-05,13:50,128,Senior C & ACS & U16 Mixte/Mixed,,2000,6,,Wellness Warriors Boston (ACS),,2,13:13.8,V_Sat
-2025_PACCC,2025_PACCC-128,2025-07-05,13:50,128,Senior C & ACS & U16 Mixte/Mixed,,2000,7,,Bytown Flash Dragons (16U),,2,06:04.0,V_Sat
+2025_PACCC,2025_PACCC-128,2025-07-05,13:50,128,Senior C & ACS & U16 Mixte/Mixed,,1000,7,,Bytown Flash Dragons (16U),,2,06:04.0,V_Sat
 2025_PACCC,2025_PACCC-129,2025-07-05,14:15,129,Senior A & C & Para & PS Mixte/Mixed,,2000,1,,Marianopolis DoD Lightning,,5,10:20.5,V_Sat
 2025_PACCC,2025_PACCC-129,2025-07-05,14:15,129,Senior A & C & Para & PS Mixte/Mixed,,2000,2,,Concordia University Chaos,,4,09:51.0,V_Sat
 2025_PACCC,2025_PACCC-129,2025-07-05,14:15,129,Senior A & C & Para & PS Mixte/Mixed,,2000,3,,Marianopolis DoD Thunder,,3,09:46.4,V_Sat

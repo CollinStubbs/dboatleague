@@ -121,7 +121,7 @@ regatta_id,race_id,date,start_time,race_no,event,round,distance_m,lane,seed,team
 2025_CONCORD_SAT,2025_CONCORD_SAT-16,2025-06-21,10:45,16,Premier Open Qualifier 1,Qualifier,500,1,,DragonMax Open,,7,02:34.6,Untitled spreadsheet - Concord SAT.csv
 2025_CONCORD_SAT,2025_CONCORD_SAT-16,2025-06-21,10:45,16,Premier Open Qualifier 1,Qualifier,500,2,,WAM Neon Open,,2,02:13.7,Untitled spreadsheet - Concord SAT.csv
 2025_CONCORD_SAT,2025_CONCORD_SAT-16,2025-06-21,10:45,16,Premier Open Qualifier 1,Qualifier,500,3,,Eternal Griffin,,6,02:22.3,Untitled spreadsheet - Concord SAT.csv
-2025_CONCORD_SAT,2025_CONCORD_SAT-16,2025-06-21,10:45,16,Premier Open Qualifier 1,Qualifier,500,4,,Dragon Zone Premier Openz,,1,02:05.5,Untitled spreadsheet - Concord SAT.csv
+2025_CONCORD_SAT,2025_CONCORD_SAT-16,2025-06-21,10:45,16,Premier Open Qualifier 1,Qualifier,500,4,,Dragon Zone Premier Open,,1,02:05.5,Untitled spreadsheet - Concord SAT.csv
 2025_CONCORD_SAT,2025_CONCORD_SAT-16,2025-06-21,10:45,16,Premier Open Qualifier 1,Qualifier,500,5,,UBC Current Gold Open,,3,02:14.2,Untitled spreadsheet - Concord SAT.csv
 2025_CONCORD_SAT,2025_CONCORD_SAT-16,2025-06-21,10:45,16,Premier Open Qualifier 1,Qualifier,500,6,,Killer Guppy Warriors,,4,02:14.6,Untitled spreadsheet - Concord SAT.csv
 2025_CONCORD_SAT,2025_CONCORD_SAT-16,2025-06-21,10:45,16,Premier Open Qualifier 1,Qualifier,500,7,,South Bay Synergy Open,,5,02:17.1,Untitled spreadsheet - Concord SAT.csv
@@ -361,11 +361,11 @@ regatta_id,race_id,date,start_time,race_no,event,round,distance_m,lane,seed,team
 2025_CONCORD_SAT,2025_CONCORD_SAT-57,2025-06-21,18:18,57,Premier Women Round 2 Qualifier 5,Qualifier,500,5,,Wasabi Force Women,,3,02:25.1,Untitled spreadsheet - Concord SAT.csv
 2025_CONCORD_SAT,2025_CONCORD_SAT-57,2025-06-21,18:18,57,Premier Women Round 2 Qualifier 5,Qualifier,500,6,,WAM Women,,4,02:36.0,Untitled spreadsheet - Concord SAT.csv
 2025_CONCORD_SAT,2025_CONCORD_SAT-57,2025-06-21,18:18,57,Premier Women Round 2 Qualifier 5,Qualifier,500,7,,Paddle Queens,,7,02:49.2,Untitled spreadsheet - Concord SAT.csv
-2025_CONCORD_SAT,2025_CONCORD_SAT-58,2025-06-21,19:20,58,Premier Women,Qualifier,2000,1,,Killer Guppy Warriors,,4,10:57.3,Untitled spreadsheet - Concord SAT.csv
-2025_CONCORD_SAT,2025_CONCORD_SAT-58,2025-06-21,19:20,58,Premier Women,Qualifier,2000,2,,WAM Neon Open,,5,11:06.8,Untitled spreadsheet - Concord SAT.csv
-2025_CONCORD_SAT,2025_CONCORD_SAT-58,2025-06-21,19:20,58,Premier Women,Qualifier,2000,3,,LMOCC,,3,10:56.1,Untitled spreadsheet - Concord SAT.csv
-2025_CONCORD_SAT,2025_CONCORD_SAT-58,2025-06-21,19:20,58,Premier Women,Qualifier,2000,4,,Dragon Zone Premier Openz,,2,10:05.0,Untitled spreadsheet - Concord SAT.csv
-2025_CONCORD_SAT,2025_CONCORD_SAT-58,2025-06-21,19:20,58,Premier Women,Qualifier,2000,5,,Dragon Zone Premier Open,,1,09:20.2,Untitled spreadsheet - Concord SAT.csv
+2025_CONCORD_SAT,2025_CONCORD_SAT-58,2025-06-21,19:20,58,Premier Open,Qualifier,2000,1,,Killer Guppy Warriors,,4,10:57.3,Untitled spreadsheet - Concord SAT.csv
+2025_CONCORD_SAT,2025_CONCORD_SAT-58,2025-06-21,19:20,58,Premier Open,Qualifier,2000,2,,WAM Neon Open,,5,11:06.8,Untitled spreadsheet - Concord SAT.csv
+2025_CONCORD_SAT,2025_CONCORD_SAT-58,2025-06-21,19:20,58,Premier Open,Qualifier,2000,3,,LMOCC,,3,10:56.1,Untitled spreadsheet - Concord SAT.csv
+2025_CONCORD_SAT,2025_CONCORD_SAT-58,2025-06-21,19:20,58,Premier Open,Qualifier,2000,4,,Dragon Zone Premier Openz,,2,10:05.0,Untitled spreadsheet - Concord SAT.csv
+2025_CONCORD_SAT,2025_CONCORD_SAT-58,2025-06-21,19:20,58,Premier Open,Qualifier,2000,5,,Dragon Zone Premier Open,,1,09:20.2,Untitled spreadsheet - Concord SAT.csv
 2025_CONCORD_SAT,2025_CONCORD_SAT-58,2025-06-21,19:20,58,Premier Women,Qualifier,2000,6,,WAM Women,,12,12:29.0,Untitled spreadsheet - Concord SAT.csv
 2025_CONCORD_SAT,2025_CONCORD_SAT-58,2025-06-21,19:20,58,Premier Women,Qualifier,2000,7,,Killer Dragon Guppies,,13,12:52.4,Untitled spreadsheet - Concord SAT.csv
 2025_CONCORD_SAT,2025_CONCORD_SAT-58,2025-06-21,19:20,58,Premier Women,Qualifier,2000,8,,Prairie High Performance Women,,11,12:07.4,Untitled spreadsheet - Concord SAT.csv

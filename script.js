@@ -3,6 +3,8 @@ const regattaFiles = [
   "regattas/2025/2025_CDBC_2025-08-22_day2_races.csv",
   "regattas/2025/2025_CDBC_2025-08-23_day3_races.csv",
   "regattas/2025/2025_CDBC_2025-08-24_day4_races.csv",
+  "regattas/2025/2025_CCNC.csv",
+  "regattas/2025/2025_ohana.csv",
   "regattas/2025/2025_CONCORD_SAT.csv",
   "regattas/2025/2025_CONCORD_SUN.csv",
   "regattas/2025/2025_hamilton.csv",
@@ -30,6 +32,7 @@ const tableBody = document.querySelector("#leaderboard tbody");
 const headers = Array.from(document.querySelectorAll("#leaderboard thead th"));
 const yearSelect = document.querySelector("#year-filter");
 const regattaSelect = document.querySelector("#regatta-filter");
+const boatSelect = document.querySelector("#boat-filter");
 const divisionSelect = document.querySelector("#division-filter");
 const minRacesSelect = document.querySelector("#min-races");
 const minRacesValue = document.querySelector("#min-races-value");
@@ -186,6 +189,10 @@ function normalizeTeamName(name) {
     .trim();
 }
 
+function normalizeTeamKey(name) {
+  return normalizeTeamName(name).replace(/\s+/g, "").toUpperCase();
+}
+
 function isExcludedPlace(value) {
   const normalized = String(value || "").trim().toUpperCase();
   return normalized === "DNF" || normalized === "DNS" || normalized === "NA" || normalized === "N/A";
@@ -197,6 +204,9 @@ function normalizeRow(row) {
   const timeSeconds = parseTimeToSeconds(row.time);
   const distanceMeters = numericValue(row.distance_m);
   const regattaId = normalizeRegattaId(row.regatta_id);
+  const eventText = String(row.event || "");
+  const teamText = String(row.team_name || "");
+  const isSmall = /\bsmall\b/i.test(eventText) || /\bsmall\b/i.test(teamText);
   const raceId =
     row.race_id ||
     `${regattaId || "UNKNOWN"}-${row.race_no || "RACE"}-${row.date || ""}`;
@@ -207,6 +217,8 @@ function normalizeRow(row) {
     event: row.event || "",
     round: row.round || "",
     team: normalizeTeamName(row.team_name),
+    teamKey: normalizeTeamKey(row.team_name),
+    isSmall,
     place,
     excludedPlace,
     timeSeconds,
@@ -329,13 +341,14 @@ function buildLeaderboard(rows) {
   const teams = new Map();
 
   rows.forEach((row) => {
-    if (!row.team) {
+    if (!row.teamKey) {
       return;
     }
     if (row.excludedPlace) {
       return;
     }
-    const entry = teams.get(row.team) || {
+    const entry = teams.get(row.teamKey) || {
+      teamKey: row.teamKey,
       team: row.team,
       divisionCounts: {},
       hasBcpDivision: false,
@@ -421,7 +434,10 @@ function buildLeaderboard(rows) {
       }
     }
 
-    teams.set(row.team, entry);
+    if (!entry.team) {
+      entry.team = row.team;
+    }
+    teams.set(row.teamKey, entry);
   });
 
   const leaderboard = Array.from(teams.values()).map((entry) => {
@@ -436,6 +452,10 @@ function buildLeaderboard(rows) {
     const avg2000 =
       entry.timeCounts["2000"] > 0
         ? entry.timeTotals["2000"] / entry.timeCounts["2000"]
+        : null;
+    const combinedAvg =
+      avg200 !== null && avg500 !== null && avg2000 !== null
+        ? avg200 + avg500 + avg2000
         : null;
     const qualifyingAvg =
       entry.sandbagCounts.qualifying > 0
@@ -455,11 +475,13 @@ function buildLeaderboard(rows) {
     return {
       rank: 0,
       team: entry.team,
+      teamKey: entry.teamKey,
       division,
       races: entry.races,
       avg200,
       avg500,
       avg2000,
+      combinedAvg,
       hasAllDistances: avg200 !== null && avg500 !== null && avg2000 !== null,
       sandbag,
       status: "watch",
@@ -501,6 +523,7 @@ function formatRow(entry) {
       <td>${formatDuration(entry.avg500)}</td>
       <td>${formatDuration(entry.avg200)}</td>
       <td>${formatDuration(entry.avg2000)}</td>
+      <td>${formatDuration(entry.combinedAvg)}</td>
       <td>${sandbagLabel}</td>
     </tr>
   `;
@@ -616,6 +639,17 @@ function filterRowsByYear(rows) {
     : rows;
 }
 
+function filterRowsByBoat(rows) {
+  const boatValue = boatSelect.value;
+  if (boatValue === "SMALL") {
+    return rows.filter((row) => row.isSmall);
+  }
+  if (boatValue === "STANDARD") {
+    return rows.filter((row) => !row.isSmall);
+  }
+  return rows;
+}
+
 function updateDivisionOptions(divisions) {
   divisionSelect.innerHTML = '<option value="ALL">All divisions</option>';
   const sortedDivisions = [...divisions].sort();
@@ -629,10 +663,11 @@ function updateDivisionOptions(divisions) {
 
 function applyRegattaFilter(regattaId) {
   const yearRows = filterRowsByYear(rawRows);
+  const boatRows = filterRowsByBoat(yearRows);
   const filtered =
     regattaId === "ALL"
-      ? yearRows
-      : yearRows.filter((row) => row.regattaId === regattaId);
+      ? boatRows
+      : boatRows.filter((row) => row.regattaId === regattaId);
   const leaderboard = buildLeaderboard(filtered);
   applyDivisionFilter(leaderboard);
   tableCaption.textContent =
@@ -655,10 +690,25 @@ function applyRegattaFilter(regattaId) {
 
 yearSelect.addEventListener("change", () => {
   const yearRows = filterRowsByYear(rawRows);
-  const regattaIds = new Set(yearRows.map((row) => row.regattaId));
+  const boatRows = filterRowsByBoat(yearRows);
+  const regattaIds = new Set(boatRows.map((row) => row.regattaId));
   updateRegattaOptions(regattaIds);
   const divisions = new Set(
-    yearRows
+    boatRows
+      .map((row) => normalizeDivisionName(row.event))
+      .filter((divisionName) => divisionName)
+  );
+  updateDivisionOptions(divisions);
+  applyRegattaFilter("ALL");
+});
+
+boatSelect.addEventListener("change", () => {
+  const yearRows = filterRowsByYear(rawRows);
+  const boatRows = filterRowsByBoat(yearRows);
+  const regattaIds = new Set(boatRows.map((row) => row.regattaId));
+  updateRegattaOptions(regattaIds);
+  const divisions = new Set(
+    boatRows
       .map((row) => normalizeDivisionName(row.event))
       .filter((divisionName) => divisionName)
   );
@@ -731,9 +781,10 @@ async function loadRegattas() {
     yearSelect.value = availableYears[0];
   }
   const yearRows = filterRowsByYear(rawRows);
-  const regattaIds = new Set(yearRows.map((row) => row.regattaId));
+  const boatRows = filterRowsByBoat(yearRows);
+  const regattaIds = new Set(boatRows.map((row) => row.regattaId));
   const divisions = new Set(
-    yearRows
+    boatRows
       .map((row) => normalizeDivisionName(row.event))
       .filter((divisionName) => divisionName)
   );
