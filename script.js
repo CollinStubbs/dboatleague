@@ -160,6 +160,7 @@ function formatSignedDuration(seconds) {
 }
 
 
+
 function numericValue(value) {
   const parsed = Number.parseFloat(value);
   return Number.isFinite(parsed) ? parsed : null;
@@ -181,12 +182,65 @@ function getYearFromRegattaId(regattaId) {
   return match ? match[1] : "";
 }
 
+const TEAM_ALIAS_MAP = {
+  "BOSTON BBB": "Boston BBB DBC",
+  "BOSTON BBB DBC WOMEN": "Boston BBB Women Premier",
+  "BOSTON BBB WOMEN PREMIER": "Boston BBB Women Premier",
+  "BOSTON BBB OPEN PREMIER": "Boston BBB Open Premier",
+  "BOSTON BBB DBC OPEN": "Boston BBB Open Premier",
+  "IRON DRAGONS BLUE UNIVERSITY": "Iron Dragons Blue",
+  "IRON DRAGONS GOLD UNIVERSITY": "Iron Dragons Gold",
+  "22D TRUE GRIT OPEN": "22Dragons True Grit 24U - Open",
+  "22D TRUE GRIT": "22Dragons True Grit 24U",
+  "22DRAGONS TRUE GRIT 24U": "22Dragons True Grit 24U",
+  "BUCKS FREEDOM MIXED WOMEN": "Bucks Freedom Women",
+  "UEAA DRAGON BOAT NYC NEW YORK": "UEAA Dragon Boat NYC",
+  "IMMORTALS": "Maelstrom Immortals",
+  "IMMORTALS OPEN": "Maelstrom Immortals - Open",
+  "CARLETON U24": "Carleton U24",
+  "CARLETON UNIVERSITY DBC MIXED": "Carleton U24",
+  "CARLETON UNIVERSITY DBC": "Carleton U24",
+  "JPMCDBFF / AZURE DRAGONS": "JPMCDBFF Azure Dragons",
+  "ITHACA GORGES OPEN": "Ithaca Gorges Dragons - Open",
+  "SNCC CANAL DRAGONS CANAL DRAGONS": "South Niagara Canoe Club Canal Dragons",
+  "SNCC CANAL DRAGONS": "South Niagara Canoe Club Canal Dragons",
+  "SOUTH NIAGARA CANOE CLUB CANAL DRAGONS": "South Niagara Canoe Club Canal Dragons",
+  "HEAT MIXED": "Heat DBC",
+  "HEAT DRAGON BOAT CLUB THE VILLAGES": "Heat DBC",
+  "WATER VIPERS MASTER POWERED BY AFTERBURNFITNESS.CA": "Water Vipers Masters powered by Afterburn Fitness",
+  "WATER VIPERS MASTERS POWERED BY AFTERBURN FITNESS": "Water Vipers Masters powered by Afterburn Fitness",
+  "WATER VIPERS PERFORMANCE 1 POWERED BY AFTERBURNFITNESS.CA": "Water Vipers Performance powered by afterburnfitness.ca",
+  "WATER VIPERS PERFORMANCE 1X": "Water Vipers Performance powered by afterburnfitness.ca",
+  "WATER VIPERS PERFORMANCE POWERED BY AFTERBURNFITNESS.CA": "Water Vipers Performance powered by afterburnfitness.ca",
+  "WATER VIPERS 1.5X POWERED BY": "Water Vipers 1.5X powered by Afterburnfitness.ca",
+  "WATER VIPERS 1.5X POWERED BY AFTERBURNFITNESS.CA": "Water Vipers 1.5X powered by Afterburnfitness.ca",
+  "CATCH22 PREMIER MIXED": "Catch22 Mixed NYC",
+  "CATCH22 NYC": "Catch22 Mixed NYC",
+  "CATCH22 MIXED NYC": "Catch22 Mixed NYC",
+  "CATCH22 OPEN": "Catch22 Open",
+  "CATCH22 NYC PREMIER OPEN": "Catch22 Open",
+  "CATCH22 OPEN NYC": "Catch22 Open",
+  "CATCH22 PADDLE QUEENS NYC": "Catch22 Paddle Queens",
+  "CATCH22 NYC PADDLE QUEENS": "Catch22 Paddle Queens",
+  "CATCH22 PADDLE QUEENS": "Catch22 Paddle Queens",
+  "JDBC FLASH JACKSONVILLE BEACH": "JDBC Flash",
+  "NJDBC JERSEY THUNDER WOMEN": "NJDBC Jersey Thunder",
+  "HEAT WOMEN": "HEAT DBC - Women",
+  "HEAT DBC WOMEN": "HEAT DBC - Women",
+};
+
+function applyTeamAlias(name) {
+  const key = String(name || "").toUpperCase();
+  return TEAM_ALIAS_MAP[key] || name;
+}
+
 function normalizeTeamName(name) {
-  return String(name || "")
-    .replace(/[-–—]/g, " ")
+  const cleaned = String(name || "")
+    .replace(/[-"]/g, " ")
     .replace(/\s*[\[(][^\])]+[\])]\s*$/, "")
     .replace(/\s+/g, " ")
     .trim();
+  return applyTeamAlias(cleaned);
 }
 
 function normalizeTeamKey(name) {
@@ -238,7 +292,14 @@ function resolveDivisionForSplit(eventName, teamName) {
   return getDivisionFromTeam(teamName);
 }
 
-function pickPrimaryDivision(counts) {
+function pickPrimaryDivision(counts, baseName) {
+  const explicitDivision = getDivisionFromTeam(baseName);
+  if (explicitDivision && counts[explicitDivision]) {
+    return explicitDivision;
+  }
+  if (!explicitDivision && counts.Mixed) {
+    return "Mixed";
+  }
   const priorities = ["Mixed", "Open", "Women", "BCP", "Para", "Special Needs", "University", "Youth"];
   let bestDivision = "";
   let bestCount = -1;
@@ -288,13 +349,16 @@ function buildTeamDivisionMap(rows) {
     if (!division) {
       return;
     }
-    const entry = teamDivisions.get(teamKey) || { counts: {}, primary: "" };
+    const entry = teamDivisions.get(teamKey) || { counts: {}, primary: "", baseName };
+    if (!entry.baseName) {
+      entry.baseName = baseName;
+    }
     entry.counts[division] = (entry.counts[division] || 0) + 1;
     teamDivisions.set(teamKey, entry);
   });
 
   teamDivisions.forEach((entry) => {
-    entry.primary = pickPrimaryDivision(entry.counts);
+    entry.primary = pickPrimaryDivision(entry.counts, entry.baseName);
   });
 
   return teamDivisions;
@@ -613,9 +677,7 @@ function buildLeaderboard(rows) {
       entry.team = row.team;
     }
     teams.set(row.teamKey, entry);
-  });
-
-  const leaderboard = Array.from(teams.values()).map((entry) => {
+  });  const leaderboard = Array.from(teams.values()).map((entry) => {
     const avg200 =
       entry.timeCounts["200"] > 0
         ? entry.timeTotals["200"] / entry.timeCounts["200"]
@@ -624,7 +686,7 @@ function buildLeaderboard(rows) {
       entry.timeCounts["500"] > 0
         ? entry.timeTotals["500"] / entry.timeCounts["500"]
         : null;
-    const avg2000 =
+        const avg2000 =
       entry.timeCounts["2000"] > 0
         ? entry.timeTotals["2000"] / entry.timeCounts["2000"]
         : null;
@@ -653,7 +715,7 @@ function buildLeaderboard(rows) {
       teamKey: entry.teamKey,
       division,
       races: entry.races,
-      avg200,
+            avg200,
       avg500,
       avg2000,
       combinedAvg,
@@ -987,6 +1049,7 @@ loadRegattas().catch((error) => {
 window.NADBL = {
   setData,
 };
+
 
 
 
