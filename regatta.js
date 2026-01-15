@@ -194,6 +194,24 @@ const TEAM_ALIAS_MAP = {
   "NJDBC JERSEY THUNDER WOMEN": "NJDBC Jersey Thunder",
   "HEAT WOMEN": "HEAT DBC - Women",
   "HEAT DBC WOMEN": "HEAT DBC - Women",
+  "SUNNYSIDE PADDLING CLUB WILD WEDNESDAY": "Sunnyside Paddling Club Wild Wednesdays",
+  "SUNNYSIDE PADDLING CLUB WILD WEDNESDAYS": "Sunnyside Paddling Club Wild Wednesdays",
+  "MON SHEONG RED PANDA": "Mon Sheong Red Pandas",
+  "MON SHEONG RED PANDAS": "Mon Sheong Red Pandas",
+  "BARRIE'S RIBBONS OF HOPE": "Barrie's Ribbons of Hope",
+  "BARRIES RIBBONS OF HOPE": "Barrie's Ribbons of Hope",
+  "BARRIE'S RIBBONS OF HOPE BCP": "Barrie's Ribbons of Hope",
+  "BARRIES RIBBONS OF HOPE BCP": "Barrie's Ribbons of Hope",
+  "BARRIE'S RIBBONS OF HOPE WOMEN": "Barrie's Ribbons of Hope",
+  "BARRIES RIBBONS OF HOPE WOMEN": "Barrie's Ribbons of Hope",
+  "UNIVERSITY OF WATERLOO DRAGON WARRIORS 1 8": "University of Waterloo Dragon Warriors",
+  "UNIVERSITY OF WATERLOO DRAGON WARRIORS MIXED": "University of Waterloo Dragon Warriors",
+  "HOLY MAC ROW UNIVERSITY": "Holy Mac Row",
+  "MCGILL DRAGON BOAT Z UNIVERSITY": "McGill Dragon Boat Z",
+  "RC LIQUID ASSETS BULLS UNIVERSITY": "RC Liquid Assets Bulls",
+  "RC LIQUID ASSETS BEARS UNIVERSITY": "RC Liquid Assets Bears",
+  "NDUC JADE DRAGONS UNIVERSITY": "NDUC Jade Dragons",
+  "IRON DRAGONS OPEN": "Iron Dragons Lady Godiva",
 };
 
 function applyTeamAlias(name) {
@@ -204,6 +222,7 @@ function applyTeamAlias(name) {
 function normalizeTeamName(name) {
   const cleaned = String(name || "")
     .replace(/[-"]/g, " ")
+    .replace(/[\u2018\u2019]/g, "'")
     .replace(/\s*[\[(][^\])]+[\])]\s*$/, "")
     .replace(/\s+/g, " ")
     .trim();
@@ -394,6 +413,32 @@ function teamNameHasDivision(teamName, division) {
   return false;
 }
 
+function maybeMergeUniversityTeam(teamName, mixedBases) {
+  const baseName = normalizeTeamName(teamName);
+  const stripped = baseName.replace(/\s*-?\s*UNIVERSITY$/i, "").trim();
+  if (stripped !== baseName && mixedBases && mixedBases.has(stripped)) {
+    return stripped;
+  }
+  return baseName;
+}
+
+function buildMixedBaseSet(rows) {
+  const mixedBases = new Set();
+
+  rows.forEach((row) => {
+    const baseName = normalizeTeamName(row.team_name);
+    if (!baseName) {
+      return;
+    }
+    const division = resolveDivisionForSplit(row.event, row.team_name);
+    if (division === "Mixed") {
+      mixedBases.add(baseName);
+    }
+  });
+
+  return mixedBases;
+}
+
 function resolveDivisionForSplit(eventName, teamName) {
   const eventInfo = getDivisionFromEvent(eventName);
   if (!eventInfo.isAmbiguous) {
@@ -446,11 +491,11 @@ function resolveDivisionWithPrimary(eventName, teamName, teamDivisionMap) {
   return getDivisionFromTeam(teamName) || "Mixed";
 }
 
-function buildTeamDivisionMap(rows) {
+function buildTeamDivisionMap(rows, mixedBases) {
   const teamDivisions = new Map();
 
   rows.forEach((row) => {
-    const baseName = normalizeTeamName(row.team_name);
+    const baseName = maybeMergeUniversityTeam(row.team_name, mixedBases);
     if (!baseName) {
       return;
     }
@@ -651,12 +696,14 @@ async function loadRegattaSummary(regattaId) {
   );
 
   const allRows = results.flat();
-  const teamDivisionMap = buildTeamDivisionMap(allRows);
+  const mixedBases = buildMixedBaseSet(allRows);
+  const teamDivisionMap = buildTeamDivisionMap(allRows, mixedBases);
   const effectiveRows = allRows.map((row) => {
-    const division = resolveDivisionWithPrimary(row.event, row.team_name, teamDivisionMap);
+    const baseName = maybeMergeUniversityTeam(row.team_name, mixedBases);
+    const division = resolveDivisionWithPrimary(row.event, baseName, teamDivisionMap);
     return {
       ...row,
-      __teamEffective: getEffectiveTeamName(row.team_name, division, teamDivisionMap),
+      __teamEffective: getEffectiveTeamName(baseName, division, teamDivisionMap),
     };
   });
   const regattaRows = effectiveRows.filter(

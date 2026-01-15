@@ -37,6 +37,7 @@ const divisionSelect = document.querySelector("#division-filter");
 const minRacesSelect = document.querySelector("#min-races");
 const minRacesValue = document.querySelector("#min-races-value");
 const allDistancesToggle = document.querySelector("#all-distances");
+const exportCsvButton = document.querySelector("#export-csv");
 const dataStatus = document.querySelector("#data-status");
 const snapshotValue = document.querySelector("#snapshot-value");
 const snapshotNote = document.querySelector("#snapshot-note");
@@ -227,6 +228,24 @@ const TEAM_ALIAS_MAP = {
   "NJDBC JERSEY THUNDER WOMEN": "NJDBC Jersey Thunder",
   "HEAT WOMEN": "HEAT DBC - Women",
   "HEAT DBC WOMEN": "HEAT DBC - Women",
+  "SUNNYSIDE PADDLING CLUB WILD WEDNESDAY": "Sunnyside Paddling Club Wild Wednesdays",
+  "SUNNYSIDE PADDLING CLUB WILD WEDNESDAYS": "Sunnyside Paddling Club Wild Wednesdays",
+  "MON SHEONG RED PANDA": "Mon Sheong Red Pandas",
+  "MON SHEONG RED PANDAS": "Mon Sheong Red Pandas",
+  "BARRIE'S RIBBONS OF HOPE": "Barrie's Ribbons of Hope",
+  "BARRIES RIBBONS OF HOPE": "Barrie's Ribbons of Hope",
+  "BARRIE'S RIBBONS OF HOPE BCP": "Barrie's Ribbons of Hope",
+  "BARRIES RIBBONS OF HOPE BCP": "Barrie's Ribbons of Hope",
+  "BARRIE'S RIBBONS OF HOPE WOMEN": "Barrie's Ribbons of Hope",
+  "BARRIES RIBBONS OF HOPE WOMEN": "Barrie's Ribbons of Hope",
+  "UNIVERSITY OF WATERLOO DRAGON WARRIORS 1 8": "University of Waterloo Dragon Warriors",
+  "UNIVERSITY OF WATERLOO DRAGON WARRIORS MIXED": "University of Waterloo Dragon Warriors",
+  "HOLY MAC ROW UNIVERSITY": "Holy Mac Row",
+  "MCGILL DRAGON BOAT Z UNIVERSITY": "McGill Dragon Boat Z",
+  "RC LIQUID ASSETS BULLS UNIVERSITY": "RC Liquid Assets Bulls",
+  "RC LIQUID ASSETS BEARS UNIVERSITY": "RC Liquid Assets Bears",
+  "NDUC JADE DRAGONS UNIVERSITY": "NDUC Jade Dragons",
+  "IRON DRAGONS OPEN": "Iron Dragons Lady Godiva",
 };
 
 function applyTeamAlias(name) {
@@ -237,6 +256,7 @@ function applyTeamAlias(name) {
 function normalizeTeamName(name) {
   const cleaned = String(name || "")
     .replace(/[-"]/g, " ")
+    .replace(/[\u2018\u2019]/g, "'")
     .replace(/\s*[\[(][^\])]+[\])]\s*$/, "")
     .replace(/\s+/g, " ")
     .trim();
@@ -282,6 +302,32 @@ function teamNameHasDivision(teamName, division) {
     return text.includes("YOUTH") || text.includes("JUNIOR");
   }
   return false;
+}
+
+function maybeMergeUniversityTeam(teamName, mixedBases) {
+  const baseName = normalizeTeamName(teamName);
+  const stripped = baseName.replace(/\s*-?\s*UNIVERSITY$/i, "").trim();
+  if (stripped !== baseName && mixedBases && mixedBases.has(stripped)) {
+    return stripped;
+  }
+  return baseName;
+}
+
+function buildMixedBaseSet(rows) {
+  const mixedBases = new Set();
+
+  rows.forEach((row) => {
+    const baseName = normalizeTeamName(row.team_name);
+    if (!baseName) {
+      return;
+    }
+    const division = resolveDivisionForSplit(row.event, row.team_name);
+    if (division === "Mixed") {
+      mixedBases.add(baseName);
+    }
+  });
+
+  return mixedBases;
 }
 
 function resolveDivisionForSplit(eventName, teamName) {
@@ -336,11 +382,11 @@ function resolveDivisionWithPrimary(eventName, teamName, teamDivisionMap) {
   return getDivisionFromTeam(teamName) || "Mixed";
 }
 
-function buildTeamDivisionMap(rows) {
+function buildTeamDivisionMap(rows, mixedBases) {
   const teamDivisions = new Map();
 
   rows.forEach((row) => {
-    const baseName = normalizeTeamName(row.team_name);
+    const baseName = maybeMergeUniversityTeam(row.team_name, mixedBases);
     if (!baseName) {
       return;
     }
@@ -384,16 +430,17 @@ function getEffectiveTeamName(teamName, division, teamDivisionMap) {
   return `${baseName} - ${division}`;
 }
 
-function normalizeRow(row, teamDivisionMap) {
+function normalizeRow(row, teamDivisionMap, mixedBases) {
   const place = numericValue(row.place);
   const excludedPlace = isExcludedPlace(row.place);
   const timeSeconds = parseTimeToSeconds(row.time);
   const distanceMeters = numericValue(row.distance_m);
   const regattaId = normalizeRegattaId(row.regatta_id);
-  const division = resolveDivisionWithPrimary(row.event, row.team_name, teamDivisionMap);
-  const effectiveTeam = getEffectiveTeamName(row.team_name, division, teamDivisionMap);
+  const baseName = maybeMergeUniversityTeam(row.team_name, mixedBases);
+  const division = resolveDivisionWithPrimary(row.event, baseName, teamDivisionMap);
+  const effectiveTeam = getEffectiveTeamName(baseName, division, teamDivisionMap);
   const eventText = String(row.event || "");
-  const teamText = effectiveTeam || String(row.team_name || "");
+  const teamText = effectiveTeam || baseName || String(row.team_name || "");
   const isSmall = /\bsmall\b/i.test(eventText) || /\bsmall\b/i.test(teamText);
   const raceId =
     row.race_id ||
@@ -404,8 +451,8 @@ function normalizeRow(row, teamDivisionMap) {
     raceId,
     event: row.event || "",
     round: row.round || "",
-    team: effectiveTeam || normalizeTeamName(row.team_name),
-    teamKey: normalizeTeamKey(effectiveTeam || row.team_name),
+    team: effectiveTeam || baseName,
+    teamKey: normalizeTeamKey(effectiveTeam || baseName),
     division,
     isSmall,
     place,
@@ -770,6 +817,68 @@ function renderTable(rows) {
   tableBody.innerHTML = rows.map(formatRow).join("");
 }
 
+function csvEscape(value) {
+  const text = value === null || value === undefined ? "" : String(value);
+  if (text.includes('"') || text.includes(",") || text.includes("\n") || text.includes("\r")) {
+    return `"${text.replace(/"/g, '""')}"`;
+  }
+  return text;
+}
+
+function getSortedData() {
+  return [...data].sort((a, b) => compareValues(a, b, sortState.key, sortState.direction));
+}
+
+function buildCsvRows(rows) {
+  const headersRow = [
+    "Rank",
+    "Team",
+    "Division",
+    "Avg 500m",
+    "Avg 200m",
+    "Avg 2000m",
+    "Combined Avg",
+    "Sandbag",
+  ];
+  const csvRows = [headersRow.map(csvEscape).join(",")];
+
+  rows.forEach((entry, index) => {
+    const rank = index + 1;
+    const sandbagLabel =
+      entry.sandbag === null ? "--" : formatSignedDuration(entry.sandbag);
+    const row = [
+      rank,
+      entry.team,
+      entry.division,
+      formatDuration(entry.avg500),
+      formatDuration(entry.avg200),
+      formatDuration(entry.avg2000),
+      formatDuration(entry.combinedAvg),
+      sandbagLabel,
+    ];
+    csvRows.push(row.map(csvEscape).join(","));
+  });
+
+  return csvRows.join("\r\n");
+}
+
+function downloadCsv(text, filename) {
+  const blob = new Blob([text], { type: "text/csv;charset=utf-8;" });
+  if (window.navigator && window.navigator.msSaveOrOpenBlob) {
+    window.navigator.msSaveOrOpenBlob(blob, filename);
+    return;
+  }
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.style.display = "none";
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
 function compareValues(a, b, key, direction) {
   const valueA = a[key];
   const valueB = b[key];
@@ -997,6 +1106,22 @@ allDistancesToggle.addEventListener("change", () => {
   applyRegattaFilter(regattaSelect.value);
 });
 
+if (exportCsvButton) {
+  exportCsvButton.addEventListener("click", (event) => {
+    event.preventDefault();
+    const rows = getSortedData();
+    if (rows.length === 0) {
+      alert("No rows to export for the current filters.");
+      return;
+    }
+    const csvText = buildCsvRows(rows);
+    const yearLabel = yearSelect.value || "all-years";
+    const regattaLabel = regattaSelect.value || "ALL";
+    const filename = `leaderboard_${yearLabel}_${regattaLabel}.csv`;
+    downloadCsv(csvText, filename);
+  });
+}
+
 async function loadRegattas() {
   const results = await Promise.all(
     regattaFiles.map(async (path) => {
@@ -1010,8 +1135,9 @@ async function loadRegattas() {
   );
 
   const rawRowsCsv = results.flat();
-  const teamDivisionMap = buildTeamDivisionMap(rawRowsCsv);
-  rawRows = rawRowsCsv.map((row) => normalizeRow(row, teamDivisionMap));
+  const mixedBases = buildMixedBaseSet(rawRowsCsv);
+  const teamDivisionMap = buildTeamDivisionMap(rawRowsCsv, mixedBases);
+  rawRows = rawRowsCsv.map((row) => normalizeRow(row, teamDivisionMap, mixedBases));
   availableYears = Array.from(
     new Set(rawRows.map((row) => getYearFromRegattaId(row.regattaId)).filter(Boolean))
   ).sort();
