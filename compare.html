@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Comparison</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">North American Dragon Boat League</p>
+          <h1>Team Comparison</h1>
+          <p class="lead">
+            Compare two teams head-to-head across average and best times for each race distance.
+          </p>
+          <a class="team-back" href="index.html">Back to leaderboard</a>
+        </div>
+        <div class="hero-card">
+          <div class="card-label">Season</div>
+          <div class="card-title">2025</div>
+          <div id="compare-status" class="card-note">Loading data...</div>
+        </div>
+      </header>
+
+      <section class="board">
+        <div class="compare-controls">
+          <div class="compare-field">
+            <label for="team-a">Team A</label>
+            <select id="team-a"></select>
+          </div>
+          <div class="compare-field">
+            <label for="team-b">Team B</label>
+            <select id="team-b"></select>
+          </div>
+          <button id="swap-teams" type="button">Swap</button>
+        </div>
+
+        <div class="table-wrap">
+          <table id="compare-table" class="compare-table">
+            <thead>
+              <tr>
+                <th>Metric</th>
+                <th id="team-a-header">Team A</th>
+                <th id="team-b-header">Team B</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+
+    <script src="compare.js"></script>
+  </body>
+</html>
