@@ -177,6 +177,23 @@ h1 {
   color: var(--ink-soft);
 }
 
+.controls button,
+.controls .action-link {
+  border: none;
+  border-radius: 999px;
+  background: var(--sea);
+  color: #fff;
+  padding: 8px 16px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.controls button:hover,
+.controls .action-link:hover {
+  background: var(--sea-glow);
+}
+
 .slider-group {
   display: flex;
   flex-direction: column;
@@ -544,6 +561,25 @@ h1 {
   letter-spacing: 0.08em;
   font-size: 0.75rem;
   color: var(--ink-soft);
+}
+
+.review-section ul {
+  margin: 12px 0 0;
+  padding-left: 18px;
+}
+
+.review-sublist {
+  margin: 8px 0 0 18px;
+  padding-left: 18px;
+}
+
+.review-sublist li {
+  color: var(--ink-soft);
+  font-weight: 400;
+}
+
+.review-team {
+  font-weight: 500;
 }
 
 @keyframes float-in {
