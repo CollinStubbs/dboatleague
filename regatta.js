@@ -8,6 +8,7 @@ const regattaFiles = [
   "regattas/2025/2025_CONCORD_SAT.csv",
   "regattas/2025/2025_CONCORD_SUN.csv",
   "regattas/2025/2025_hamilton.csv",
+  "regattas/2025/2025_harrison.csv",
   "regattas/2025/2025_KCDBF.csv",
   "regattas/2025/2025_Mercer_DBF.csv",
   "regattas/2025/2025_milton.csv",

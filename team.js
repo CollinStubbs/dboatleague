@@ -8,6 +8,7 @@ const regattaFiles = [
   "regattas/2025/2025_CONCORD_SAT.csv",
   "regattas/2025/2025_CONCORD_SUN.csv",
   "regattas/2025/2025_hamilton.csv",
+  "regattas/2025/2025_harrison.csv",
   "regattas/2025/2025_KCDBF.csv",
   "regattas/2025/2025_Mercer_DBF.csv",
   "regattas/2025/2025_milton.csv",
@@ -204,7 +205,7 @@ function normalizeRegattaId(regattaId) {
 }
 
 function getYearFromRegattaId(regattaId) {
-  const match = String(regattaId || "").match(/^(\d{4})/);
+  const match = String(regattaId || "").match(/(\d{4})/);
   return match ? match[1] : "";
 }
 
