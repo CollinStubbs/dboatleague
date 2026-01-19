@@ -49,10 +49,49 @@ let data = [];
 let rawRows = [];
 let availableYears = [];
 
+const LEADERBOARD_STATE_KEY = "leaderboardState";
+
 const sortState = {
   key: "avg500",
   direction: "asc",
 };
+
+function saveLeaderboardState() {
+  const state = {
+    year: yearSelect.value,
+    boat: boatSelect.value,
+    division: divisionSelect.value,
+    regatta: regattaSelect.value,
+    minRaces: minRacesSelect.value,
+    allDistances: allDistancesToggle.checked,
+    sortKey: sortState.key,
+    sortDirection: sortState.direction,
+  };
+  sessionStorage.setItem(LEADERBOARD_STATE_KEY, JSON.stringify(state));
+}
+
+function loadLeaderboardState() {
+  const raw = sessionStorage.getItem(LEADERBOARD_STATE_KEY);
+  if (!raw) {
+    return null;
+  }
+  try {
+    return JSON.parse(raw);
+  } catch (error) {
+    console.warn("Failed to parse leaderboard state", error);
+    return null;
+  }
+}
+
+const initialState = loadLeaderboardState();
+if (initialState) {
+  if (initialState.sortKey) {
+    sortState.key = initialState.sortKey;
+  }
+  if (initialState.sortDirection) {
+    sortState.direction = initialState.sortDirection;
+  }
+}
 
 function parseCsv(text) {
   const rows = [];
@@ -161,6 +200,13 @@ function formatSignedDuration(seconds) {
   return `+${formatDuration(seconds)}`;
 }
 
+function formatPlacementAverage(value) {
+  if (value === null || value === undefined || Number.isNaN(value)) {
+    return "--";
+  }
+  return value.toFixed(2);
+}
+
 
 
 function numericValue(value) {
@@ -241,6 +287,7 @@ const TEAM_ALIAS_MAP = {
   "BARRIES RIBBONS OF HOPE WOMEN": "Barrie's Ribbons of Hope",
   "UNIVERSITY OF WATERLOO DRAGON WARRIORS 1 8": "University of Waterloo Dragon Warriors",
   "UNIVERSITY OF WATERLOO DRAGON WARRIORS MIXED": "University of Waterloo Dragon Warriors",
+  "PHILADELPHIA DRAGON BOAT ASSOC LAFAYETTE HILL": "Philadelphia Dragon Boat Assoc",
   "HOLY MAC ROW UNIVERSITY": "Holy Mac Row",
   "MCGILL DRAGON BOAT Z UNIVERSITY": "McGill Dragon Boat Z",
   "RC LIQUID ASSETS BULLS UNIVERSITY": "RC Liquid Assets Bulls",
@@ -262,6 +309,23 @@ function normalizeTeamName(name) {
     .replace(/\s+/g, " ")
     .trim();
   return applyTeamAlias(cleaned);
+}
+
+function applyTeamDivisionOverride(baseName, eventName) {
+  if (baseName !== "Philadelphia Dragon Boat Assoc") {
+    return baseName;
+  }
+  const eventText = String(eventName || "").toLowerCase();
+  if (eventText.includes("premier mixed")) {
+    return `${baseName} - Premier Mixed`;
+  }
+  if (eventText.includes("senior b")) {
+    return `${baseName} - Senior B`;
+  }
+  if (eventText.includes("senior c")) {
+    return `${baseName} - Senior C`;
+  }
+  return baseName;
 }
 
 function normalizeTeamKey(name) {
@@ -438,8 +502,9 @@ function normalizeRow(row, teamDivisionMap, mixedBases) {
   const distanceMeters = numericValue(row.distance_m);
   const regattaId = normalizeRegattaId(row.regatta_id);
   const baseName = maybeMergeUniversityTeam(row.team_name, mixedBases);
-  const division = resolveDivisionWithPrimary(row.event, baseName, teamDivisionMap);
-  const effectiveTeam = getEffectiveTeamName(baseName, division, teamDivisionMap);
+  const adjustedName = applyTeamDivisionOverride(baseName, row.event);
+  const division = resolveDivisionWithPrimary(row.event, adjustedName, teamDivisionMap);
+  const effectiveTeam = getEffectiveTeamName(adjustedName, division, teamDivisionMap);
   const eventText = String(row.event || "");
   const teamText = effectiveTeam || baseName || String(row.team_name || "");
   const isSmall = /\bsmall\b/i.test(eventText) || /\bsmall\b/i.test(teamText);
@@ -624,6 +689,14 @@ function resolveDivision(eventName, teamName) {
   return getDivisionFromTeam(teamName) || "Mixed";
 }
 
+function isFinalRound(roundText) {
+  const round = String(roundText || "").toLowerCase();
+  return (
+    (round.includes("final") || round.includes("cup") || round.includes("champ")) &&
+    !round.includes("semi")
+  );
+}
+
 function buildLeaderboard(rows) {
   const teams = new Map();
 
@@ -657,6 +730,8 @@ function buildLeaderboard(rows) {
         qualifying: 0,
         finals: 0,
       },
+      finalPlacementTotals: 0,
+      finalPlacementCounts: 0,
       races: 0,
     };
 
@@ -693,10 +768,7 @@ function buildLeaderboard(rows) {
       }
 
       if (distanceKey === "500") {
-        const round = (row.round || "").toLowerCase();
-        const isFinal =
-          (round.includes("cup") || round.includes("final") || round.includes("champ")) && !round.includes("semi");
-        if (isFinal) {
+        if (isFinalRound(row.round)) {
           entry.sandbagTotals.finals += row.timeSeconds;
           entry.sandbagCounts.finals += 1;
         } else {
@@ -704,6 +776,11 @@ function buildLeaderboard(rows) {
           entry.sandbagCounts.qualifying += 1;
         }
       }
+    }
+
+    if (row.place !== null && isFinalRound(row.round)) {
+      entry.finalPlacementTotals += row.place;
+      entry.finalPlacementCounts += 1;
     }
 
     if (row.event) {
@@ -734,13 +811,13 @@ function buildLeaderboard(rows) {
       entry.timeCounts["500"] > 0
         ? entry.timeTotals["500"] / entry.timeCounts["500"]
         : null;
-        const avg2000 =
+    const avg2000 =
       entry.timeCounts["2000"] > 0
         ? entry.timeTotals["2000"] / entry.timeCounts["2000"]
         : null;
-    const combinedAvg =
-      avg200 !== null && avg500 !== null && avg2000 !== null
-        ? avg200 + avg500 + avg2000
+    const avgFinalPlacement =
+      entry.finalPlacementCounts > 0
+        ? entry.finalPlacementTotals / entry.finalPlacementCounts
         : null;
     const qualifyingAvg =
       entry.sandbagCounts.qualifying > 0
@@ -766,7 +843,7 @@ function buildLeaderboard(rows) {
             avg200,
       avg500,
       avg2000,
-      combinedAvg,
+      avgFinalPlacement,
       hasAllDistances: avg200 !== null && avg500 !== null && avg2000 !== null,
       sandbag,
       status: "watch",
@@ -808,7 +885,7 @@ function formatRow(entry) {
       <td>${formatDuration(entry.avg500)}</td>
       <td>${formatDuration(entry.avg200)}</td>
       <td>${formatDuration(entry.avg2000)}</td>
-      <td>${formatDuration(entry.combinedAvg)}</td>
+      <td>${formatPlacementAverage(entry.avgFinalPlacement)}</td>
       <td>${sandbagLabel}</td>
     </tr>
   `;
@@ -838,7 +915,7 @@ function buildCsvRows(rows) {
     "Avg 500m",
     "Avg 200m",
     "Avg 2000m",
-    "Combined Avg",
+    "AVG Final placement",
     "Sandbag",
   ];
   const csvRows = [headersRow.map(csvEscape).join(",")];
@@ -854,7 +931,7 @@ function buildCsvRows(rows) {
       formatDuration(entry.avg500),
       formatDuration(entry.avg200),
       formatDuration(entry.avg2000),
-      formatDuration(entry.combinedAvg),
+      formatPlacementAverage(entry.avgFinalPlacement),
       sandbagLabel,
     ];
     csvRows.push(row.map(csvEscape).join(","));
@@ -930,6 +1007,7 @@ headers.forEach((header) => {
 
     updateSortIndicators(sortState.key, sortState.direction);
     sortData(sortState.key, sortState.direction);
+    saveLeaderboardState();
   });
 });
 
@@ -1047,6 +1125,7 @@ yearSelect.addEventListener("change", () => {
   );
   updateDivisionOptions(divisions);
   applyRegattaFilter("ALL");
+  saveLeaderboardState();
 });
 
 boatSelect.addEventListener("change", () => {
@@ -1061,14 +1140,17 @@ boatSelect.addEventListener("change", () => {
   );
   updateDivisionOptions(divisions);
   applyRegattaFilter("ALL");
+  saveLeaderboardState();
 });
 
 regattaSelect.addEventListener("change", (event) => {
   applyRegattaFilter(event.target.value);
+  saveLeaderboardState();
 });
 
 divisionSelect.addEventListener("change", () => {
   applyRegattaFilter(regattaSelect.value);
+  saveLeaderboardState();
 });
 
 function applyDivisionFilter(leaderboard) {
@@ -1101,10 +1183,12 @@ function updateMinRacesLabel() {
 minRacesSelect.addEventListener("input", () => {
   updateMinRacesLabel();
   applyRegattaFilter(regattaSelect.value);
+  saveLeaderboardState();
 });
 
 allDistancesToggle.addEventListener("change", () => {
   applyRegattaFilter(regattaSelect.value);
+  saveLeaderboardState();
 });
 
 if (exportCsvButton) {
@@ -1124,6 +1208,8 @@ if (exportCsvButton) {
 }
 
 async function loadRegattas() {
+  const savedState = initialState;
+
   const results = await Promise.all(
     regattaFiles.map(async (path) => {
       const response = await fetch(encodeURI(path), { cache: "no-store" });
@@ -1144,7 +1230,14 @@ async function loadRegattas() {
   ).sort();
   updateYearOptions(availableYears);
   if (availableYears.length > 0) {
-    yearSelect.value = availableYears[0];
+    if (savedState && savedState.year && availableYears.includes(savedState.year)) {
+      yearSelect.value = savedState.year;
+    } else {
+      yearSelect.value = availableYears[0];
+    }
+  }
+  if (savedState && savedState.boat) {
+    boatSelect.value = savedState.boat;
   }
   const yearRows = filterRowsByYear(rawRows);
   const boatRows = filterRowsByBoat(yearRows);
@@ -1156,7 +1249,20 @@ async function loadRegattas() {
   );
   updateRegattaOptions(regattaIds);
   updateDivisionOptions(divisions);
-  applyRegattaFilter("ALL");
+  if (savedState && savedState.regatta && regattaIds.has(savedState.regatta)) {
+    regattaSelect.value = savedState.regatta;
+  }
+  if (savedState && savedState.division && divisions.has(savedState.division)) {
+    divisionSelect.value = savedState.division;
+  }
+  if (savedState && savedState.minRaces !== undefined) {
+    minRacesSelect.value = savedState.minRaces;
+  }
+  if (savedState && savedState.allDistances !== undefined) {
+    allDistancesToggle.checked = Boolean(savedState.allDistances);
+  }
+  updateMinRacesLabel();
+  applyRegattaFilter(regattaSelect.value || "ALL");
 
   dataStatus.textContent = `Data source: ${regattaIds.size} regattas, ${rawRows.length} results`;
   snapshotValue.textContent = regattaIds.size.toString();

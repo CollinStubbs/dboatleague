@@ -266,6 +266,7 @@ const TEAM_ALIAS_MAP = {
   "BARRIES RIBBONS OF HOPE WOMEN": "Barrie's Ribbons of Hope",
   "UNIVERSITY OF WATERLOO DRAGON WARRIORS 1 8": "University of Waterloo Dragon Warriors",
   "UNIVERSITY OF WATERLOO DRAGON WARRIORS MIXED": "University of Waterloo Dragon Warriors",
+  "PHILADELPHIA DRAGON BOAT ASSOC LAFAYETTE HILL": "Philadelphia Dragon Boat Assoc",
   "HOLY MAC ROW UNIVERSITY": "Holy Mac Row",
   "MCGILL DRAGON BOAT Z UNIVERSITY": "McGill Dragon Boat Z",
   "RC LIQUID ASSETS BULLS UNIVERSITY": "RC Liquid Assets Bulls",
@@ -287,6 +288,23 @@ function normalizeTeamName(name) {
     .replace(/\s+/g, " ")
     .trim();
   return applyTeamAlias(cleaned);
+}
+
+function applyTeamDivisionOverride(baseName, eventName) {
+  if (baseName !== "Philadelphia Dragon Boat Assoc") {
+    return baseName;
+  }
+  const eventText = String(eventName || "").toLowerCase();
+  if (eventText.includes("premier mixed")) {
+    return `${baseName} - Premier Mixed`;
+  }
+  if (eventText.includes("senior b")) {
+    return `${baseName} - Senior B`;
+  }
+  if (eventText.includes("senior c")) {
+    return `${baseName} - Senior C`;
+  }
+  return baseName;
 }
 
 function normalizeTeamKey(name) {
@@ -827,10 +845,11 @@ async function loadTeamResults(teamName) {
   const teamDivisionMap = buildTeamDivisionMap(allRows, mixedBases);
   const effectiveRows = allRows.map((row) => {
     const baseName = maybeMergeUniversityTeam(row.team_name, mixedBases);
-    const division = resolveDivisionWithPrimary(row.event, baseName, teamDivisionMap);
+    const adjustedName = applyTeamDivisionOverride(baseName, row.event);
+    const division = resolveDivisionWithPrimary(row.event, adjustedName, teamDivisionMap);
     return {
       ...row,
-      __teamEffective: getEffectiveTeamName(baseName, division, teamDivisionMap),
+      __teamEffective: getEffectiveTeamName(adjustedName, division, teamDivisionMap),
     };
   });
   allTeamRows = effectiveRows.filter(
