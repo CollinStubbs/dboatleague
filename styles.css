@@ -26,10 +26,61 @@ body {
   background: radial-gradient(circle at top, #ffffff 0%, var(--sky) 45%, var(--sand) 100%);
 }
 
+.main-nav {
+  position: sticky;
+  top: 24px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 32px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 10px 24px rgba(17, 32, 48, 0.08);
+  backdrop-filter: blur(8px);
+}
+
+.nav-brand {
+  font-family: var(--font-title);
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.nav-link {
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus-visible {
+  color: var(--sea);
+  border-color: var(--sea-glow);
+}
+
+.nav-link[aria-current="page"] {
+  color: var(--sea);
+  border-color: var(--sea);
+}
+
 .page {
   position: relative;
   padding: 48px 8vw 72px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .page::before,
@@ -675,6 +726,12 @@ h1 {
 @media (max-width: 640px) {
   .page {
     padding: 36px 6vw 64px;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
   }
 
   .hero-card {
