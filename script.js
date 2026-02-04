@@ -35,6 +35,7 @@ const yearSelect = document.querySelector("#year-filter");
 const regattaSelect = document.querySelector("#regatta-filter");
 const boatSelect = document.querySelector("#boat-filter");
 const divisionSelect = document.querySelector("#division-filter");
+const ageSelect = document.querySelector("#age-filter");
 const minRacesSelect = document.querySelector("#min-races");
 const minRacesValue = document.querySelector("#min-races-value");
 const allDistancesToggle = document.querySelector("#all-distances");
@@ -56,11 +57,23 @@ const sortState = {
   direction: "asc",
 };
 
+const AGE_GROUPS = [
+  "Junior",
+  "16U",
+  "18U",
+  "24U",
+  "Senior A",
+  "Senior B",
+  "Senior C",
+  "Standard",
+];
+
 function saveLeaderboardState() {
   const state = {
     year: yearSelect.value,
     boat: boatSelect.value,
     division: divisionSelect.value,
+    age: ageSelect.value,
     regatta: regattaSelect.value,
     minRaces: minRacesSelect.value,
     allDistances: allDistancesToggle.checked,
@@ -332,6 +345,78 @@ function normalizeTeamKey(name) {
   return normalizeTeamName(name).replace(/\s+/g, "").toUpperCase();
 }
 
+function extractAgeGroups(eventName) {
+  const text = String(eventName || "").toUpperCase();
+  const hits = new Set();
+
+  if (/\bJUNIOR\b/.test(text) || /\bJR\b/.test(text)) {
+    hits.add("Junior");
+  }
+  if (/\b16U\b/.test(text) || /\bU-?16\b/.test(text) || /UNDER\s*16\b/.test(text)) {
+    hits.add("16U");
+  }
+  if (/\b18U\b/.test(text) || /\bU-?18\b/.test(text) || /UNDER\s*18\b/.test(text)) {
+    hits.add("18U");
+  }
+  if (/\b24U\b/.test(text) || /\bU-?24\b/.test(text) || /UNDER\s*24\b/.test(text)) {
+    hits.add("24U");
+  }
+  if (/\bSENIOR\s*A\b/.test(text) || /\bSR\s*A\b/.test(text)) {
+    hits.add("Senior A");
+  }
+  if (/\bSENIOR\s*B\b/.test(text) || /\bSR\s*B\b/.test(text)) {
+    hits.add("Senior B");
+  }
+  if (/\bSENIOR\s*C\b/.test(text) || /\bSR\s*C\b/.test(text)) {
+    hits.add("Senior C");
+  }
+
+  return hits;
+}
+
+function getAgeInfo(eventName) {
+  const hits = extractAgeGroups(eventName);
+  if (hits.size === 1) {
+    return { group: Array.from(hits)[0], isCombined: false };
+  }
+  if (hits.size > 1) {
+    return { group: "Standard", isCombined: true };
+  }
+  return { group: "Standard", isCombined: false };
+}
+
+function teamNameHasAgeGroup(teamName, ageGroup) {
+  if (!ageGroup || ageGroup === "Standard") {
+    return false;
+  }
+  const text = String(teamName || "").toUpperCase();
+  if (!text) {
+    return false;
+  }
+  if (ageGroup === "Junior") {
+    return /\bJUNIOR\b/.test(text) || /\bJR\b/.test(text);
+  }
+  if (ageGroup === "16U") {
+    return /\b16U\b/.test(text) || /\bU-?16\b/.test(text);
+  }
+  if (ageGroup === "18U") {
+    return /\b18U\b/.test(text) || /\bU-?18\b/.test(text);
+  }
+  if (ageGroup === "24U") {
+    return /\b24U\b/.test(text) || /\bU-?24\b/.test(text);
+  }
+  if (ageGroup === "Senior A") {
+    return /\bSENIOR\s*A\b/.test(text) || /\bSR\s*A\b/.test(text);
+  }
+  if (ageGroup === "Senior B") {
+    return /\bSENIOR\s*B\b/.test(text) || /\bSR\s*B\b/.test(text);
+  }
+  if (ageGroup === "Senior C") {
+    return /\bSENIOR\s*C\b/.test(text) || /\bSR\s*C\b/.test(text);
+  }
+  return false;
+}
+
 function isExcludedPlace(value) {
   const normalized = String(value || "").trim().toUpperCase();
   return normalized === "DNF" || normalized === "DNS" || normalized === "NA" || normalized === "N/A";
@@ -475,10 +560,35 @@ function buildTeamDivisionMap(rows, mixedBases) {
   return teamDivisions;
 }
 
+function buildTeamAgeMap(rows, mixedBases) {
+  const teamAges = new Map();
+
+  rows.forEach((row) => {
+    const baseName = maybeMergeUniversityTeam(row.team_name, mixedBases);
+    if (!baseName) {
+      return;
+    }
+    const adjustedName = applyTeamDivisionOverride(baseName, row.event);
+    const ageInfo = getAgeInfo(row.event);
+    if (ageInfo.isCombined) {
+      return;
+    }
+    const teamKey = normalizeTeamKey(adjustedName);
+    const entry = teamAges.get(teamKey) || { counts: {}, baseName: adjustedName };
+    entry.counts[ageInfo.group] = (entry.counts[ageInfo.group] || 0) + 1;
+    teamAges.set(teamKey, entry);
+  });
+
+  return teamAges;
+}
+
 function getEffectiveTeamName(teamName, division, teamDivisionMap) {
   const baseName = normalizeTeamName(teamName);
   if (!baseName) {
     return "";
+  }
+  if (shouldSkipDivisionSuffix(baseName, division)) {
+    return baseName;
   }
   if (teamNameHasDivision(baseName, division)) {
     return baseName;
@@ -495,7 +605,66 @@ function getEffectiveTeamName(teamName, division, teamDivisionMap) {
   return `${baseName} - ${division}`;
 }
 
-function normalizeRow(row, teamDivisionMap, mixedBases) {
+function shouldSkipDivisionSuffix(baseName, division) {
+  if (division === "Women") {
+    return baseName.startsWith("Barrie's Ribbons of Hope");
+  }
+  if (division === "BCP") {
+    return baseName.startsWith("KNOT A BREAST");
+  }
+  if (division === "University") {
+    const normalized = normalizeTeamName(baseName);
+    return (
+      normalized.startsWith("Holy Mac Row") ||
+      normalized.startsWith("Holy Mac a Row ni") ||
+      normalized.startsWith("NDUC Golden Hydras")
+    );
+  }
+  return false;
+}
+
+function applyAgeSuffix(baseName, displayName, ageGroup, teamAgeMap) {
+  if (!ageGroup || ageGroup === "Standard") {
+    return displayName;
+  }
+  if (shouldSkipAgeSuffix(baseName, ageGroup)) {
+    return displayName;
+  }
+  const teamKey = normalizeTeamKey(baseName);
+  const entry = teamAgeMap.get(teamKey);
+  if (!entry) {
+    return displayName;
+  }
+  const ageCount = Object.keys(entry.counts).length;
+  if (ageCount <= 1) {
+    return displayName;
+  }
+  if (teamNameHasAgeGroup(displayName, ageGroup)) {
+    return displayName;
+  }
+  return `${displayName} - ${ageGroup}`;
+}
+
+function shouldSkipAgeSuffix(baseName, ageGroup) {
+  if (ageGroup !== "24U") {
+    if (ageGroup === "18U") {
+      return normalizeTeamName(baseName).startsWith("False Creek BCP");
+    }
+    return false;
+  }
+  const normalized = normalizeTeamName(baseName);
+  const skipPrefixes = [
+    "22Dragons True Grit",
+    "RC Liquid Assets",
+    "Holy Mac Row",
+    "Iron Dragons",
+    "McGill Dragon Boat",
+    "McGill Dragonboat",
+  ];
+  return skipPrefixes.some((prefix) => normalized.startsWith(prefix));
+}
+
+function normalizeRow(row, teamDivisionMap, teamAgeMap, mixedBases) {
   const place = numericValue(row.place);
   const excludedPlace = isExcludedPlace(row.place);
   const timeSeconds = parseTimeToSeconds(row.time);
@@ -505,8 +674,15 @@ function normalizeRow(row, teamDivisionMap, mixedBases) {
   const adjustedName = applyTeamDivisionOverride(baseName, row.event);
   const division = resolveDivisionWithPrimary(row.event, adjustedName, teamDivisionMap);
   const effectiveTeam = getEffectiveTeamName(adjustedName, division, teamDivisionMap);
+  const ageInfo = getAgeInfo(row.event);
+  const effectiveTeamWithAge = applyAgeSuffix(
+    adjustedName,
+    effectiveTeam,
+    ageInfo.group,
+    teamAgeMap
+  );
   const eventText = String(row.event || "");
-  const teamText = effectiveTeam || baseName || String(row.team_name || "");
+  const teamText = effectiveTeamWithAge || baseName || String(row.team_name || "");
   const isSmall = /\bsmall\b/i.test(eventText) || /\bsmall\b/i.test(teamText);
   const raceId =
     row.race_id ||
@@ -517,9 +693,10 @@ function normalizeRow(row, teamDivisionMap, mixedBases) {
     raceId,
     event: row.event || "",
     round: row.round || "",
-    team: effectiveTeam || baseName,
-    teamKey: normalizeTeamKey(effectiveTeam || baseName),
+    team: effectiveTeamWithAge || baseName,
+    teamKey: normalizeTeamKey(effectiveTeamWithAge || baseName),
     division,
+    ageGroup: ageInfo.group,
     isSmall,
     place,
     excludedPlace,
@@ -1086,13 +1263,21 @@ function updateDivisionOptions(divisions) {
   });
 }
 
+function filterRowsByAge(rows) {
+  const selectedAge = ageSelect.value;
+  return selectedAge === "ALL"
+    ? rows
+    : rows.filter((row) => row.ageGroup === selectedAge);
+}
+
 function applyRegattaFilter(regattaId) {
   const yearRows = filterRowsByYear(rawRows);
   const boatRows = filterRowsByBoat(yearRows);
+  const ageRows = filterRowsByAge(boatRows);
   const filtered =
     regattaId === "ALL"
-      ? boatRows
-      : boatRows.filter((row) => row.regattaId === regattaId);
+      ? ageRows
+      : ageRows.filter((row) => row.regattaId === regattaId);
   const leaderboard = buildLeaderboard(filtered);
   applyDivisionFilter(leaderboard);
   tableCaption.textContent =
@@ -1116,10 +1301,11 @@ function applyRegattaFilter(regattaId) {
 yearSelect.addEventListener("change", () => {
   const yearRows = filterRowsByYear(rawRows);
   const boatRows = filterRowsByBoat(yearRows);
-  const regattaIds = new Set(boatRows.map((row) => row.regattaId));
+  const ageRows = filterRowsByAge(boatRows);
+  const regattaIds = new Set(ageRows.map((row) => row.regattaId));
   updateRegattaOptions(regattaIds);
   const divisions = new Set(
-    boatRows
+    ageRows
       .map((row) => row.division)
       .filter((divisionName) => divisionName)
   );
@@ -1131,10 +1317,27 @@ yearSelect.addEventListener("change", () => {
 boatSelect.addEventListener("change", () => {
   const yearRows = filterRowsByYear(rawRows);
   const boatRows = filterRowsByBoat(yearRows);
-  const regattaIds = new Set(boatRows.map((row) => row.regattaId));
+  const ageRows = filterRowsByAge(boatRows);
+  const regattaIds = new Set(ageRows.map((row) => row.regattaId));
   updateRegattaOptions(regattaIds);
   const divisions = new Set(
-    boatRows
+    ageRows
+      .map((row) => row.division)
+      .filter((divisionName) => divisionName)
+  );
+  updateDivisionOptions(divisions);
+  applyRegattaFilter("ALL");
+  saveLeaderboardState();
+});
+
+ageSelect.addEventListener("change", () => {
+  const yearRows = filterRowsByYear(rawRows);
+  const boatRows = filterRowsByBoat(yearRows);
+  const ageRows = filterRowsByAge(boatRows);
+  const regattaIds = new Set(ageRows.map((row) => row.regattaId));
+  updateRegattaOptions(regattaIds);
+  const divisions = new Set(
+    ageRows
       .map((row) => row.division)
       .filter((divisionName) => divisionName)
   );
@@ -1224,7 +1427,10 @@ async function loadRegattas() {
   const rawRowsCsv = results.flat();
   const mixedBases = buildMixedBaseSet(rawRowsCsv);
   const teamDivisionMap = buildTeamDivisionMap(rawRowsCsv, mixedBases);
-  rawRows = rawRowsCsv.map((row) => normalizeRow(row, teamDivisionMap, mixedBases));
+  const teamAgeMap = buildTeamAgeMap(rawRowsCsv, mixedBases);
+  rawRows = rawRowsCsv.map((row) =>
+    normalizeRow(row, teamDivisionMap, teamAgeMap, mixedBases)
+  );
   availableYears = Array.from(
     new Set(rawRows.map((row) => getYearFromRegattaId(row.regattaId)).filter(Boolean))
   ).sort();
@@ -1239,11 +1445,15 @@ async function loadRegattas() {
   if (savedState && savedState.boat) {
     boatSelect.value = savedState.boat;
   }
+  if (savedState && savedState.age && AGE_GROUPS.includes(savedState.age)) {
+    ageSelect.value = savedState.age;
+  }
   const yearRows = filterRowsByYear(rawRows);
   const boatRows = filterRowsByBoat(yearRows);
-  const regattaIds = new Set(boatRows.map((row) => row.regattaId));
+  const ageRows = filterRowsByAge(boatRows);
+  const regattaIds = new Set(ageRows.map((row) => row.regattaId));
   const divisions = new Set(
-    boatRows
+    ageRows
       .map((row) => row.division)
       .filter((divisionName) => divisionName)
   );

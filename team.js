@@ -311,6 +311,89 @@ function normalizeTeamKey(name) {
   return normalizeTeamName(name).replace(/\s+/g, "").toUpperCase();
 }
 
+const AGE_GROUPS = [
+  "Junior",
+  "16U",
+  "18U",
+  "24U",
+  "Senior A",
+  "Senior B",
+  "Senior C",
+  "Standard",
+];
+
+function extractAgeGroups(eventName) {
+  const text = String(eventName || "").toUpperCase();
+  const hits = new Set();
+
+  if (/\bJUNIOR\b/.test(text) || /\bJR\b/.test(text)) {
+    hits.add("Junior");
+  }
+  if (/\b16U\b/.test(text) || /\bU-?16\b/.test(text) || /UNDER\s*16\b/.test(text)) {
+    hits.add("16U");
+  }
+  if (/\b18U\b/.test(text) || /\bU-?18\b/.test(text) || /UNDER\s*18\b/.test(text)) {
+    hits.add("18U");
+  }
+  if (/\b24U\b/.test(text) || /\bU-?24\b/.test(text) || /UNDER\s*24\b/.test(text)) {
+    hits.add("24U");
+  }
+  if (/\bSENIOR\s*A\b/.test(text) || /\bSR\s*A\b/.test(text)) {
+    hits.add("Senior A");
+  }
+  if (/\bSENIOR\s*B\b/.test(text) || /\bSR\s*B\b/.test(text)) {
+    hits.add("Senior B");
+  }
+  if (/\bSENIOR\s*C\b/.test(text) || /\bSR\s*C\b/.test(text)) {
+    hits.add("Senior C");
+  }
+
+  return hits;
+}
+
+function getAgeInfo(eventName) {
+  const hits = extractAgeGroups(eventName);
+  if (hits.size === 1) {
+    return { group: Array.from(hits)[0], isCombined: false };
+  }
+  if (hits.size > 1) {
+    return { group: "Standard", isCombined: true };
+  }
+  return { group: "Standard", isCombined: false };
+}
+
+function teamNameHasAgeGroup(teamName, ageGroup) {
+  if (!ageGroup || ageGroup === "Standard") {
+    return false;
+  }
+  const text = String(teamName || "").toUpperCase();
+  if (!text) {
+    return false;
+  }
+  if (ageGroup === "Junior") {
+    return /\bJUNIOR\b/.test(text) || /\bJR\b/.test(text);
+  }
+  if (ageGroup === "16U") {
+    return /\b16U\b/.test(text) || /\bU-?16\b/.test(text);
+  }
+  if (ageGroup === "18U") {
+    return /\b18U\b/.test(text) || /\bU-?18\b/.test(text);
+  }
+  if (ageGroup === "24U") {
+    return /\b24U\b/.test(text) || /\bU-?24\b/.test(text);
+  }
+  if (ageGroup === "Senior A") {
+    return /\bSENIOR\s*A\b/.test(text) || /\bSR\s*A\b/.test(text);
+  }
+  if (ageGroup === "Senior B") {
+    return /\bSENIOR\s*B\b/.test(text) || /\bSR\s*B\b/.test(text);
+  }
+  if (ageGroup === "Senior C") {
+    return /\bSENIOR\s*C\b/.test(text) || /\bSR\s*C\b/.test(text);
+  }
+  return false;
+}
+
 function normalizeDivisionName(eventName) {
   const raw = String(eventName || "").trim();
   if (!raw) {
@@ -602,6 +685,9 @@ function getEffectiveTeamName(teamName, division, teamDivisionMap) {
   if (!baseName) {
     return "";
   }
+  if (shouldSkipDivisionSuffix(baseName, division)) {
+    return baseName;
+  }
   if (teamNameHasDivision(baseName, division)) {
     return baseName;
   }
@@ -617,12 +703,107 @@ function getEffectiveTeamName(teamName, division, teamDivisionMap) {
   return `${baseName} - ${division}`;
 }
 
+function shouldSkipDivisionSuffix(baseName, division) {
+  if (division === "Women") {
+    return baseName.startsWith("Barrie's Ribbons of Hope");
+  }
+  if (division === "BCP") {
+    return baseName.startsWith("KNOT A BREAST");
+  }
+  if (division === "University") {
+    const normalized = normalizeTeamName(baseName);
+    return (
+      normalized.startsWith("Holy Mac Row") ||
+      normalized.startsWith("Holy Mac a Row ni") ||
+      normalized.startsWith("NDUC Golden Hydras")
+    );
+  }
+  return false;
+}
+
 function stripDivisionSuffix(teamName, division) {
   if (!division) {
     return String(teamName || "").trim();
   }
   const pattern = new RegExp(`\\s*-?\\s*${division}\\s*$`, "i");
   return String(teamName || "").replace(pattern, "").trim();
+}
+
+function buildTeamAgeMap(rows, mixedBases) {
+  const teamAges = new Map();
+
+  rows.forEach((row) => {
+    const baseName = maybeMergeUniversityTeam(row.team_name, mixedBases);
+    if (!baseName) {
+      return;
+    }
+    const adjustedName = applyTeamDivisionOverride(baseName, row.event);
+    const ageInfo = getAgeInfo(row.event);
+    if (ageInfo.isCombined) {
+      return;
+    }
+    const teamKey = normalizeTeamKey(adjustedName);
+    const entry = teamAges.get(teamKey) || { counts: {}, baseName: adjustedName };
+    entry.counts[ageInfo.group] = (entry.counts[ageInfo.group] || 0) + 1;
+    teamAges.set(teamKey, entry);
+  });
+
+  return teamAges;
+}
+
+function shouldSkipAgeSuffix(baseName, ageGroup) {
+  if (ageGroup !== "24U") {
+    if (ageGroup === "18U") {
+      return normalizeTeamName(baseName).startsWith("False Creek BCP");
+    }
+    return false;
+  }
+  const normalized = normalizeTeamName(baseName);
+  const skipPrefixes = [
+    "22Dragons True Grit",
+    "RC Liquid Assets",
+    "Holy Mac Row",
+    "Iron Dragons",
+    "McGill Dragon Boat",
+    "McGill Dragonboat",
+  ];
+  return skipPrefixes.some((prefix) => normalized.startsWith(prefix));
+}
+
+function applyAgeSuffix(baseName, displayName, ageGroup, teamAgeMap) {
+  if (!ageGroup || ageGroup === "Standard") {
+    return displayName;
+  }
+  if (shouldSkipAgeSuffix(baseName, ageGroup)) {
+    return displayName;
+  }
+  const teamKey = normalizeTeamKey(baseName);
+  const entry = teamAgeMap.get(teamKey);
+  if (!entry) {
+    return displayName;
+  }
+  const ageCount = Object.keys(entry.counts).length;
+  if (ageCount <= 1) {
+    return displayName;
+  }
+  if (teamNameHasAgeGroup(displayName, ageGroup)) {
+    return displayName;
+  }
+  return `${displayName} - ${ageGroup}`;
+}
+
+function stripAgeSuffix(teamName, ageGroup) {
+  if (!ageGroup || ageGroup === "Standard") {
+    return String(teamName || "").trim();
+  }
+  const pattern = new RegExp(`\\s*-?\\s*${ageGroup}\\s*$`, "i");
+  return String(teamName || "").replace(pattern, "").trim();
+}
+
+function getAgeGroupFromTeamName(teamName) {
+  return (
+    AGE_GROUPS.find((group) => group !== "Standard" && teamNameHasAgeGroup(teamName, group)) || ""
+  );
 }
 
 function isExcludedPlace(value) {
@@ -843,32 +1024,47 @@ async function loadTeamResults(teamName) {
   const allRows = results.flat();
   const mixedBases = buildMixedBaseSet(allRows);
   const teamDivisionMap = buildTeamDivisionMap(allRows, mixedBases);
+  const teamAgeMap = buildTeamAgeMap(allRows, mixedBases);
   const effectiveRows = allRows.map((row) => {
     const baseName = maybeMergeUniversityTeam(row.team_name, mixedBases);
     const adjustedName = applyTeamDivisionOverride(baseName, row.event);
     const division = resolveDivisionWithPrimary(row.event, adjustedName, teamDivisionMap);
+    const ageInfo = getAgeInfo(row.event);
     return {
       ...row,
       __teamEffective: getEffectiveTeamName(adjustedName, division, teamDivisionMap),
+      __ageGroup: ageInfo.group,
+      __teamEffectiveWithAge: applyAgeSuffix(
+        adjustedName,
+        getEffectiveTeamName(adjustedName, division, teamDivisionMap),
+        ageInfo.group,
+        teamAgeMap
+      ),
     };
   });
   allTeamRows = effectiveRows.filter(
-    (row) => normalizeTeamKey(row.__teamEffective) === normalizedTarget
+    (row) => normalizeTeamKey(row.__teamEffectiveWithAge) === normalizedTarget
   );
   if (allTeamRows.length === 0) {
     const divisionFromName = getDivisionFromTeam(teamName);
-    const baseCandidate = stripDivisionSuffix(teamName, divisionFromName);
+    const ageFromName = getAgeGroupFromTeamName(teamName);
+    const baseCandidate = stripAgeSuffix(
+      stripDivisionSuffix(teamName, divisionFromName),
+      ageFromName
+    );
     const baseKey = normalizeTeamKey(baseCandidate);
     if (divisionFromName && baseKey) {
       allTeamRows = effectiveRows.filter((row) => {
         const rowBaseKey = normalizeTeamKey(row.team_name);
         const rowDivision = resolveDivisionWithPrimary(row.event, row.team_name, teamDivisionMap);
-        return rowBaseKey === baseKey && rowDivision === divisionFromName;
+        const ageMatch = ageFromName ? row.__ageGroup === ageFromName : true;
+        return rowBaseKey === baseKey && rowDivision === divisionFromName && ageMatch;
       });
     }
   }
 
-  const displayName = allTeamRows.length > 0 ? allTeamRows[0].__teamEffective : "";
+  const displayName =
+    allTeamRows.length > 0 ? allTeamRows[0].__teamEffectiveWithAge : "";
   teamNameEl.textContent = displayName || "Team Results";
   const years = Array.from(
     new Set(
