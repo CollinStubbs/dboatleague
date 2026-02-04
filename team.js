@@ -320,7 +320,7 @@ function normalizeDivisionName(eventName) {
   if (text.includes("BCP") || text.includes("BCS") || text.includes("CANCER") || text.includes("SURVIVOR")) {
     return "BCP";
   }
-  if (text.includes("PARA")) {
+  if (text.includes("PARA") || /\bPD\b/.test(text) || /\bPD-\d+\b/.test(text)) {
     return "Para";
   }
   if (text.includes("SPECIAL NEEDS")) {
